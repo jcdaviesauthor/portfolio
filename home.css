@@ -160,8 +160,7 @@ padding: top:5%;
 .companyTitle{
   font-size: 35px;
   margin-left: -7%;
-  /*text-align: left !important;*/
-  /*padding-right:45%;*/
+  /*margin-top:20%;*/
 }
 
 .icon{
@@ -178,12 +177,16 @@ padding: top:5%;
 
 #iconBeauty{
   padding-left:0%;
+  margin-bottom: -1%
 }
 
 #iconBunny{
-  padding-left:20%;
+  padding-left:17%;
 }
 
+.titleDown{
+  margin-top: 10%;
+}
 
 /*.iconPeople{
   width:55px;
@@ -195,6 +198,7 @@ padding: top:5%;
   font-size: 18px;
   padding-left:7%;
   padding-right:7%;
+  margin-top:-2%;
 }
 
 .darkText{
@@ -223,6 +227,7 @@ color: rgb(236,233,226);
   box-shadow:none !important;
   text-align: left !important;
   margin-left: 7%;
+  margin-top: 4%;
 }
 .lightButton{
   background-color: rgb(236,233,226);
