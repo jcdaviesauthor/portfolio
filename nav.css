@@ -4,9 +4,8 @@
 }*/
 #navHome{
   float: right;
-  /*font-family: 'Muli', sans-serif;*/
   font-size: 18px;
-  /*margin-bottom: -25px;*/
+  /*font-family: 'Cabin', sans-serif;*/
 }
 #navUl{
   text-decoration: none !important;

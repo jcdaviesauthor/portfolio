@@ -9,7 +9,10 @@ html{
 
 body{
   margin:0%;
-  font-family: 'Muli', sans-serif;
+  /*font-family: 'Muli', sans-serif;*/
+  /*font-family: 'Merriweather Sans', sans-serif;*/
+  /*font-family: 'Asap', sans-serif;*/
+  font-family: 'Cabin', sans-serif;
   color: rgb(57,57,57);
   font-size: 18px;
 }
@@ -20,9 +23,9 @@ header{
 }
 
 #jdLogo{
-  width:75px;
+  width:60px;
   margin-left: 50px;
-  margin-top:-40px;
+  margin-top:-30px;
 }
 
 
@@ -299,6 +302,7 @@ margin-left: 20%;
   margin-top:50px;
   margin-bottom:50px;
   color: rgb(236,233,226) !important;
+  font-family: 'Cabin', sans-serif;
 }
 
 
