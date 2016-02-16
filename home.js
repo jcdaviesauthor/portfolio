@@ -3,6 +3,7 @@ var wordArray = [];
 var currentWord = 0;
 
 words[currentWord].style.opacity = 1;
+//FOR LOOP TO FUNCTION SPLI LETTER WORKDS
 for (var i = 0; i < words.length; i++) {
   splitLetters(words[i]);
 }
@@ -35,19 +36,28 @@ function animateLetterIn(nw, i) {
   }, 340+(i*80));
 }
 
+//
 function splitLetters(word) {
   var content = word.innerHTML;
+  //spaces good at that point
+
+//cleared it making it null
   word.innerHTML = '';
   var letters = [];
   for (var i = 0; i < content.length; i++) {
     var letter = document.createElement('span');
     letter.className = 'letter';
+      //taking the input and splitting letter
     letter.innerHTML = content.charAt(i);
+
+    //putting the word back together
     word.appendChild(letter);
+    //problem with the space HERE
     letters.push(letter);
   }
 
   wordArray.push(letters);
+  console.log(wordArray);
 }
 
 changeWord();
