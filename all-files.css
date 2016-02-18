@@ -1,0 +1,15 @@
+#jdLogo{
+  width:60px;
+  margin-left: 50px;
+  margin-top:-30px;
+}
+
+body{
+  margin:0%;
+  /*font-family: 'Muli', sans-serif;*/
+  /*font-family: 'Merriweather Sans', sans-serif;*/
+  /*font-family: 'Asap', sans-serif;*/
+  font-family: 'Cabin', sans-serif;
+  color: rgb(57,57,57);
+  font-size: 18px;
+}

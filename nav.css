@@ -1,3 +1,9 @@
+/*Other Header*/
+
+header{
+  background-color: rgba(207,208,203, 0.3);
+}
+
 /*NAV NAV NAV NAV NAV NAV */
 /*nav{
   height: 50px;
@@ -21,6 +27,9 @@ li a{
     color: rgb(93,104,106) !important;
 }
 
+#homeHome{
+  margin-right:50px;
+}
 
 #resumeHome{
   margin-right:50px;

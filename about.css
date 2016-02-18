@@ -1,0 +1,67 @@
+
+#myPicDiv{
+  width:500px;
+  height:auto;
+  left: 0;
+  right: 0;
+}
+
+#myPic{
+max-width:100%;
+height:auto;
+left: 0;
+right: 0;
+}
+
+ /*#navHome*/
+/*{
+  position: absolute;
+  z-index:1;
+
+}*/
+
+#contact{
+background-color: rgb(154,16,112);
+color:white;
+padding-bottom: 20px;
+}
+
+.homeH2{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 7px;
+}
+
+#jobTitle{
+text-align: center;
+}
+
+
+#contactInfo{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
+
+.deetsImg{
+  width: 20px;
+}
+
+#websiteLink{
+  color: white !important;
+}
+
+#gitHubLink{
+  color: white !important;
+}
+
+#gmail{
+  color: white !important;
+}
