@@ -12,6 +12,7 @@ header{
   float: right;
   font-size: 18px;
   /*font-family: 'Cabin', sans-serif;*/
+  /*position:fixed;*/
 }
 #navUl{
   text-decoration: none !important;
