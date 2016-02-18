@@ -13,3 +13,12 @@ body{
   color: rgb(57,57,57);
   font-size: 18px;
 }
+
+#wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+#content{
+  padding-bottom: 100px;
+}
