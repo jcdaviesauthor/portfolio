@@ -96,6 +96,8 @@ p{
 
 /*flips the pane when hovered*/
 .flip-container:hover .flipper, .flip-container.hover .flipper{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -122,10 +124,14 @@ p{
 /*frontpane in front of back, transform is for firefox*/
 .front{
   z-index:2;
-  transform:rotateY(0deg)
+  -webkit-transform:rotateY(0deg);
+  -moz-transform:rotateY(0deg);
+  transform:rotateY(0deg);
 }
 
 .back{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
   transform: rotateY(180deg);
   /*padding: 7%;*/
 }
