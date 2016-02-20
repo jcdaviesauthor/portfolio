@@ -19,6 +19,11 @@ html{
   /*text-align: center;*/
 
 }
+ /*achor tag 1000px*/
+/*#rotatingText{
+  margin:0 auto:
+  width:1000px:
+}*/
 
 p{
   font-size: 40px;
@@ -43,19 +48,29 @@ p{
   position: relative;
   float: left;
   transform: translateZ(25px);
+  -webkit-transform: translateZ(25px);
+  -moz-transform: translateZ(25px);
   transform-origin: 50% 50% 25px;
 }
 
 .letter.out {
   transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -webkit-transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -moz-transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .letter.behind {
   transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
 }
 
 .letter.in {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -212,7 +227,7 @@ color: rgb(236,233,226);
 }
 
  a{
-    text-decoration: none !important;
+    /*text-decoration: none !important;*/
     color:inherit;
 }
 
@@ -242,9 +257,9 @@ color: rgb(236,233,226);
   color:rgb(236,233,226) !important;
 
 }
-/*.containerLeft{
-margin-left: 20%;
-}*/
+.containerLeft{
+margin-right: 2%;
+}
 
 
 .light{
