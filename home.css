@@ -227,7 +227,7 @@ color: rgb(236,233,226);
 }
 
  a{
-    /*text-decoration: none !important;*/
+    text-decoration: none !important;
     color:inherit;
 }
 
