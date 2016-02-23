@@ -152,8 +152,8 @@ p{
   -moz-transform:rotateY(180deg);
   transform: rotateY(180deg);
   /*padding: 7%;*/
-  /*font-family: 'Lora', serif;*/
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
+  /*font-family: 'Playfair Display', serif;*/
 }
 
 /*//CARDS CENTER OF HOME PAGE.*/

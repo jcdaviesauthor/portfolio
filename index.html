@@ -7,16 +7,26 @@
 <!-- <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'> -->
 <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'> -->
-<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+
+<!-- <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'> -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 <!-- <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
     <title>Jessica Davies UX Design</title>
     <link  rel="stylesheet" href="home.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="nav.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="footer.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="all-files.css" media="screen" charset="utf-8">
+
+<!-- NEXT TWO LINES ARE BOOTSTRAP -->
+    <!-- BOOTSTRAP-Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- BOOTSTRAP-Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- NOT WORKING -->
     <meta property="og:image" content= "myimages/home/design-port.png"/>
     <!-- ="myimages/home/design-port.png"> -->
@@ -25,12 +35,28 @@
   <div id="wrapper">
     <div id="header">
       <header>
-          <nav id = "navHome">
-              <ul id="navUl">
+        <!-- navbar-default is an add in to change color -->
+        <nav class="navbar navbar-default"  role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </buttn>
+              </div>
+            </div>
+
+          <!-- <nav id = "navHome" class="navbar navbar-light bg-faded"> -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <!-- <a class="navbar-brand" href="#">Responsive navbar</a> -->
+              <ul id="navUl" class="nav navbar-nav">
                 <li class="homeBarli" id= "resumeHome"><a href="emoji-nav-about.html">Resume</a></li>
                 <li class="homeBarli" id= "aboutHome"><a href="about.html">About</a></li>
               </ul>
-            </nav>
+            </div>
+        </nav>
           <div class="clearFix"></div>
       </header>
       <!-- <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"><a/> -->
@@ -157,6 +183,10 @@
         <!-- wrapper end tag -->
   </div>
 
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <!-- BOOTSTRAP-Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>
