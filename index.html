@@ -13,6 +13,13 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 <!-- <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- BOOTSTRAP-Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jessica Davies UX Design</title>
     <link  rel="stylesheet" href="home.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="nav.css" media="screen" charset="utf-8">
@@ -21,12 +28,7 @@
 
 <!-- NEXT TWO LINES ARE BOOTSTRAP -->
     <!-- BOOTSTRAP-Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- BOOTSTRAP-Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- NOT WORKING -->
     <meta property="og:image" content= "myimages/home/design-port.png"/>
     <!-- ="myimages/home/design-port.png"> -->
@@ -51,9 +53,11 @@
           <!-- <nav id = "navHome" class="navbar navbar-light bg-faded"> -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <!-- <a class="navbar-brand" href="#">Responsive navbar</a> -->
-              <ul id="navUl" class="nav navbar-nav">
-                <li class="homeBarli" id= "resumeHome"><a href="emoji-nav-about.html">Resume</a></li>
-                <li class="homeBarli" id= "aboutHome"><a href="about.html">About</a></li>
+              <ul id="navUl" class="nav-inline nav navbar-nav">
+                <!-- <div class="row"> -->
+                <li class="homeBarli nav-item" id= "resumeHome"><a href="emoji-nav-about.html">Resume</a></li>
+                <li class="homeBarli nav-item" id= "aboutHome"><a href="about.html">About</a></li>
+                <!-- </div> -->
               </ul>
             </div>
         </nav>
@@ -172,11 +176,15 @@
 
 
     <footer>
-          <ul id="footerUl">
-            <li class="footerLi"><a href="mailto:thejessicadavies@gmail.com?subject=Jessica's Portfolio&body=Hi Jessica Loved you Portfolio">thejessicadavies@gmail.com</a></li>
-            <li class="footerLi footerLogos"><a href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13"><img class="footerLogos" alt="Linked in Logo" src="myimages/home/linked-in.png"></a></li>
-            <li class="footerLi"><a href="https://github.com/jcdaviesauthor/FEWD37/tree/gh-pages"><img class="footerLogos" alt="Git Hub Logo" src="myimages/home/git.png"></a></li>
-            <li class="footerLi liRight">Web design, content, and code&nbsp;<img id="crImg"alt="Copyright Symbol" src="myimages/home/copyright.png">&nbsp;2016 Jessica Davies.</li>
+          <ul id="footerUl" class="row">
+            <div class="col-xs-12 col-sm-5 col-md-6">
+            <a href="mailto:thejessicadavies@gmail.com?subject=Jessica's Portfolio&body=Hi Jessica Loved you Portfolio">thejessicadavies@gmail.com</a>
+            <a class="footerLogos" href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13"><img class="footerLogos" alt="Linked in Logo" src="myimages/home/linked-in.png"></a>
+            <a class="footerLogos" href="https://github.com/jcdaviesauthor/FEWD37/tree/gh-pages"><img class="footerLogos" alt="Git Hub Logo" src="myimages/home/git.png"></a>
+            </div>
+            <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-6">
+            <div>Web design, content, and code&nbsp;<img id="crImg"alt="Copyright Symbol" src="myimages/home/copyright.png">&nbsp;2016 Jessica Davies.</div>
+            </div>
           </ul>
     </footer>
       <script src="home.js"></script>
