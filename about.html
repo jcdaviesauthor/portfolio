@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'> -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <title>Jessica Davies UX Design: About Me</title>
     <!-- <link  rel="stylesheet" href="home.css" media="screen" charset="utf-8"> -->
       <link  rel="stylesheet" href="nav.css" media="screen" charset="utf-8">
@@ -15,58 +18,102 @@
   <div id='wrapper'>
 
     <div id="header">
-      <div id="imgContainer">
-          <header>
-              <nav id = "navHome">
-                  <ul id="navUl">
-                    <li class="homeBarli" id= "homeHome"><a href="index.html">Home</a></li>
-                    <li class="homeBarli" id= "resumeHome"><a href="emoji-nav-about.html">Resume</a></li>
-                    <li class="homeBarli" id= "aboutHome"><a href="about.html">About</a></li>
-                  </ul>
-                </nav>
-              <div class="clearFix"></div>
-          </header>
-            <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"><a/>
+        <header>
+          <!-- navbar-default is an add in to change color -->
+          <nav class="navbar navbar-default"  role="navigation">
+              <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </buttn>
+                </div>
+              </div>
 
-        </div>
-        <div id="myPicDiv"><img id="myPic" alt="Designers Picture" src="myimages/about/me.jpg"></div>
-    </div>
+            <!-- <nav id = "navHome" class="navbar navbar-light bg-faded"> -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- <a class="navbar-brand" href="#">Responsive navbar</a> -->
+                <ul id="navUl" class="nav-inline nav navbar-nav">
+                  <!-- <div class="row"> -->
+                  <li class="homeBarli nav-item" id= "homeHome"><a href="index.html">Home</a></li>
+                  <li class="homeBarli nav-item" id= "resumeHome"><a href="emoji-nav-about.html">Resume</a></li>
+                  <li class="homeBarli nav-item" id= "aboutHome"><a href="about.html">About</a></li>
+                  <!-- </div> -->
+                </ul>
+              </div>
+          </nav>
+            <div class="clearFix"></div>
+        </header>
+        <img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png">
+            <!-- <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"><a/> -->
+      </div>
+
   <div id="content">
+
+      <div id="mainImg">
+          <div id="myPicDiv"><img id="myPic" alt="Designers Picture" src="myimages/about/me.jpg"></div>
+          <ul id="quote">
+            <li class="topQuote"><img id="quoteLeft" class="quoteImg" alt="Quotation mark" src="myimages/about/quote-left.png"></li>
+              <li><p class="quoteText topQuote">Start with the</p></li>
+              <li><p class="quoteText">business, not</p></li>
+              <li class="quoteText bottomQuote"><p>the tech.</p></li>
+              <li class="bottomQuote"><img class="quoteImg" alt="Quotation mark" src="myimages/about/quote-right.png"></li>
+          </ul>
+        </div>
 
     <div id="contact">
 
-      <h2 class="homeH2">Jessica Davies</h2>
+      <p class="sectionTitle">Jessica Davies</p>
 
-      <h3 id="jobTitle">Strategist | UX Designer | Heathcare SME</h3>
+      <p id="jobTitle">Strategist | UX Designer | Heathcare SME</p>
+      <p id="jobLocation">San Francisco, CA &amp; New York, NY </p>
 
       <div id="contactInfo">
         <ul>
           <li class="deetsLi"><img class="deetsImg" alt="Phone Emoji" src="myimages/about/phone-icon.png"></li>
-          <li class="deetsLi">(925) 968-8212</li>
-            <li class="deetsLi"><img class="deetsImg" alt="World Emoji" src="myimages/about/world.png"></li>
+          <li class="deetsLi"><a href="tel:+19259688212">(925) 968-8212</a></li>
+          <li class="deetsLi"><img class="deetsImg" alt="World Emoji" src="myimages/about/world.png"></li>
           <li class="deetsLi"><a id="websiteLink" href="http://thejessicadavies.com">thejessicdavies.com</a></li>
-        <li class="deetsLi"><img class="deetsImg" alt="Email Emoji" src="myimages/about/email-emoji.png"></li>
-        <li class="deetsLi" ><a id="gmail" href="mailto:thejessicadavies@gmail.com?subject=Jessica's Portfolio&body=Hi Jessica Loved you Portfolio">thejessicadavies@gmail.com</a></li>
-        <li class="deetsLi"><img class="deetsImg" alt="GutHub Octocat" src="myimages/about/github.png"></li>
-        <li class="deetsLi"><a id="gitHubLink" href="https://github.com/jcdaviesauthor/FEWD37/tree/gh-pages">GitHub</a></li>
+          <li class="deetsLi"><img class="deetsImg" alt="Email Emoji" src="myimages/about/email-emoji.png"></li>
+          <li class="deetsLi"><a id="gmail" href="mailto:thejessicadavies@gmail.com?subject=Jessica's Portfolio&body=Hi Jessica Loved you Portfolio">thejessicadavies@gmail.com</a></li>
+          <li class="deetsLi"><img class="deetsImg" alt="GutHub Octocat" src="myimages/about/github.png"></li>
+          <li class="deetsLi"><a id="gitHubLink" href="https://github.com/jcdaviesauthor/FEWD37/tree/gh-pages">GitHub</a></li>
         </ul>
       </div>
     </div>
+
+    <div id="approach"><p class="sectionTitle">Approach</p></div>
+
   </div>
+
 
   <div id="footer">
     <footer>
-          <ul id="footerUl">
-            <li class="footerLi"><a href="mailto:thejessicadavies@gmail.com?subject=Jessica's Portfolio&body=Hi Jessica Loved your Portfolio!">thejessicadavies@gmail.com</a></li>
-            <li class="footerLi footerLogos"><a href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13"><img class="footerLogos" alt="Linked in Logo" src="myimages/home/linked-in.png"></a></li>
-            <li class="footerLi"><a href="https://github.com/jcdaviesauthor/FEWD37/tree/gh-pages"><img class="footerLogos" alt="Git Hub Logo" src="myimages/home/git.png"></a></li>
-            <li class="footerLi liRight">Web design, content, and code&nbsp;<img id="crImg"alt="Copyright Symbol" src="myimages/home/copyright.png">&nbsp;2016 Jessica Davies.</li>
+          <ul id="footerUl" class="row">
+            <div class="col-xs-12 col-sm-5 col-md-6">
+              <!-- class="footerDivs"> -->
+              <!-- class="col-xs-12 col-sm-5 col-md-6" -->
+            <a href="mailto:thejessicadavies@gmail.com?subject=Jessica's Portfolio&body=Hi Jessica Loved you Portfolio">thejessicadavies@gmail.com</a>
+            <a class="footerLogos" href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13"><img class="footerLogos" alt="Linked in Logo" src="myimages/home/linked-in.png"></a>
+            <a class="footerLogos" href="https://github.com/jcdaviesauthor/FEWD37/tree/gh-pages"><img class="footerLogos" alt="Git Hub Logo" src="myimages/home/git.png"></a>
+            </div>
+
+            <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-5 liRight">
+              <!-- class="footerDivs liRight" -->
+              <!-- class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-5 col-lg-offset-1" -->
+            <div >Web design, content, and code&nbsp;<img id="crImg"alt="Copyright Symbol" src="myimages/home/copyright.png">&nbsp;2016 Jessica Davies.</div>
+            </div>
           </ul>
-    </footer>
-  </div>
+      </footer>
   </div>
 
 
+  <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+    <!-- BOOTSTRAP-Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -1,8 +1,8 @@
 /*Other Header*/
 
-header{
+/*header{
   background-color: rgba(207,208,203, 0.3) !important;
-}
+}*/
 
 /*NAV NAV NAV NAV NAV NAV */
 /*nav{
@@ -14,9 +14,23 @@ header{
     text-shadow: none;
 }*/
 
-/*HELP!!!!*/
+/*REFORMATTING BOOTSTRAP*/
+
+.button, .input, .optgroup, .select, .textarea {
+  /*cream on click*/
+  color: rgb(236, 233, 226);
+}
+/*.navbar-default .navbar-collapse .navbar-default .navbar-form{
+border-color: rgb(93, 104, 106);
+rgb(93, 104, 106);
+}*/
+.navbar-default .navbar-toggle{
+  /*border to box*/
+  border: 1px solid rgb(93, 104, 106);
+
+}
 .navbar-default, .navbar {
-    background-color:rgba(207,208,203, 0.3) !important;
+    background-color:rgba(207,208,203, 0.6) !important;
     /*border:0px;*/
     /*-moz-box-shadow: none;
     -webkit-box-shadow:none;
@@ -81,7 +95,7 @@ header{
 
 li a{
     text-decoration: none !important;
-    color: rgb(93,104,106) !important;
+    color: rgb(74, 74, 74) !important;
 }
 
 #homeHome{

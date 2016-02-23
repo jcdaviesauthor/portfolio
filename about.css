@@ -1,37 +1,38 @@
-/*header{
-  background:url(myimages/about/me.jpg) no-repeat center center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size: cover;
-}*/
-
-/*header{
-  z-index: 1;
-  position:absolute;
-}*/
-
-/*#imgContainer{
-  background:url(myimages/about/me.jpg) no-repeat center center fixed;
-  position:relative;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  left:0;
-  right:0;
-  bottom:0;
-}*/
+/*MY IMAGE SECTION*/
+#header{
+  z-index: 2;
+}
 
 #myPicDiv{
-  width:100%;
+  /*width:100%;*/
   height:auto;
   left: 0;
   right: 0;
+  z-index: -2;
+  margin-top: -10%;
+}
+  /*position:relative;*/
+#quote{
+  z-index:-1;
+  /*position: absolute;*/
+  /*margin-bottom: 10%;*/
+  margin-top:-36.5%;
+  margin-left: 2%;
+  height: auto;
+  line-height: 225%;
+}
+.topQuote, .bottomQuote{
+  display:inline-block;
+}
+
+.quoteImg{
+  width:40px;
+  margin-top: -40%;
+}
+.quoteText{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
 }
 
 #myPic{
@@ -41,13 +42,7 @@ left: 0;
 right: 0;
 }
 
- /*#navHome*/
-/*{
-  position: absolute;
-  z-index:1;
-
-}*/
-
+/*CONTACT SECTION*/
 #contact{
 background-color: rgb(154,16,112);
 padding-bottom: 20px;
@@ -60,19 +55,20 @@ color: rgb(236,233,226) !important;
   color: rgb(236,233,226) !important;
 }
 
-.homeH2{
-  color: rgb(236,233,226) ;
-
-}
-
-/*#jobTitle{
-text-align: center;
-}
-
-
-#contactInfo{
-  text-align: center;
+/*#aboutTitle{
+  font-size: 40px;
 }*/
+#jobTitle{
+  font-size: 26px;
+}
+
+#jobLocation{
+font-size: 20px;
+}
+.sectionTitle{
+  font-size: 40px;
+  text-align: center;
+}
 
 ul{
   list-style-type: none;
@@ -81,6 +77,10 @@ ul{
 li{
   display: inline;
 }
+/*
+.deetsLi{
+  font-size:
+}*/
 
 .deetsImg{
   width: 20px;
