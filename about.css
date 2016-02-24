@@ -58,6 +58,11 @@ color: rgb(236,233,226) !important;
 /*#aboutTitle{
   font-size: 40px;
 }*/
+
+.sectionTitle{
+  font-size: 40px;
+  text-align: center;
+}
 #jobTitle{
   font-size: 26px;
 }
@@ -65,10 +70,7 @@ color: rgb(236,233,226) !important;
 #jobLocation{
 font-size: 20px;
 }
-.sectionTitle{
-  font-size: 40px;
-  text-align: center;
-}
+
 
 ul{
   list-style-type: none;
