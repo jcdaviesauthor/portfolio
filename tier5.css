@@ -108,7 +108,7 @@ display:inline-block;
 }
 
 .stratDesCircle{
-padding-top: 4.5%;
+padding-top: 5.7%;
 }
 
 .researchCircle{
@@ -123,4 +123,15 @@ padding-top: 4.5%;
 .processCircleDiv{
 text-align: center;
 height:125px;
+}
+
+.processSectionTitle{
+  width:100%;
+  height:100px;
+  color:white;
+  background-color: rgb(74, 74, 74);
+  margin-top: 2%;
+  padding-left: 7%;
+  font-size: 30px;
+  padding-top: 3%;
 }
