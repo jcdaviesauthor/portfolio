@@ -197,19 +197,22 @@ font-size: 24px;
 
 .funnelLogos{
   text-align: center;
-  margin-top: 3%;
   padding-top: 2%;
 }
 
-.funnelTitle{
+.statement{
   font-size: 40px;
   text-align: center;
   color:rgb(01, 161, 167);
-  /*font-weight: bold;*/
-  background:rgb(234,231,231);
+  background:rgb(246,243,246);
+  margin-top: 4%;
   margin-bottom: 4%;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.statmentOrange{
+  color:rgb(221, 98, 92);
 }
 
 .competitorLogos{
@@ -233,7 +236,7 @@ font-size: 24px;
 /*STRATEGY:Competitor Table*/
 
 .compTable{
-  width:600px;
+  width:720px;
   margin:auto;
   margin-top:5%;
 }
@@ -248,17 +251,47 @@ font-size: 24px;
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.compTableBar{
+  background-color: rgb(01, 161, 167);
+  color:white;
+  text-align: center;
+}
+.compTableText{
+  vertical-align: top;
+  color:rgb(74, 74, 74);
+}
 
 th{
   text-align: center;
 }
 
+.leftSideTitles{
+background-color: rgb(01, 161, 167);
+color:white;
+padding-left: 1%;
+padding-right:1%;
+/*vertical-align: top;*/
+}
+
+.weakLine{
+  border-top:solid 1px rgb(74, 74, 74);
+}
+.weakColor{
+background-color:rgb(246, 243, 246);
+}
+
+.weakLineTop{
+  border-top:solid 1px white;
+}
+
 td{
-  width:100px;
+width:150px;
+font-size: 16px;
 }
 
 .competitorTableLogos{
   width:110px;
+  vertical-align: bottom;
 }
 .zoomTableLogo{
   width:75px;
@@ -270,22 +303,16 @@ td{
 
 .insideTableLogo {
 width:75px;
-margin-top:2%;
 }
 
-.salesableLogo{
-  margin-top:5%;
-}
-.dataTableLogo{
-  margin-bottom: 1%;
+.cost{
+  list-style-type: none;
 }
 
-.compTableBar{
-  background-color: rgb(01, 161, 167);
-  color:white;
+.features{
   text-align: center;
+  /*width:700px;*/
 }
-
-.compaTableLines{
-
+.featureCompetition{
+  width:700px;
 }
