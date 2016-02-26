@@ -95,6 +95,7 @@ text-align: center;
 height:125px;
 margin-top: 2%;
 }
+
 .processCircle{
 width:125px;
 height:125px;
@@ -318,14 +319,28 @@ width:75px;
 /*THE RECOMMENDATION CIRCLES*/
 
 .recCircle{
-width:125px;
-height:125px;
+width:220px;
+height:220px;
 border-radius:50%;
 border: solid 3px rgb(221,98,92);
-color: rgb(74, 84, 74)
+color: rgb(74, 84, 74);
+display:inline-block;
+margin-left: 2%;
 position:relative;
 }
 
+.circleRecWrapper{
+  text-align: center;
+}
+
+.circleRecText{
+  font-size: 18px;
+  position:absolute;
+  width:100%;
+  padding-top:25%;
+  padding-left: 2%;
+  padding-right:2%;
+}
 /*PIE SECTION*/
 .pieIntro{
   text-align: center;
@@ -333,11 +348,11 @@ position:relative;
   margin-bottom: 3%;
 }
 
-.pies, .allRecCircle{
+.pies{
   text-align: center;
 }
 
-.pieItem, .recCircle{
+.pieItem{
   display:inline-block;
 }
 
@@ -355,10 +370,6 @@ position:relative;
 }
 .pieText{
     font-size: 16px;
-}
-
-.pies{
-
 }
 
 .pieItem25{
@@ -380,9 +391,7 @@ margin-left: -13%;
 .pieSign{
   width:50px;
 }
-/*.operators{
-  width: 50px;
-}*/
+
 .piePlus{
   margin-left:7%;
   margin-right:4%;

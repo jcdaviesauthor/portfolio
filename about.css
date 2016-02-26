@@ -5,20 +5,24 @@
 
 #myPicDiv{
   /*width:100%;*/
-  height:auto;
+  /*background-image: url(myimages/about/me.jpg);*/
+  /*height:100%;*/
   left: 0;
   right: 0;
   z-index: -2;
   margin-top: -10%;
+  max-width:100%;
+  height:auto;
+  position: relative;
 }
   /*position:relative;*/
 #quote{
-  z-index:-1;
-  /*position: absolute;*/
+  z-index:3;
+  position: absolute;
   /*margin-bottom: 10%;*/
-  margin-top:-36.5%;
   margin-left: 2%;
   height: auto;
+  top:195px;
   line-height: 225%;
 }
 .topQuote, .bottomQuote{
