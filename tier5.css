@@ -130,7 +130,6 @@ padding-top:4.5%;
   padding-top:3.5%
 }
 
-
 /*STRATEGY SECTION*/
 /*title bar*/
 .processSectionTitle{
@@ -400,4 +399,165 @@ margin-left: -13%;
 .pieEqual{
   margin-right:0%;
   margin-left:5%;
+}
+
+/*INTERVIEW & SURVERY SECTION*/
+
+.surveyAndInterview{
+  margin-bottom: 3%;
+}
+.researchPeepsContainer{
+  text-align: center;
+}
+
+.peepsStats{
+  text-align: left;
+  vertical-align: top;
+  font-size: 20px;
+}
+.researchInline{
+    display:inline-block;
+}
+
+.researchNumbers{
+  font-size: 20px;
+}
+
+.peeps{
+  width:75px;
+  vertical-align: bottom;
+  /*margin-top:1%;*/
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.topPeep{
+  padding-bottom: 3%;
+}
+
+.width{
+  width: 200px;
+}
+ .researchDes{
+   width: 450px;
+   text-align: left;
+   vertical-align: top;
+ }
+
+/*CIRCLES AND TRIANGLES*/
+
+.titleP{
+font-size: 20px;
+font-weight: bold;
+}
+
+.researchCirTri{
+  text-align: center;
+}
+
+.researchCircles, {
+  display:inline-block;
+  width: 450px;
+  vertical-align: top;
+}
+
+.circles3{
+  width:450px;
+}
+
+.researchCircles{
+    margin-right: 5%;
+    display:inline-block;
+}
+
+.researchTriangles{
+  width: 450px;
+  vertical-align: top;
+  display:inline-block;
+}
+.triangleSection{
+  text-align: center;
+}
+
+.triangle{
+  width:100px;
+  /*vertical-align: bottom;*/
+  display:inline;
+  /*float:right;*/
+  /*text-align: right;*/
+}
+
+.triangleText{
+  display:inline;
+  text-align: left;
+  width:350px;
+}
+
+/*BRAIN */
+.brainBackground{
+  /*background-color:rgb(234,231,231);*/
+  /*background-color:rgb(197, 240, 236);*/
+  text-align: center;
+
+}
+
+.brain{
+  /*width:900px;*/
+  padding-left: 5%;
+  padding-right:5%;
+  padding-top:3%;
+  /*padding-bottom: 3%;*/
+  width: 960px;
+}
+
+/*INTERVIEW COMMENTS*/
+
+.squareRec{
+  margin:5%;
+}
+
+.square{
+  width: 175px;
+  height: 125px;
+  background-color: rgb(214,245, 242);
+  text-align: center;
+  padding:1%;
+}
+
+.rec {
+  width: 175px;
+  height: 100px;
+  background-color:rgb(74, 74, 74);
+  color: white;
+  text-align: left;
+  padding:1%;
+}
+
+
+/*RESEARCH FINDINGS*/
+.findings{
+  text-align: center;
+}
+
+.findingsCircle{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  background-color: rgb(221,98,92);
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.findingsText{
+  text-align: left;
+  display: inline-block;
+  width:850px;
+  /*margin-bottom: 2%;*/
+}
+.line{
+  width:5px;
+  height:20px;
+  background-color: rgb(221,98,92);
+  margin-left: 13.5%;
 }
