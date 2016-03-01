@@ -651,7 +651,7 @@ text-align: right;
 /*PERSONAS*/
 .personaAjayBrad{
   display:inline-block;
-  /*font-size: 16px;*/
+  font-size: 16px;
   text-align: center;
 }
 
@@ -660,7 +660,6 @@ text-align: right;
   /*CHECK THIS COLOR*/
   border: 3px solid rgb(201,210,210);
   display:inline-block;
-  /*width:450px;*/
   margin: 0.5%;
 }
 
@@ -671,21 +670,21 @@ text-align: right;
 
 .ajay{
 width:150;
-/*height:150;*/
+height:150;
 display:inline-block;
 margin: 0.5%;
 }
 
 .brad{
 width:150;
-/*height:150;*/
+height:150;
 display:inline-block;
 margin: 0.5%;
 }
 
 .textBoxName{
 width:200;
-/*height:150;*/
+height:150;
 display:inline-block;
 text-align: left;
 margin: 0.5%;
@@ -698,7 +697,7 @@ margin: 0.5%;
 
 .textBoxQuote{
   width:100;
-  /*height:150;*/
+  height:150;
   display:inline-block;
   margin: 0.5%;
 }
@@ -709,7 +708,7 @@ background-color: rgb(213,245,242);
 
 .textBoxGoals{
   width:150;
-  /*height:100;*/
+  height:100;
   background-color: rgb(201,210,210);
   display:inline-block;
   text-align: left;
@@ -718,7 +717,7 @@ background-color: rgb(213,245,242);
 
 .textBoxFrustrations{
   width:200;
-  /*height:100;*/
+  height:100;
   color:white;
   background-color: rgb(74, 74, 74);
   display:inline-block;
@@ -728,7 +727,7 @@ background-color: rgb(213,245,242);
 
 .textBoxTech{
   width:100;
-  /*height:100;*/
+  height:100;
   background-color: rgb(246, 243, 246);
   display:inline-block;
   text-align: left;
@@ -763,4 +762,125 @@ background-color: rgb(213,245,242);
 .userFlowImg{
   width:800px;
   margin-top: -5%;
+}
+
+/*SYNTHESIS: REDEFINE PROBLEM*/
+.problem{
+  text-align: center;
+}
+
+.problemTitle{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.alignGoalsTitle{
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.alignCircles{
+  text-align: center;
+}
+
+.venn{
+  width: 800px;
+}
+
+/*SYNTHESIS: TWO EXPERIENCES*/
+
+.experiences{
+  text-align: center;
+  /*width:900px;*/
+}
+.realTimeAndNur{
+  display: inline;
+}
+
+.realTime{
+  margin-right: 7%;
+}
+
+.pillar{
+  display: inline-block;
+  height:200px;
+}
+.experienceTitle{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.experienceText{
+  text-align: left;
+  display: inline-block;
+}
+
+.nurtureValign{
+  vertical-align: top;
+}
+
+.experienceSentence{
+  width: 300px;
+}
+
+/*DESIGN: VIDEO*/
+
+.videoDiv{
+text-align: center;
+}
+
+.iframe{
+  /*width:500px;
+  height:400px;*/
+  display:inline-block;
+  /*margin-left: 7%;*/
+  margin-right: 7%;
+}
+
+.videoText{
+  display:inline-block;
+  width:300px;
+  vertical-align: top;
+  text-align: left;
+}
+
+/*DESIGN:INITAL FEATURES*/
+
+.subTitle{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.realTimeAndNur2{
+  display:inline-block;
+}
+
+.featureMargins{
+  margin-top:3%;
+  margin-bottom:3%;
+}
+
+.features{
+  text-align: center;
+}
+
+.featureIcon{
+  width: 25px;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.flagIcon{
+  width:15px;
+}
+
+.experienceSentence2{
+  display: inline-block;
+  text-align: left;
+}
+
+.iconSentence{
+  text-align: left;
 }
