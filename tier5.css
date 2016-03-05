@@ -60,6 +60,7 @@
   display:inline-block;
   width:320px;
   height:320px;
+  float:none;
   /*background-color: rgb(221, 98, 92);*/
   /*border: solid 3px rgb(219,99,95);*/
   /*height:300px;*/
@@ -67,10 +68,14 @@
   padding-right: 2%;
   padding-bottom:2%;*/
 }
-
+/*
 .introBox1{
   margin-right: 5%
 }
+/**/
+/*.center-block{
+  float:none;
+}*/
 
 .boxTitle{
   color: white;
@@ -644,7 +649,7 @@ text-align: right;
 }
 
 .journeyMap{
-  width:960px;
+  width:80%;
 /*margin-left: 7%;*/
 }
 
@@ -704,7 +709,7 @@ background-color: rgb(213,245,242);
 
 .textBoxGoals{
   width:150px;
-  height:100px;
+  /*height:100px;*/
   background-color: rgb(201,210,210);
   display:inline-block;
   text-align: left;
@@ -714,7 +719,7 @@ background-color: rgb(213,245,242);
 
 .textBoxFrustrations{
   width:200px;
-  height:100px;
+  /*height:100px;*/
   color:white;
   background-color: rgb(74, 74, 74);
   display:inline-block;
@@ -725,7 +730,7 @@ background-color: rgb(213,245,242);
 
 .textBoxTech{
   width:100px;
-  height:100px;
+  /*height:100px;*/
   background-color: rgb(246, 243, 246);
   display:inline-block;
   text-align: left;
