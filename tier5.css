@@ -661,6 +661,7 @@ text-align: right;
   border: 3px solid rgb(201,210,210);
   display:inline-block;
   margin: 0.5%;
+  width:100%;
 }
 
 .personaTypes{
@@ -668,18 +669,12 @@ text-align: right;
   margin-left: 7%;
 }
 
-.ajay{
+.brad, .ajay{
 width:150px;
 height:150px;
 display:inline-block;
-margin: 0.5%;
-}
-
-.brad{
-width:150px;
-height:150px;
-display:inline-block;
-margin: 0.5%;
+margin: 5px;
+vertical-align: top;
 }
 
 .textBoxName{
@@ -687,7 +682,7 @@ width:200px;
 height:150px;
 display:inline-block;
 text-align: left;
-margin: 0.5%;
+margin: 5px;
 }
 
 .ajayName{
@@ -699,7 +694,8 @@ margin: 0.5%;
   width:100px;
   height:150px;
   display:inline-block;
-  margin: 0.5%;
+  margin: 5px;
+  vertical-align: top;
 }
 
 .textBoxQuoteAjay{
@@ -712,7 +708,8 @@ background-color: rgb(213,245,242);
   background-color: rgb(201,210,210);
   display:inline-block;
   text-align: left;
-  margin: 0.5%;
+  margin: 5px;
+  vertical-align: top;
 }
 
 .textBoxFrustrations{
@@ -722,7 +719,8 @@ background-color: rgb(213,245,242);
   background-color: rgb(74, 74, 74);
   display:inline-block;
   text-align: left;
-  margin: 0.5%;
+  margin: 5px;
+  vertical-align: top;
 }
 
 .textBoxTech{
@@ -731,7 +729,8 @@ background-color: rgb(213,245,242);
   background-color: rgb(246, 243, 246);
   display:inline-block;
   text-align: left;
-  margin: 0.5%;
+  margin: 5px;
+  vertical-align: top;
 }
 
 .textBoxNameBrad{
