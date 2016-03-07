@@ -459,42 +459,48 @@ font-weight: bold;
   text-align: center;
 }
 
-.researchCircles, {
+.researchCircles {
   display:inline-block;
   /*width: 550px;*/
   vertical-align: top;
 }
-
+/*set width???*/
 .circles3{
-  width:450px;
+  width:400px;
 }
 
 .researchCircles{
-    margin-right: 5%;
+    /*margin-right: 5%;*/
     display:inline-block;
 }
 
 /*TRIAGLES*/
 .researchTriangles{
-  width: 450px;
-  vertical-align: top;
+  /*width:90%;*/
+  vertical-align: bottom;
   display:inline-block;
 }
 .triangleSection{
-  text-align: left;
+  text-align: center;
 }
 
 .triangle{
+  margin:-15px auto auto -70px;
+}
+
+.triangleImg{
   width:100px;
   /*vertical-align: bottom;*/
   display:inline-block;
-text-align: right;
+/*text-align: right;*/
   /*text-align: right;*/
 }
 
 .triangleText{
   display:inline-block;
-  width:350px;
+  /*width:350px;*/
+  text-align: left;
+
 }
 
 /*BRAIN */
