@@ -316,8 +316,8 @@ width:75px;
   text-align: center;
   /*width:700px;*/
 }
-.featureCompetition{
-  width:600px;
+.featureCompImg{
+  width:80%;
 }
 
 /*THE RECOMMENDATION CIRCLES*/
@@ -449,7 +449,6 @@ margin-left: -13%;
  }
 
 /*CIRCLES AND TRIANGLES*/
-
 .titleP{
 font-size: 20px;
 font-weight: bold;
@@ -479,13 +478,16 @@ font-weight: bold;
   /*width:90%;*/
   vertical-align: bottom;
   display:inline-block;
+  text-align: center;
 }
 .triangleSection{
   text-align: center;
+  /*width: 450px;*/
+
 }
 
 .triangle{
-  margin:-15px auto auto -70px;
+  /*margin:-15px auto auto -70px;*/
 }
 
 .triangleImg{
@@ -498,9 +500,8 @@ font-weight: bold;
 
 .triangleText{
   display:inline-block;
-  /*width:350px;*/
+  /*width:450px;*/
   text-align: left;
-
 }
 
 /*BRAIN */
@@ -512,11 +513,11 @@ font-weight: bold;
 
 .brain{
   /*width:900px;*/
-  padding-left: 5%;
-  padding-right:5%;
+  /*padding-left: 5%;
+  padding-right:5%;*/
   padding-top:3%;
-  /*padding-bottom: 3%;*/
-  width: 960px;
+  padding-bottom: 3%;
+  width: 80%;
 }
 
 /*INTERVIEW COMMENTS*/
@@ -575,6 +576,7 @@ font-weight: bold;
 
 .squareRecSec{
   display: inline-block;
+  margin-bottom: 4%;
 }
 
 .faceCircles{
@@ -617,7 +619,7 @@ font-weight: bold;
   position: absolute;
   background-color: rgb(221,98,92);
   width: 5px;
-  height: 70px;
+  height: 110%;
   display: block;
   content: '';
   left: 50%;
@@ -770,7 +772,7 @@ background-color: rgb(213,245,242);
 }
 
 .userFlowImg{
-  width:800px;
+  width:80%;
   margin-top: -5%;
 }
 
@@ -796,7 +798,7 @@ background-color: rgb(213,245,242);
 }
 
 .venn{
-  width: 800px;
+  width: 80%;
 }
 
 /*SYNTHESIS: TWO EXPERIENCES*/
