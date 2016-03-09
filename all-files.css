@@ -8,7 +8,7 @@ body{
   /*font-family: 'Cabin', sans-serif;*/
   /*font-family: 'Istok Web', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
-  color: rgb(57,57,57);
+  color: rgb(74,74,74);
   font-size: 18px;
   overflow-x: hidden;
 }
@@ -39,6 +39,10 @@ body{
 
 .octoGreen {
   color: rgb(01,161,167);
+}
+
+.charcol{
+  color: rgb(74,74,74);
 }
 
 /*FOR LOTS OT TEXT REQUIRING SERIF TO READ IT WELL*/

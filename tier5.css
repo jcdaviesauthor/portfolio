@@ -203,20 +203,7 @@ font-size: 24px;
   padding-top: 2%;
 }
 
-.statement{
-  font-size: 40px;
-  text-align: center;
-  color:rgb(01, 161, 167);
-  background:rgb(246,243,246);
-  margin-top: 4%;
-  margin-bottom: 4%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
 
-.statmentOrange{
-  color:rgb(221, 98, 92);
-}
 
 .competitorLogos{
   width:250px;
@@ -317,7 +304,7 @@ width:75px;
   /*width:700px;*/
 }
 .featureCompImg{
-  width:80%;
+  width:70%;
 }
 
 /*THE RECOMMENDATION CIRCLES*/
@@ -452,10 +439,12 @@ margin-left: -13%;
 .titleP{
 font-size: 20px;
 font-weight: bold;
+text-align: center;
 }
 
 .researchCirTri{
   text-align: center;
+  margin 0 auto;
 }
 
 .researchCircles {
@@ -469,39 +458,52 @@ font-weight: bold;
 }
 
 .researchCircles{
-    /*margin-right: 5%;*/
+    margin-bottom: 3%;
     display:inline-block;
 }
 
 /*TRIAGLES*/
 .researchTriangles{
   /*width:90%;*/
-  vertical-align: bottom;
-  display:inline-block;
-  text-align: center;
-}
-.triangleSection{
-  text-align: center;
-  /*width: 450px;*/
-
-}
-
-.triangle{
-  /*margin:-15px auto auto -70px;*/
-}
-
-.triangleImg{
-  width:100px;
   /*vertical-align: bottom;*/
   display:inline-block;
+  text-align: center;
+  margin-top:0.5%;
+}
+/*.triangleSection{
+  text-align: center;
+  width: 450px;
+}*/
+/*
+.triangle{
+  margin:-15px auto auto -70px;
+}*/
+
+/*.triangleImg{
+  width:100px;*/
+  /*vertical-align: bottom;*/
+  /*display:inline-block;*/
 /*text-align: right;*/
   /*text-align: right;*/
 }
 
+/*.triangleSectionDivs{
+    display:inline-block;
+}*/
 .triangleText{
-  display:inline-block;
   /*width:450px;*/
   text-align: left;
+  width:400px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.triangleTextImg{
+  width:400px;
+}
+.triangleSectionDivs{
+  text-align: center;
+
 }
 
 /*BRAIN */
@@ -596,7 +598,6 @@ font-weight: bold;
   margin-right:2%;
 }
 
-
 .findingsCircle {
   position: relative;
   border-radius: 50%;
@@ -619,7 +620,7 @@ font-weight: bold;
   position: absolute;
   background-color: rgb(221,98,92);
   width: 5px;
-  height: 110%;
+  height: 200%;
   display: block;
   content: '';
   left: 50%;
@@ -636,13 +637,20 @@ font-weight: bold;
   text-align: center;
   margin-bottom: 2%;
 }
+.bold700{
+/*font-family: 'Lora', serif;*/
+font-weight: 700;
+}
 
 .findingsText{
   text-align: left;
   display: inline-block;
-  width:850px;
+  width:80%;
   /*margin-bottom: 2%;*/
 }
+
+ /*font-family: 'Metrophobic', Arial, serif;
+ font-weight: 400;*/
 
 /*SYNTHESIS SECTION*/
 /*JOURNEY MAP*/
@@ -657,7 +665,7 @@ font-weight: bold;
 }
 
 .journeyMap{
-  width:80%;
+  width:70%;
 /*margin-left: 7%;*/
 }
 
@@ -763,8 +771,8 @@ background-color: rgb(213,245,242);
 }
 .userBracket{
   margin:3%;
-  width:400px;
-  margin-left: 12%;
+  width:350px;
+  margin-left: 9%;
 }
 
 .userFlow{
@@ -772,7 +780,7 @@ background-color: rgb(213,245,242);
 }
 
 .userFlowImg{
-  width:80%;
+  width:70%;
   margin-top: -5%;
 }
 
@@ -798,7 +806,7 @@ background-color: rgb(213,245,242);
 }
 
 .venn{
-  width: 80%;
+  width: 70%;
 }
 
 /*SYNTHESIS: TWO EXPERIENCES*/
@@ -810,10 +818,10 @@ background-color: rgb(213,245,242);
 .realTimeAndNur{
   display: inline;
 }
-
+/*
 .realTime{
   margin-right: 7%;
-}
+}*/
 
 .pillar{
   display: inline-block;
@@ -822,6 +830,7 @@ background-color: rgb(213,245,242);
 .experienceTitle{
   font-size: 24px;
   font-weight: bold;
+  text-align: left;
 }
 
 .experienceText{
@@ -831,11 +840,12 @@ background-color: rgb(213,245,242);
 
 .nurtureValign{
   vertical-align: top;
+  text-align: left;
 }
 
-.experienceSentence{
+/*.experienceSentence{
   width: 300px;
-}
+}*/
 
 /*DESIGN: VIDEO*/
 
@@ -849,6 +859,7 @@ text-align: center;
   display:inline-block;
   /*margin-left: 7%;*/
   margin-right: 7%;
+  margin-bottom: 3%;
 }
 
 .videoText{
@@ -867,6 +878,7 @@ text-align: center;
 }
 .realTimeAndNur2{
   display:inline-block;
+  text-align: center;
 }
 
 .featureMargins{
@@ -877,11 +889,16 @@ text-align: center;
 .features{
   text-align: center;
 }
+/*
+.iconSentence{
+  text-align: left;
+}*/
 
 .featureIcon{
   width: 25px;
   display: inline-block;
   margin-right: 1%;
+  /*text-align: left;*/
 }
 
 .flagIcon{
