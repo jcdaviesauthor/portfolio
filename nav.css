@@ -20,69 +20,27 @@
   /*cream on click*/
   color: rgb(236, 233, 226);
 }
-/*.navbar-default .navbar-collapse .navbar-default .navbar-form{
-border-color: rgb(93, 104, 106);
-rgb(93, 104, 106);
-}*/
+
 .navbar-default .navbar-toggle{
   /*border to box*/
-  border: 1px solid rgb(93, 104, 106);
+  border: 1px solid rgb(74, 74, 74);
 
 }
 .navbar-default, .navbar {
     background-color:rgba(207,208,203, 0.6) !important;
-    /*border:0px;*/
-    /*-moz-box-shadow: none;
-    -webkit-box-shadow:none;
-    box-shadow: none;
-    filter: none;
-    background-image:none !important;
-    -webkit-background-image:none !important;
+    /*-webkit-background-image:none !important;
     -moz-background-image:none !important;*/
     border: none;
     border-radius: 0px;
     border-color:none;
 }
-/*.navbar-default .navbar-nav > li > a {
-    color: rgb(93,104,106) !important;*/
-    /*border:0px;*/
-    /*-moz-box-shadow: none;
-    -webkit-box-shadow:none;
-    box-shadow: none;
-    background-image:none !important;
-    -webkit-background-image:none !important;
-    -moz-background-image:none !important;
-    border: none;
-    border-radius: 0px;
-    border-color:none;
-}*/
-/*.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color:rgba(207,208,203, 0.3) !important;
-    color: rgb(93,104,106) !important;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    -webkit-box-shadow:none;
-    background-image:none !important;
-    -webkit-background-image:none !important;
-    -moz-background-image:none !important;
-    border: none;
-    border-radius: 0px;
-    border-color:none;
-}*/
 
 /*WAS #navHome NEED TO CHANE IN OTHER FILES*/
 #bs-example-navbar-collapse-1{
   float: right;
   font-size: 18px;
-  /*position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1;*/
+  /*border-top: 1px solid rgb(74, 74, 74);*/
 }
-/*.nav>li {
-  position: relative;
-  display: inline;
-}*/
 
 #navUl{
   text-decoration: none !important;
