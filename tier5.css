@@ -675,32 +675,43 @@ font-weight: 700;
   font-size: 16px;
   text-align: center;
 }
-
-.squaresPersonas{
-  text-align: center;
-  /*CHECK THIS COLOR*/
-  border: 3px solid rgb(201,210,210);
-  display:inline-block;
-  margin: 0.5%;
-  width:100%;
+.row{
+margin-left:0;
+margin-right:0;
 }
 
+.padding{
+  padding: 2%;
+}
+
+/*lines around personas*/
+/*CHECK THIS COLOR*/
+/*.squaresPersonas{
+  text-align: center;
+  border: 1px solid rgb(201,210,210);
+  display:inline-block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width:100%;
+}*/
+
+/*Title for personas*/
 .personaTypes{
   font-size: 24px;
-  margin-left: 7%;
+  /*margin-left: 7%;*/
 }
-
+/*images*/
 .brad, .ajay{
-width:150px;
-height:150px;
+width:175px;
+height:175px;
 display:inline-block;
 margin: 5px;
 vertical-align: top;
 }
 
 .textBoxName{
-width:200px;
-height:150px;
+width:240px;
+height:175px;
 display:inline-block;
 text-align: left;
 margin: 5px;
@@ -712,21 +723,32 @@ margin: 5px;
 }
 
 .textBoxQuote{
-  width:100px;
-  height:150px;
+  width:115px;
+  height:175px;
   display:inline-block;
   margin: 5px;
   vertical-align: top;
+  font-style: italic;
+}
+
+.boxTitles{
+  font-weight: bold;
 }
 
 .textBoxQuoteAjay{
 background-color: rgb(213,245,242);
+padding-top: 5%;
+}
+.textBoxQuoteBrad{
+  background-color: rgb(248,216,213);
+  padding-top: 3%;
 }
 
 .textBoxGoals{
-  width:150px;
-  /*height:100px;*/
-  background-color: rgb(201,210,210);
+  width:175px;
+  height:200px;
+  background-color: rgb(222,225,225);
+    /*background-color: rgb(201,210,210);*/
   display:inline-block;
   text-align: left;
   margin: 5px;
@@ -734,8 +756,8 @@ background-color: rgb(213,245,242);
 }
 
 .textBoxFrustrations{
-  width:200px;
-  /*height:100px;*/
+  width:240px;
+  height:200px;
   color:white;
   background-color: rgb(74, 74, 74);
   display:inline-block;
@@ -745,22 +767,19 @@ background-color: rgb(213,245,242);
 }
 
 .textBoxTech{
-  width:100px;
-  /*height:100px;*/
   background-color: rgb(246, 243, 246);
   display:inline-block;
   text-align: left;
   margin: 5px;
   vertical-align: top;
+  width:115px;
+  height:200px;
+  padding: 1%;
 }
 
 .textBoxNameBrad{
   background-color: rgb(221, 98, 92);
   color: white;
-}
-
-.textBoxQuoteBrad{
-  background-color: rgb(230,140,135);
 }
 
 /*USER FLOW*/

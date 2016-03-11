@@ -13,17 +13,76 @@
     <link  rel="stylesheet" href="nav.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="footer.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="project.css" media="screen" charset="utf-8">
+    <link  rel="stylesheet" href="temp-file.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="beauty.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <h2 class="statement">Hi Beautful! Welcome to Beauty Cures, <br>aka Epicurious for Your Face</br></h2>
-    <h3 class"charcol"> I am currently busy chipping away at the code for  my magnum opus design portfolio.</h3>
-    <h3 class"charcol padding">Meanwhile, please enjoy a nice relaxing spa moment, <br>which you can experience for yourself as soon as I finish this portfolio!</br></h3>
+    <div id='wrapper'>
+  <div id="header">
+      <header>
+        <!-- navbar-default is an add in to change color -->
+        <nav class="navbar navbar-default"  role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </buttn>
+              </div>
+            </div>
+
+          <!-- <nav id = "navHome" class="navbar navbar-light bg-faded"> -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <!-- <a class="navbar-brand" href="#">Responsive navbar</a> -->
+              <ul id="navUl" class="nav-inline nav navbar-nav">
+                <!-- <div class="row"> -->
+                <li class="homeBarli nav-item" id= "homeHome"><a href="index.html">Portfolio</a></li>
+                <li class="homeBarli nav-item" id= "resumeHome"><a href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13">Resume</a></li>
+                <li class="homeBarli nav-item" id= "aboutHome"><a href="about.html">About</a></li>
+                <!-- </div> -->
+              </ul>
+            </div>
+        </nav>
+          <div class="clearFix"></div>
+      </header>
+        <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"></a>
+          <!-- <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"><a/> -->
+          <!-- header div -->
+    </div>
+
+<div id="content">
+    <h2 class="octoGreen changeBack">Hi Beautful! Welcome to Beauty Cures, <br>aka Epicurious for Your Face</br></h2>
+    <div class="comingSoon">
+
+      <p class="charcol des"> I am currently busy chipping away at the code for  my magnum opus design portfolio. <br>Meanwhile, please enjoy a nice relaxing at-home spa moment... </br>which you can experience for yourself as soon as I finish this portfolio!</p>
+    </div>
+
     <img id="spaMask" alt="spa mask" src="myimages/beauty.jpg">
-<!-- <img id="spaMask" alt="spa mask" src="myimages/spa.jpg"> -->
-<!-- <a href="http://www.crystalcoastexpos.com/wp-content/uploads/2014/11/spafacialpic.jpg">source</a> -->
+</div>
 
-
+<div id="footer">
+  <footer>
+        <ul id="footerUl" class="row">
+          <div class="col-xs-12 col-sm-5 col-md-6">
+            <!-- class="footerDivs"> -->
+            <!-- class="col-xs-12 col-sm-5 col-md-6" -->
+          <a href="mailto:thejessicadavies@gmail.com?subject=Portfolio: Jessica Davies &body=Hi Jessica loved your Portfolio!">thejessicadavies@gmail.com</a>
+          <a class="footerLogos" href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13"><img class="footerLogos" alt="Linked in Logo" src="myimages/home/linked-in.png"></a>
+          <a class="footerLogos" href="https://github.com/jcdaviesauthor"><img class="footerLogos" alt="Git Hub Logo" src="myimages/home/git.png"></a>
+          </div>
+          <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-5 liRight">
+            <!-- class="footerDivs liRight" -->
+            <!-- class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-5 col-lg-offset-1" -->
+          <div >Web design, content, and code&nbsp;<img id="crImg"alt="Copyright Symbol" src="myimages/home/copyright.png">&nbsp;2016 Jessica Davies.</div>
+          </div>
+        </ul>
+  </footer>
+    <!-- footer div -->
+</div>
+<!-- wrapper div -->
+</div>
       <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 
     <!-- BOOTSTRAP-Latest compiled and minified JavaScript -->

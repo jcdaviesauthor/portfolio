@@ -13,15 +13,76 @@
     <link  rel="stylesheet" href="nav.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="footer.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="project.css" media="screen" charset="utf-8">
+    <link  rel="stylesheet" href="temp-file.css" media="screen" charset="utf-8">
     <link  rel="stylesheet" href="emoji-libs-port.css" media="screen" charset="utf-8">
   </head>
+
   <body>
-    <h2 class="statement">Welcome to Emoji Libs<br>A website I created help people to learn how to use emojis</br></h2>
-    <h3 class"charcol"> This is meant to be a "lessons learned" from coding your first website <br>and how knowing code makes me a better designer.</br></h3>
-    <h3 class"charcol padding"> I am still slugging it out with the code for this design portfolio, <br>but please feel free to check out the real website anytime. It's already live.</br></h3>
+    <div id='wrapper'>
+  <div id="header">
+      <header>
+        <!-- navbar-default is an add in to change color -->
+        <nav class="navbar navbar-default"  role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </buttn>
+              </div>
+            </div>
 
-<a href="https://jcdaviesauthor.github.io/FEWD37/final-project/index.html"><img id="emoji" alt="Emoji-Libs Website" src="myimages/emoji-libs.png"></a>
+          <!-- <nav id = "navHome" class="navbar navbar-light bg-faded"> -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <!-- <a class="navbar-brand" href="#">Responsive navbar</a> -->
+              <ul id="navUl" class="nav-inline nav navbar-nav">
+                <!-- <div class="row"> -->
+                <li class="homeBarli nav-item" id= "homeHome"><a href="index.html">Portfolio</a></li>
+                <li class="homeBarli nav-item" id= "resumeHome"><a href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13">Resume</a></li>
+                <li class="homeBarli nav-item" id= "aboutHome"><a href="about.html">About</a></li>
+                <!-- </div> -->
+              </ul>
+            </div>
+        </nav>
+          <div class="clearFix"></div>
+      </header>
+        <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"></a>
+          <!-- <a href="index.html"><img id="jdLogo" alt="Designers Logo" src="myimages/home/jd-logo.png"><a/> -->
+          <!-- header div -->
+    </div>
 
+<div id="content">
+    <h2 class="octoGreen changeBack">Welcome to Emoji Libs!<br>A website created to help people learn how to use emojis</br></h2>
+    <div class="comingSoon">
+    <p class="charcol des"><br>This section will be a "lessons learned" from coding my first website and how knowing code has made me a better designer. </br>I am still slugging it out with the code for this part of my portfolio, but please feel free to check out the real website anytime. <br>It's already live. Just click the pic below:</br></p>
+</div>
+    <a href="https://jcdaviesauthor.github.io/FEWD37/final-project/index.html"><img id="emoji" alt="Emoji-Libs Website" src="myimages/emoji-libs.png"></a>
+    <!-- content -->
+</div>
+
+<div id="footer">
+  <footer>
+        <ul id="footerUl" class="row">
+          <div class="col-xs-12 col-sm-5 col-md-6">
+            <!-- class="footerDivs"> -->
+            <!-- class="col-xs-12 col-sm-5 col-md-6" -->
+          <a href="mailto:thejessicadavies@gmail.com?subject=Portfolio: Jessica Davies &body=Hi Jessica loved your Portfolio!">thejessicadavies@gmail.com</a>
+          <a class="footerLogos" href="https://www.linkedin.com/in/jessica-davies-cfa-46009b13"><img class="footerLogos" alt="Linked in Logo" src="myimages/home/linked-in.png"></a>
+          <a class="footerLogos" href="https://github.com/jcdaviesauthor"><img class="footerLogos" alt="Git Hub Logo" src="myimages/home/git.png"></a>
+          </div>
+          <div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-5 liRight">
+            <!-- class="footerDivs liRight" -->
+            <!-- class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-5 col-lg-offset-1" -->
+          <div >Web design, content, and code&nbsp;<img id="crImg"alt="Copyright Symbol" src="myimages/home/copyright.png">&nbsp;2016 Jessica Davies.</div>
+          </div>
+        </ul>
+  </footer>
+    <!-- footer div -->
+</div>
+<!-- wrapper -->
+</div>
 
       <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 
