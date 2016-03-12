@@ -97,8 +97,6 @@ text-align: left;
 
 .processCircleDiv{
 text-align: center;
-/*height:125px;*/
-/*margin-top: 2%;*/
 }
 
 .processCircle{
@@ -113,10 +111,10 @@ position:relative;
 .process{
 display:inline-block;
 }
+
 .arrow{
   width:75px;
-  margin-bottom: 10%;
-  /*vertical-align: middle;*/
+  margin-bottom: 100px;
 }
 
 .circleText{
@@ -125,20 +123,20 @@ display:inline-block;
 }
 
 .twoLine{
-  padding-top: 3%;
+  padding-top: 30px;
 }
 
 .oneLine{
-  padding-top: 4%;
+  padding-top: 40px;
 }
 
 .ourProcess{
   margin-bottom: -5%;
 }
 
-@media (max-width: 992px) and (min-width:768px) {
-  .oneLine{
-    padding-top: 5%;
+@media screen (min-width:430px) and (max-width: 558px) {
+  .build{
+    margin-bottom: 200px;
   }
 }
 
@@ -155,6 +153,7 @@ display:inline-block;
   padding-top: 3%;
   margin-bottom: 3%;
 }
+
 /*STRATEGY SECTION: approach*/
 .ourApproachTitle{
 font-size: 30px;
