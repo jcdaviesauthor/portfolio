@@ -97,8 +97,8 @@ text-align: left;
 
 .processCircleDiv{
 text-align: center;
-height:125px;
-margin-top: 2%;
+/*height:125px;*/
+/*margin-top: 2%;*/
 }
 
 .processCircle{
@@ -116,6 +116,7 @@ display:inline-block;
 .arrow{
   width:75px;
   margin-bottom: 10%;
+  /*vertical-align: middle;*/
 }
 
 .circleText{
@@ -123,16 +124,22 @@ display:inline-block;
   width:100%;
 }
 
-.stratDesCircle{
-padding-top:4.5%;
+.twoLine{
+  padding-top: 3%;
 }
 
-.researchCircle{
-  padding-top: 3.5%;
+.oneLine{
+  padding-top: 4%;
 }
 
-.buildCircle{
-  padding-top:3.5%
+.ourProcess{
+  margin-bottom: -5%;
+}
+
+@media (max-width: 992px) and (min-width:768px) {
+  .oneLine{
+    padding-top: 5%;
+  }
 }
 
 /*STRATEGY SECTION*/
