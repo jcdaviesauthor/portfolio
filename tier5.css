@@ -15,16 +15,6 @@
   text-align: center;
 }
 
-.container {
-  position: relative;
-  /*margin: 30px;*/
-  /*height: 250px;*/
-  width: 250px;
-  text-align: center;
-  display:inline-block;
-  padding-top:1%;
-}
-
 .projectTitleSize{
   text-align: center;
   font-size: 30px;
@@ -45,6 +35,16 @@
   }
 
   /*HOVER HULA*/
+
+  .container {
+    /*position: relative;*/
+    /*margin: 30px;*/
+    /*height: 250px;*/
+    width: 250px;
+    text-align: center;
+    display:inline-block;
+    padding-top:1%;
+  }
 
 .image-swap img:last-child{display:none}
 .image-swap:hover img:first-child{display:none}
@@ -841,8 +841,10 @@ border: 0;
 
 .pillar{
   display: inline-block;
-  height:200px;
+  height:200px
 }
+
+/*SYNTHESIS: INITIAL CONCEPTS*/
 .experienceTitle{
   font-size: 24px;
   font-weight: bold;
@@ -852,23 +854,26 @@ border: 0;
 .experienceText{
   text-align: left;
   display: inline-block;
-}
-
-.nurtureValign{
   vertical-align: top;
+}
+.nurtureValign{
   text-align: left;
 }
 
-.experienceSentence{
-  width: 300px;
+@media (max-width: 992px){
+  .nurtureValign{
+    margin-top: 3%;
+  }
+}
+@media  (min-width: 920px) and (max-width: 1199px){
+  .realTime{
+    /*margin-left: 1%;*/
+  }
 }
 
-/*@media screen (min-width: 781px) and (max-width: 477px) {
-  .realTimeAndNur{
-      display:block;
-  }
-}*/
-
+.experienceSentence{
+  width: 300px
+}
 
 /*DESIGN: VIDEO*/
 
