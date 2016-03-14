@@ -61,21 +61,7 @@
   width:320px;
   height:320px;
   float:none;
-  /*background-color: rgb(221, 98, 92);*/
-  /*border: solid 3px rgb(219,99,95);*/
-  /*height:300px;*/
-  /*padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom:2%;*/
 }
-/*
-.introBox1{
-  margin-right: 5%
-}
-/**/
-/*.center-block{
-  float:none;
-}*/
 
 .boxTitle{
   color: white;
@@ -130,30 +116,29 @@ display:inline-block;
 .oneLine{
   padding-top: 40px;
 }
-/*
-.ourProcess{
-  margin-bottom: -5%;
-}*/
-
-/*@media screen (min-width:430px) and (max-width: 558px) {
-  .ourProcess{
-    margin-bottom: 100px;
-  }
-}*/
-
-/*STRATEGY SECTION*/
-/*title bar*/
-
-
-
-/*#strategySection{
-  margin-top: -1%;
-}*/
 
 /*STRATEGY SECTION: approach*/
 .ourApproachTitle{
 font-size: 30px;
 text-align: center;
+margin-bottom: 3%;
+font-weight: bold;
+}
+
+.approach{
+  text-align: center;
+}
+
+@media (max-width: 634px) {
+  .approachSections{
+    width:2%;
+  }
+  .approach{
+    text-align: left;
+  }
+  .approachNumber{
+    padding-left:20px;
+  }
 }
 
 .approachCircle{
@@ -161,16 +146,32 @@ text-align: center;
   height:50px;
   border-radius:50%;
   background-color: rgb(221,98,92);
-  /*color: rgb(74,74,74);*/
   color:white;
   position:relative;
   vertical-align: top;
-  margin-right: 2%;
+  /*margin-right: 2%;*/
+  margin-bottom: 45px;
 }
 
-/*.approach{
-  text-align: center;
-}*/
+.approachNumbers{
+  display: inline-block;
+  vertical-align: top;
+  margin-right:5px;
+}
+
+.approachCircle1{
+  margin-top: -7px;
+}
+.approachCircle2{
+  margin-top: 55px;
+
+}
+.approachCircle3{
+  margin-top: 50px;
+}
+.approachCircle4{
+  margin-top: -15px;
+}
 
 .approachNumber{
   position:absolute;
@@ -180,24 +181,28 @@ text-align: center;
   padding-top: 12%;
 
 }
-.approach1{
-  margin-top: 1%;
-}
+
+
+
 .approachSections{
-  text-align: center;
+
+  display: inline-block;
 }
-.approachCircle, .approachText{
+/*.approachCircle, .approachText{
   display:inline-block;
-}
+}*/
 
 .approachText{
 text-align: left;
-margin-top: 0.5%;
+/*margin-top: 0.5%;*/
 width:550px;
 }
+
 .approachPoints{
 font-size: 24px;
 }
+
+
 /*STRATEGY:FUNNEL SECTION*/
 
 .funnelLogos{
@@ -461,34 +466,12 @@ text-align: center;
 
 /*TRIAGLES*/
 .researchTriangles{
-  /*width:90%;*/
-  /*vertical-align: bottom;*/
   display:inline-block;
   text-align: center;
   margin-top:0.5%;
 }
-/*.triangleSection{
-  text-align: center;
-  width: 450px;
-}*/
-/*
-.triangle{
-  margin:-15px auto auto -70px;
-}*/
 
-/*.triangleImg{
-  width:100px;*/
-  /*vertical-align: bottom;*/
-  /*display:inline-block;*/
-/*text-align: right;*/
-  /*text-align: right;*/
-}
-
-/*.triangleSectionDivs{
-    display:inline-block;
-}*/
 .triangleText{
-  /*width:450px;*/
   text-align: left;
   width:400px;
   font-size: 20px;
@@ -500,20 +483,14 @@ text-align: center;
 }
 .triangleSectionDivs{
   text-align: center;
-
 }
 
 /*BRAIN */
 .brainBackground{
-  /*background-color:rgb(234,231,231);*/
-  /*background-color:rgb(197, 240, 236);*/
   text-align: center;
 }
 
 .brain{
-  /*width:900px;*/
-  /*padding-left: 5%;
-  padding-right:5%;*/
   padding-top:3%;
   padding-bottom: 3%;
   width: 80%;
@@ -677,8 +654,6 @@ margin-left:0;
 margin-right:0;
 }
 
-
-
 /*lines around personas*/
 /*CHECK THIS COLOR*/
 /*.squaresPersonas{
@@ -699,19 +674,11 @@ margin-right:0;
   font-size: 24px;
   /*margin-left: 7%;*/
 }
-/*images*/
-.brad, .ajay{
-width:175px;
-height:175px;
-/*display:inline-block;*/
-margin: 5px;
-vertical-align: top;
-}
 
 
 .textBoxName{
-width:240px;
-height:175px;
+/*width:240px;
+height:175px;*/
 /*display:inline-block;*/
 text-align: left;
 margin: 5px;
@@ -788,9 +755,35 @@ padding-top: 5%;
   color: white;
 }
 td{
-  margin: 5px;
+  /*margin: 5px;*/
+  border: 10px solid white;
 }
 
+table{
+  border: 20px solid white;
+}
+
+/*images*/
+.brad, .ajay{
+min-width:173px;
+max-width:100%;
+/*min-height:197px;*/
+max-height:100%;
+/*max-width:235px;
+max-height:290px;
+/*display:inline-block;*/
+/*margin: 5px;*/
+vertical-align: top;
+border: 0;
+}
+
+.ajayTd{
+  background-color: rgb(218, 217, 215)
+}
+
+.bradTd{
+  background-color: rgb(99, 100, 94)
+}
 /*USER FLOW*/
 .userFlowTitle{
   font-size: 24px;
@@ -993,6 +986,89 @@ text-align: center;
   vertical-align: top;
   margin:15px;
 }
+
+/*PAPER PROTOTYPES*/
+.paperPrototypes{
+  text-align: center;
+}
+
+.paperProtoDiv{
+  font-size: 18px;
+  display: inline-block;
+  margin: 2%;
+}
+
+.paperProtoImg{
+  width:300px;
+  height:400px;
+}
+
+.top3Bottom3{
+  display:block;
+  text-align: center;
+}
+
+.feedbackParent{
+display: inline-block;
+margin:2%;
+}
+
+.testingFeedback{
+  width: 200px;
+  height: 120px;
+  padding:5%;
+  color: white;
+}
+
+.experienceBox{
+  text-align: center;
+}
+
+.feedbackP{
+  display:inline-block;
+  color:rgb(74,74,74);
+  width:200px;
+  /*height:250px;*/
+  vertical-align: top;
+}
+.feedbackParentGreen{
+  background-color: rgb(01, 161, 167);
+  color: white;
+}
+
+.feedbackParentOrange{
+  background-color: rgb(221,98,92);
+  color: white;
+}
+
+.feedbackParentCharcol{
+ background-color: rgb(74,74,74);
+ color: white;
+}
+
+.feedbackParentLightGreen{
+  background-color: rgb(212,245,242);
+  color: rgb(74,74,74);
+}
+.feedbackParentLightOrange{
+  background-color: rgb(249,216,212);
+  color: rgb(74,74,74);
+}
+
+/*Usability testing findings*/
+.findings2PParent{
+  text-align: center;
+}
+
+.findings2P{
+  display: inline-block;
+  text-align: left;
+  width: 400px;
+  vertical-align: top;
+}
+
+
+
 
 /*SECTION AT BOTTOM FOR NEXT PORTFOLIO*/
 .nextPort{
