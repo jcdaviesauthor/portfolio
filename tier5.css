@@ -80,6 +80,7 @@ text-align: left;
   font-size: 30px;
   text-align: center;
   margin-top:2%;
+  margin-bottom: 2%;
 }
 
 .processCircleDiv{
@@ -1162,39 +1163,4 @@ Before and After*/
 
 .listViewImg{
   width:500px;
-}
-
-
-/*SECTION AT BOTTOM FOR NEXT PORTFOLIO*/
-.nextPort{
-  font-size:18px;
-}
-
-.arrowAndText{
-  display:inline-block;
-}
-
-.arrowPort{
-  width: 25px;
-}
-
-/*Up next for Tier 5 only */
-.processSectionTitleUpNext{
-  padding-left: 6%;
-  padding-top: 3%;
-  width:100%;
-  height:110px;
-  color:white;
-  background-color: rgb(74, 74, 74);
-  margin-top: 3%;
-  padding-left: 6%;
-  font-size: 30px;
-  margin-bottom: 3%;
-}
-
-@media screen (max-width: 768px) {
-  .processSectionTitleUpNext{
-      height:150px;
-      padding-bottom: 3%;
-  }
 }

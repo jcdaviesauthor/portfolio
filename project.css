@@ -27,3 +27,55 @@
   padding-top: 3%;
   margin-bottom: 3%;
 }
+
+
+/*UP TEXT SECTION AT BOTTOM OF PORTFOLIO*/
+.nextPort{
+  font-size:18px;
+}
+
+.arrowAndText{
+  display:inline-block;
+}
+
+.arrowPort{
+  width: 25px;
+}
+
+/*Up next for Tier 5 only */
+.processSectionTitleUpNext{
+  padding-left: 6%;
+  padding-top: 3%;
+  width:100%;
+  height:110px;
+  color:white;
+  background-color: rgb(74, 74, 74);
+  margin-top: 3%;
+  padding-left: 6%;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+/*tier 5 only*/
+@media screen (max-width: 768px) {
+  .processSectionTitleUpNext{
+      height:150px;
+      padding-bottom: 3%;
+  }
+}
+
+/*Up next for WebMD only */
+.processSectionTitleUpNextWeb{
+  padding-left: 0%;
+  padding-top: 3%;
+  margin-top: 3%;
+  padding-left: 6%;
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+@media screen (max-width: 768px) {
+  .processSectionTitleUpNextWeb{
+      /*height:150px;
+      padding-bottom: 0%;*/
+  }
+}
