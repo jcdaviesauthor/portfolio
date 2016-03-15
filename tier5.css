@@ -1060,7 +1060,8 @@ margin:2%;
   color: rgb(74,74,74);
 }
 
-/*Usability testing findings*/
+/*DESIGN:
+Usability testing findings*/
 .findings2PParent{
   text-align: center;
 }
@@ -1068,11 +1069,100 @@ margin:2%;
 .findings2P{
   display: inline-block;
   text-align: left;
-  width: 400px;
+  width:450px;
   vertical-align: top;
+  padding: 2%;
 }
 
+/*DESIGN:
+DESIGN DECISIONS*/
 
+.designDecisions{
+  text-align: center;
+}
+
+.decNumber{
+  position:absolute;
+  width:100%;
+  font-size: 24px;
+  top:0;
+  padding-top: 12%;
+  padding-left:5px;
+}
+
+.decCircle{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color: rgb(01, 161,167);
+  color:white;
+  position:relative;
+  vertical-align: top;
+  margin-right: 2%;
+  margin-bottom: 45px;
+}
+
+.decNumbers{
+  display: inline-block;
+  vertical-align: top;
+  margin-right:5px;
+}
+
+.decCircle1{
+  margin-top: -7px;
+}
+.decCircle2{
+  margin-top: 150px;
+}
+.decCircle3{
+  margin-top: 200px;
+}
+
+.decSections{
+  display: inline-block;
+}
+
+.decText{
+text-align: left;
+width:650px;
+}
+
+.decPoints{
+font-size: 24px;
+font-weight: bold;
+}
+
+/*BUILD AND DELIVER:
+Before and After*/
+
+.buildText{
+  width:90%;
+  margin:0 auto;
+}
+
+.comparisons{
+  text-align: center;
+}
+
+.comparisonTitle{
+  text-align: center;
+  font-size: 24px;
+  margin-left: 1%;
+}
+
+.comparisonTitle2{
+  margin-left:10%;
+}
+
+.listView{
+    display: inline-block;
+    vertical-align: top;
+    padding:2%;
+}
+
+.listViewImg{
+  width:500px;
+}
 
 
 /*SECTION AT BOTTOM FOR NEXT PORTFOLIO*/
