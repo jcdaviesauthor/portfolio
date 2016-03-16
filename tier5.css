@@ -1229,3 +1229,13 @@ margin-left: 27%;
   height:50px;
   background-color: rgb(241, 238, 238);
 }
+.phase{
+  width:75px;
+  height:75px;
+  border-radius: 50%;
+
+}
+
+.phaseText{
+
+}
