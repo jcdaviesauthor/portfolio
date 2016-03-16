@@ -247,7 +247,6 @@ table{
   font-size: 40px;
   text-align: center;
   color:rgb(01, 161, 167);
-  /*font-weight: bold;*/
   background:rgb(234,231,231);
   margin-bottom: 4%;
   margin-top: 4%;
@@ -273,7 +272,6 @@ background-color: rgb(01, 161, 167);
 color:white;
 padding-left: 1%;
 padding-right:1%;
-/*vertical-align: top;*/
 }
 
 .weakLine{
@@ -311,11 +309,14 @@ width:75px;
 .cost{
   list-style-type: none;
 }
+.costPerLead{
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
 
 .features{
   text-align: center;
-  /*width:700px;*/
 }
+
 .featureCompImg{
   width:70%;
 }
@@ -1151,6 +1152,14 @@ Before and After*/
   margin-left: 5%;
 }
 
+.formerFilter{
+  margin-left:33%;
+}
+
+.filter{
+margin-left: 27%;
+}
+
 .comparisonTitle2{
   margin-left:10%;
 }
@@ -1163,4 +1172,60 @@ Before and After*/
 
 .listViewImg{
   width:500px;
+}
+
+/*BUILD: Prototype*/
+.prototypeLink{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 24px;
+}
+
+/*BUILD: logo redesign*/
+
+.logoSecParent, .logoSec{
+  text-align: center;
+}
+
+.logoWithText{
+  display: inline-block;
+  padding: 5%;
+}
+
+.logoTitle{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.octoLogo{
+  width:200px;
+}
+.octoLogoNew{
+  width:225px;
+}
+.octoLogoNew2{
+  width:250px;
+}
+/*NEXT STEPS*/
+.arrowContainer{
+  text-align: center;
+}
+
+.nextStepsArrow{
+  width:90%;
+
+}
+
+.stepsParent{
+  text-align: center;
+}
+
+.stepsSec{
+  display: inline-block;
+}
+
+.rec{
+  width:300px;
+  height:50px;
+  background-color: rgb(241, 238, 238);
 }
