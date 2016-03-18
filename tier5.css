@@ -922,18 +922,20 @@ text-align: center;
   margin-bottom:3%;
 }
 
-.features{
+.featuresList{
   text-align: center;
 }
 
 .featureIcon{
   width: 25px;
+  /*height: 25px;*/
   display: inline-block;
   margin-right: 1%;
 }
 
 .flagIcon{
   width:15px;
+  margin-right: 13px;
 }
 
 .experienceSentence2{
@@ -1223,20 +1225,24 @@ margin-left: 27%;
 }
 /*NEXT STEPS*/
 .arrowContainer{
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .nextStepsArrow{
-  width:90%;
+  width:1200px;
 }
 
 .stepsParent{
   text-align: center;
+  margin:-15px 0 0 0;
+  width:90%;
 }
 
 .stepsSec{
   display: inline-block;
   text-align: center;
+  vertical-align: top;
+  margin:15px;
 }
 
 .recTop{
@@ -1244,6 +1250,8 @@ margin-left: 27%;
   height:50px;
   background-color: rgb(241, 238, 238);
   vertical-align: middle;
+  font-size: 20px;
+  padding: 9px 0;
 }
 .phase{
   width:75px;
@@ -1251,8 +1259,10 @@ margin-left: 27%;
   border-radius: 50%;
   border: solid 2px rgb(01, 161, 167);
   vertical-align: middle;
-  text-align: center;
+  /*text-align: center;*/
   font-size: 24px;
+  margin: 2% auto;
+  padding-top: 18px;
 }
 
 .phaseText{
