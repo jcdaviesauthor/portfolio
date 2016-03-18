@@ -31,20 +31,17 @@
 
 .projectLogo{
   width:250px;
-  padding-top:45%;
+  padding-top:15%;
   }
 
   /*HOVER HULA*/
 
-  .container {
-    /*position: relative;*/
-    /*margin: 30px;*/
-    /*height: 250px;*/
+  /*.containerOcto{
     width: 250px;
     text-align: center;
     display:inline-block;
     padding-top:1%;
-  }
+  }*/
 
 .image-swap img:last-child{display:none}
 .image-swap:hover img:first-child{display:none}
