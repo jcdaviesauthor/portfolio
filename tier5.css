@@ -669,19 +669,19 @@ margin-right:0;
 
 /*Title for personas*/
 
-/*table{
+table{
   display:inline-block;
-}*/
-.personaTypes{
-  font-size: 24px;
-  /*margin-left: 7%;*/
 }
 
+.personaParent{
+}
+
+.personaTypes{
+  font-size: 24px;
+  font-weight: bold;
+}
 
 .textBoxName{
-/*width:240px;
-height:175px;*/
-/*display:inline-block;*/
 text-align: left;
 margin: 5px;
 }
@@ -694,7 +694,6 @@ margin: 5px;
 .textBoxQuote{
   width:115px;
   height:175px;
-  /*display:inline-block;*/
   margin: 5px;
   vertical-align: top;
   font-style: italic;
@@ -704,7 +703,6 @@ margin: 5px;
   font-weight: bold;
 }
 .padding{
-  /*padding: 2%;*/
   padding-top: 2%;
   padding-left:2%;
   padding-right: 2%;
@@ -723,8 +721,6 @@ padding-top: 5%;
   width:175px;
   height:200px;
   background-color: rgb(222,225,225);
-    /*background-color: rgb(201,210,210);*/
-  /*display:inline-block;*/
   text-align: left;
   margin: 5px;
   vertical-align: top;
@@ -735,7 +731,6 @@ padding-top: 5%;
   height:200px;
   color:white;
   background-color: rgb(74, 74, 74);
-  /*display:inline-block;*/
   text-align: left;
   margin: 5px;
   vertical-align: top;
@@ -771,20 +766,12 @@ table{
   text-align: center;
 
 }
-/*th{
-  border: 1px solid white;
-}*/
 
 /*images*/
 .brad, .ajay{
 min-width:173px;
 max-width:100%;
-/*min-height:197px;*/
 max-height:100%;
-/*max-width:235px;
-max-height:290px;
-/*display:inline-block;*/
-/*margin: 5px;*/
 vertical-align: top;
 border: 0;
 }
@@ -797,15 +784,19 @@ border: 0;
   background-color: rgb(99, 100, 94)
 }
 /*USER FLOW*/
-.userFlowTitle{
-  font-size: 24px;
-  text-align: left;
-  margin-left: 20%;
+.bracketDiv{
+  display: block;
 }
 .userBracket{
   margin:3%;
   width:350px;
-  margin-left: 9%;
+  margin-left: 10%;
+}
+
+.userFlowTitle{
+  font-size: 24px;
+  text-align: left;
+  margin-left: 17%;
 }
 
 .userFlow{
@@ -816,6 +807,15 @@ border: 0;
   width:70%;
   margin-top: -5%;
 }
+
+/*@media screen (min-width: 688px) and (max-width: 982px){
+  .userBracket{
+    margin-left:27%;
+  }
+  .userFlowTitle{
+    margin-left:37%;
+  }
+}*/
 
 /*SYNTHESIS: REDEFINE PROBLEM*/
 .problem{
@@ -848,7 +848,8 @@ border: 0;
   text-align: center;
 }
 .realTimeAndNur{
-  display: inline;
+  display: inline-block;
+  text-align: center;
 }
 
 .pillar{
@@ -913,14 +914,9 @@ text-align: center;
   text-align: center;
 }
 
-.personaParent{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
 .realTimeAndNur2{
-  display:inline-block;
-  align-items: center;
+display:inline-block;
+text-align: center;
 }
 
 .featureMargins{
@@ -1084,14 +1080,16 @@ margin:2%;
 Usability testing findings*/
 .findings2PParent{
   text-align: center;
+  margin:5%;
 }
 
 .findings2P{
   display: inline-block;
   text-align: left;
-  width:450px;
+  /*width:40%;*/
+  /*width:375px;*/
   vertical-align: top;
-  padding: 2%;
+  /*margin:1%;*/
 }
 
 /*DESIGN:
@@ -1100,15 +1098,6 @@ DESIGN DECISIONS*/
 .designDecisions{
   text-align: center;
 }
-
-/*.decNumber{
-  position:absolute;
-  width:100%;
-  font-size: 24px;
-  top:0;
-  padding-top: 12%;
-  padding-left:5px;
-}*/
 
 .decCircle{
   width:50px;
@@ -1119,35 +1108,15 @@ DESIGN DECISIONS*/
   position:relative;
   vertical-align: top;
   margin-right: 2%;
-  /*margin-bottom: 45px;*/
   display: inline-block;
-  font-size:
+  font-size:26px;
+  padding-top:7px;
 }
-
-/*.decNumbers{
-  display: inline-block;
-  vertical-align: top;
-  margin-right:5px;
-}*/
-
-/*.decCircle1{
-  margin-top: -7px;
-}
-.decCircle2{
-  margin-top: 150px;
-}
-.decCircle3{
-  margin-top: 200px;
-}*/
-
-/*.decSections{
-
-}*/
 
 .decText{
-text-align: left;
-width:650px;
-display: inline-block;
+  text-align: left;
+  width:650px;
+  display: inline-block;
 }
 
 .decPoints{
@@ -1229,6 +1198,8 @@ margin-left: 27%;
 .octoLogoNew2{
   width:250px;
 }
+
+
 /*NEXT STEPS*/
 .arrowContainer{
   /*text-align: center;*/
