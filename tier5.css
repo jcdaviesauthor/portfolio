@@ -61,6 +61,7 @@
   width:320px;
   height:320px;
   float:none;
+  vertical-align: top;
 }
 
 .boxTitle{
@@ -122,24 +123,16 @@ display:inline-block;
 .ourApproachTitle{
 font-size: 30px;
 text-align: center;
-margin-bottom: 3%;
 font-weight: bold;
 }
 
 .approach{
   text-align: center;
+  margin:5%;
 }
 
-@media (max-width: 634px) {
-  .approachSections{
-    width:2%;
-  }
-  .approach{
-    text-align: left;
-  }
-  .approachNumber{
-    padding-left:20px;
-  }
+.approachSections{
+  margin:2%;
 }
 
 .approachCircle{
@@ -150,59 +143,28 @@ font-weight: bold;
   color:white;
   position:relative;
   vertical-align: top;
-  /*margin-right: 2%;*/
-  margin-bottom: 45px;
-}
-
-.approachNumbers{
   display: inline-block;
-  vertical-align: top;
-  margin-right:5px;
+  font-size:26px;
+  padding-top:7px;
 }
 
-.approachCircle1{
-  margin-top: -7px;
-}
-.approachCircle2{
-  margin-top: 55px;
-
-}
-.approachCircle3{
-  margin-top: 50px;
-}
-.approachCircle4{
-  margin-top: -15px;
-}
-
-.approachNumber{
-  position:absolute;
-  width:100%;
-  font-size: 24px;
-  top:0;
-  padding-top: 12%;
-
-}
-
-
-
-.approachSections{
-
-  display: inline-block;
-}
-/*.approachCircle, .approachText{
-  display:inline-block;
-}*/
-
-.approachText{
-text-align: left;
-/*margin-top: 0.5%;*/
-width:550px;
-}
 
 .approachPoints{
 font-size: 24px;
+font-weight: bold;
 }
 
+.approachText{
+text-align: left;
+width:650px;
+display: inline-block;
+}
+
+@media (max-width:827px) {
+  .approachText{
+    width:90%;
+  }
+}
 
 /*STRATEGY:FUNNEL SECTION*/
 
@@ -233,15 +195,17 @@ font-size: 24px;
 }
 /*STRATEGY:Competitor Table*/
 
+.tableParent{
+  text-align: center;
+}
+
 .compTable{
   width:80%;
   margin:auto;
   margin-top:5%;
   /*overflow-x: scroll;*/
 }
-table{
-  border-top: 0px !important;
-}
+
 
 .compTableTitle{
   font-size: 40px;
@@ -309,8 +273,8 @@ width:75px;
 .cost{
   list-style-type: none;
 }
-.costPerLead{
-  border-bottom: 1px solid rgb(221, 221, 221);
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border-top: none;
 }
 
 .features{
@@ -319,6 +283,9 @@ width:75px;
 
 .featureCompImg{
   width:70%;
+}
+tbody{
+  border-color: 1px solid white;
 }
 
 /*THE RECOMMENDATION CIRCLES*/
@@ -842,7 +809,8 @@ border: 0;
   width: 60%;
 }
 
-/*SYNTHESIS: TWO EXPERIENCES*/
+/*SYNTHESIS:
+TWO EXPERIENCES*/
 
 .experiences{
   text-align: center;
@@ -854,8 +822,18 @@ border: 0;
 
 .pillar{
   display: inline-block;
-  height:200px
+  height:200px;
 }
+.experienceText{
+  display: inline-block;
+}
+
+@media (max-width: 767px){
+  .realTimeAndNur{
+    margin-top: 3%;
+  }
+}
+
 
 /*SYNTHESIS: INITIAL CONCEPTS*/
 .experienceTitle{
@@ -908,29 +886,40 @@ text-align: center;
 }
 
 /*DESIGN:INITAL FEATURES*/
-.subTitle{
-  font-size: 24px;
-  font-weight: bold;
+.featureTitleMargins{
+  margin-top:3%;
+  /*margin-bottom:3%;*/
+}
+
+/*row for bootstrap*/
+.featuresList{
   text-align: center;
 }
 
 .realTimeAndNur2{
 display:inline-block;
 text-align: center;
+/*margin:2%;*/
 }
 
-.featureMargins{
-  margin-top:3%;
-  margin-bottom:3%;
+.experienceTitleIcon{
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
 }
 
-.featuresList{
-  text-align: center;
+.iconSentence{
+  text-align: left;
+}
+
+.experienceSentence2{
+  display: inline-block;
+  text-align: left;
 }
 
 .featureIcon{
   width: 25px;
-  /*height: 25px;*/
   display: inline-block;
   margin-right: 1%;
 }
@@ -940,14 +929,11 @@ text-align: center;
   margin-right: 13px;
 }
 
-.experienceSentence2{
-  display: inline-block;
-  text-align: left;
-}
-
-.iconSentence{
-  text-align: left;
-}
+/*@media (max-width: 1025px){
+  .realTimeAndNur2{
+    width: 90%;
+  }
+}*/
 
 /*User Testing*/
 
@@ -1086,10 +1072,7 @@ Usability testing findings*/
 .findings2P{
   display: inline-block;
   text-align: left;
-  /*width:40%;*/
-  /*width:375px;*/
   vertical-align: top;
-  /*margin:1%;*/
 }
 
 /*DESIGN:
@@ -1097,6 +1080,7 @@ DESIGN DECISIONS*/
 
 .designDecisions{
   text-align: center;
+  margin:5%;
 }
 
 .decCircle{
@@ -1117,6 +1101,12 @@ DESIGN DECISIONS*/
   text-align: left;
   width:650px;
   display: inline-block;
+}
+
+@media (max-width:711px) {
+  .decText{
+    width:90%;
+  }
 }
 
 .decPoints{
