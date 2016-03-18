@@ -760,10 +760,20 @@ td{
   /*margin: 5px;*/
   border: 10px solid white;
 }
+.personaParent{
+  text-align: center;
+}
+
+/*for comp table and personas*/
 
 table{
   border: 20px solid white;
+  text-align: center;
+
 }
+/*th{
+  border: 1px solid white;
+}*/
 
 /*images*/
 .brad, .ajay{
@@ -1083,14 +1093,14 @@ DESIGN DECISIONS*/
   text-align: center;
 }
 
-.decNumber{
+/*.decNumber{
   position:absolute;
   width:100%;
   font-size: 24px;
   top:0;
   padding-top: 12%;
   padding-left:5px;
-}
+}*/
 
 .decCircle{
   width:50px;
@@ -1101,16 +1111,18 @@ DESIGN DECISIONS*/
   position:relative;
   vertical-align: top;
   margin-right: 2%;
-  margin-bottom: 45px;
+  /*margin-bottom: 45px;*/
+  display: inline-block;
+  font-size:
 }
 
-.decNumbers{
+/*.decNumbers{
   display: inline-block;
   vertical-align: top;
   margin-right:5px;
-}
+}*/
 
-.decCircle1{
+/*.decCircle1{
   margin-top: -7px;
 }
 .decCircle2{
@@ -1118,15 +1130,16 @@ DESIGN DECISIONS*/
 }
 .decCircle3{
   margin-top: 200px;
-}
+}*/
 
-.decSections{
-  display: inline-block;
-}
+/*.decSections{
+
+}*/
 
 .decText{
 text-align: left;
 width:650px;
+display: inline-block;
 }
 
 .decPoints{
@@ -1190,18 +1203,20 @@ margin-left: 27%;
 .logoWithText{
   display: inline-block;
   padding: 5%;
+  vertical-align: bottom;
 }
 
 .logoTitle{
   font-weight: bold;
   font-size: 24px;
+
 }
 
 .octoLogo{
   width:200px;
 }
 .octoLogoNew{
-  width:225px;
+  width:232px;
 }
 .octoLogoNew2{
   width:250px;
@@ -1213,7 +1228,6 @@ margin-left: 27%;
 
 .nextStepsArrow{
   width:90%;
-
 }
 
 .stepsParent{
@@ -1222,20 +1236,26 @@ margin-left: 27%;
 
 .stepsSec{
   display: inline-block;
+  text-align: center;
 }
 
-.rec{
+.recTop{
   width:300px;
   height:50px;
   background-color: rgb(241, 238, 238);
+  vertical-align: middle;
 }
 .phase{
   width:75px;
   height:75px;
   border-radius: 50%;
-
+  border: solid 2px rgb(01, 161, 167);
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24px;
 }
 
 .phaseText{
-
+text-align: left;
+width:300px;
 }
