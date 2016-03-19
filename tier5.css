@@ -855,11 +855,23 @@ text-align: center;
   text-align: left;
 }
 
-/*DESIGN:INITAL FEATURES*/
-.featureTitleMargins{
-  /*margin-top:3%;*/
-  /*margin-bottom:3%;*/
+
+@media (max-width:1030px) {
+  .videoDiv{
+  text-align: center;
+  }
+  .videoText{
+    width:550px;
+  }
 }
+
+@media (max-width:563px) {
+  .videoText{
+    width:370px;
+  }
+}
+
+/*DESIGN:INITAL FEATURES*/
 
 /*row for bootstrap*/
 .featuresList{
@@ -870,12 +882,8 @@ text-align: center;
 .realTimeAndNur2{
   display:inline-block;
   text-align: center;
-  /*margin: 5%;*/
-
 }
-/*.realTimeAndNur2Left{
-  margin-left: 10%;
-}*/
+
 .experienceTitleIcon{
   text-align: left;
   font-size: 24px;
@@ -1093,7 +1101,7 @@ Before and After*/
 
 .buildText{
   width:90%;
-  margin:0 auto;
+  margin-left: 7%;
 }
 
 .comparisons{
@@ -1163,44 +1171,35 @@ margin-left: 27%;
   width:250px;
 }
 
-
 /*NEXT STEPS*/
-.arrowContainer{
-  /*text-align: center;*/
-}
-
-.nextStepsArrow{
-  width:1200px;
-}
 
 .stepsParent{
   text-align: center;
-  margin:-15px 0 0 0;
-  width:90%;
 }
 
 .stepsSec{
   display: inline-block;
   text-align: center;
   vertical-align: top;
-  margin:15px;
+  margin:10px;
 }
 
 .recTop{
   width:300px;
   height:50px;
-  background-color: rgb(241, 238, 238);
+  background-color:rgb(01, 161, 167);
   vertical-align: middle;
   font-size: 20px;
   padding: 9px 0;
+  color: white;
 }
+
 .phase{
   width:75px;
   height:75px;
   border-radius: 50%;
-  border: solid 2px rgb(01, 161, 167);
+  border: solid 2px rgb(221,98,92);
   vertical-align: middle;
-  /*text-align: center;*/
   font-size: 24px;
   margin: 2% auto;
   padding-top: 18px;

@@ -1,18 +1,4 @@
-/*Other Header*/
-
-/*header{
-  background-color: rgba(207,208,203, 0.3) !important;
-}*/
-
-/*NAV NAV NAV NAV NAV NAV */
-/*nav{
-  height: 50px;
-}*/
-/*#menu-bar p, #menu-bar a {
-    color: white;
-    -webkit-text-shadow: none;
-    text-shadow: none;
-}*/
+/*NAV*//*NAV*//*NAV*//*NAV*/
 
 /*REFORMATTING BOOTSTRAP*/
 
@@ -28,8 +14,6 @@
 }
 .navbar-default, .navbar {
     background-color:rgba(207,208,203, 0.6) !important;
-    /*-webkit-background-image:none !important;
-    -moz-background-image:none !important;*/
     border: none;
     border-radius: 0px;
     border-color:none;
@@ -39,7 +23,6 @@
 #bs-example-navbar-collapse-1{
   float: right;
   font-size: 18px;
-  /*border-top: 1px solid rgb(74, 74, 74);*/
 }
 
 #navUl{
