@@ -197,9 +197,7 @@ display: inline-block;
 }
 
 .compTable{
-  /*width:90%;*/
   margin-left: 10%;
-  /*margin:auto;*/
   text-align: center;
 }
 /*
@@ -807,7 +805,6 @@ border: 0;
 
 /*SYNTHESIS:
 TWO EXPERIENCES*/
-
 .experiences{
   text-align: center;
 }
@@ -815,13 +812,23 @@ TWO EXPERIENCES*/
   display: inline-block;
   text-align: center;
 }
-
+.experienceText{
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
 .pillar{
   display: inline-block;
   height:200px;
 }
-.experienceText{
-  display: inline-block;
+
+.experienceTitle{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+.experienceSentence{
+  width: 300px
 }
 
 @media (max-width: 767px){
@@ -830,40 +837,7 @@ TWO EXPERIENCES*/
   }
 }
 
-
-/*SYNTHESIS: INITIAL CONCEPTS*/
-.experienceTitle{
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-}
-
-.experienceText{
-  text-align: left;
-  display: inline-block;
-  vertical-align: top;
-}
-.nurtureValign{
-  text-align: left;
-}
-
-@media (max-width: 992px){
-  .nurtureValign{
-    margin-top: 3%;
-  }
-}
-@media  (min-width: 920px) and (max-width: 1199px){
-  .realTime{
-    /*margin-left: 1%;*/
-  }
-}
-
-.experienceSentence{
-  width: 300px
-}
-
 /*DESIGN: VIDEO*/
-
 .videoDiv{
 text-align: center;
 }
@@ -883,7 +857,7 @@ text-align: center;
 
 /*DESIGN:INITAL FEATURES*/
 .featureTitleMargins{
-  margin-top:3%;
+  /*margin-top:3%;*/
   /*margin-bottom:3%;*/
 }
 
@@ -893,11 +867,13 @@ text-align: center;
 }
 
 .realTimeAndNur2{
-display:inline-block;
-text-align: center;
-/*margin:2%;*/
-}
+  display:inline-block;
+  text-align: center;
 
+}
+/*.realTimeAndNur2Left{
+  margin-left: 10%;
+}*/
 .experienceTitleIcon{
   text-align: left;
   font-size: 24px;
