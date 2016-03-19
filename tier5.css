@@ -199,13 +199,10 @@ display: inline-block;
 .compTable{
   width:80%;
   margin:auto;
-  text-align: center;
+  text-align: left;
 }
 
 @media screen (max-width: 767px) {
-  .compTable{
-  text-align: left;
-  }
   .tableParent{
   text-align: left;
   }
