@@ -204,16 +204,16 @@ display: inline-block;
 
 @media screen (max-width: 767px) {
   .compTable{
-    width:90%;
+    width:100%;
     text-align: left;
   }
 }
 
-@media screen (max-width: 931px) {
+/*@media screen (max-width: 931px) {
   .tableParent{
     text-align: left;
   }
-}
+}*/
 
 .compTableTitle{
   font-size: 40px;
