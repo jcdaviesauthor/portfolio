@@ -190,8 +190,8 @@ display: inline-block;
 }
 
 .compTable{
-  margin-left: 10%;
-  text-align: center;
+  margin-left: 8%;
+  text-align: left;
 }
 /*
 @media screen (max-width: 767px) {
@@ -331,7 +331,6 @@ position:relative;
 .pieItem{
   width:200px;
   text-align: center;
-  margin-bottom: 3%;
 }
 
 .pieItem25{
@@ -351,14 +350,9 @@ position:relative;
 padding-top: 175px;
 }
 
-
-
 .pieSign{
   width:50px;
 }
-
-  min-height: 100%;
-
 
 /*INTERVIEW & SURVERY SECTION*/
 
@@ -379,7 +373,7 @@ padding-top: 175px;
 }
 
 .researchNumbers{
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .peeps{
@@ -404,8 +398,8 @@ padding-top: 175px;
 
 /*CIRCLES AND TRIANGLES*/
 .titleP{
-font-size: 20px;
-font-weight: bold;
+font-size: 24px;
+/*font-weight: bold;*/
 text-align: center;
 }
 
