@@ -199,10 +199,17 @@ display: inline-block;
 .compTable{
   width:80%;
   margin:auto;
-  margin-top:5%;
-  /*overflow-x: scroll;*/
+  text-align: center;
 }
 
+@media screen (max-width: 767px) {
+  .compTable{
+  text-align: left;
+  }
+  .tableParent{
+  text-align: left;
+  }
+}
 
 .compTableTitle{
   font-size: 40px;
@@ -354,11 +361,7 @@ padding-top: 175px;
   width:50px;
 }
 
-@media (max-width: 414px) {
-  .pieEqual{
-    padding-top: 0px;
-  }
-}
+  min-height: 100%;
 
 
 /*INTERVIEW & SURVERY SECTION*/
@@ -771,15 +774,6 @@ border: 0;
   width:70%;
   margin-top: -5%;
 }
-
-/*@media screen (min-width: 688px) and (max-width: 982px){
-  .userBracket{
-    margin-left:27%;
-  }
-  .userFlowTitle{
-    margin-left:37%;
-  }
-}*/
 
 /*SYNTHESIS: REDEFINE PROBLEM*/
 .problem{
