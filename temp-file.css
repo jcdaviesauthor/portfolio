@@ -24,6 +24,10 @@
   font-size: 36px;
   text-align:center;
 }
+.emojiFix{
+padding-left: 5%;
+padding-right:5%;
+}
 
 #content{
 margin-top: 3%;
