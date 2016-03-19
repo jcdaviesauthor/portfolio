@@ -56,9 +56,13 @@ color: white !important;
   color: rgb(236,233,226) !important;
 }
 
+.sectionTitleJ{
+  font-size: 40px;
+  text-align: center;
+}
 
 .sectionTitle{
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 #jobTitle{
@@ -86,4 +90,51 @@ color: white !important;
 
 .gitLinked{
   width: 27px;
+}
+
+/*SKILLS TABLE*/
+.softDiv{
+text-align: center;
+}
+
+.swTable{
+  display:inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tableTitle{
+  background-color: rgb(74, 74, 74);
+}
+
+.tableTitleP{
+  font-size: 40px;
+  color: white;
+  background-color: rgb(74, 74, 74);
+  height: 100px;
+  margin-left: 7%;
+  padding-top: 1.75%;
+}
+
+
+table{
+  margin:20px;
+}
+
+th{
+  font-size: 24px;
+}
+
+td{
+  height:50px;
+}
+.grade{
+    width:100px;
+}
+.method{
+  width:180px;
+}
+
+.software{
+  width: 30px;
 }
