@@ -203,8 +203,15 @@ display: inline-block;
 }
 
 @media screen (max-width: 767px) {
+  .compTable{
+    width:90%;
+    text-align: left;
+  }
+}
+
+@media screen (max-width: 931px) {
   .tableParent{
-  text-align: left;
+    text-align: left;
   }
 }
 
