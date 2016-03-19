@@ -864,6 +864,7 @@ text-align: center;
 /*row for bootstrap*/
 .featuresList{
   text-align: center;
+  width: 90%;
 }
 
 .realTimeAndNur2{
