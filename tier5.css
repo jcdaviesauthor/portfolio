@@ -132,6 +132,7 @@ text-align: center;
   display: inline-block;
   font-size:26px;
   padding-top:7px;
+  margin-right: 2%;
 }
 
 
@@ -405,12 +406,11 @@ text-align: center;
 
 .researchCirTri{
   text-align: center;
-  margin 0 auto;
+  margin: 0 auto;
 }
 
 .researchCircles {
   display:inline-block;
-  /*width: 550px;*/
   vertical-align: top;
 }
 /*set width???*/
@@ -423,22 +423,15 @@ text-align: center;
     display:inline-block;
 }
 
-/*TRIAGLES*/
+/*TRIANGLES*/
 .researchTriangles{
   display:inline-block;
   text-align: center;
-  margin-top:0.5%;
-}
-
-.triangleText{
-  text-align: left;
-  width:400px;
-  font-size: 20px;
-  font-weight: bold;
+  margin-top:1%;
 }
 
 .triangleTextImg{
-  width:400px;
+  width:450px;
 }
 .triangleSectionDivs{
   text-align: center;
@@ -451,7 +444,6 @@ text-align: center;
 
 .brain{
   padding-top:3%;
-  /*padding-bottom: 3%;*/
   width: 80%;
 }
 
@@ -613,17 +605,6 @@ margin-left:0;
 margin-right:0;
 }
 
-/*lines around personas*/
-/*CHECK THIS COLOR*/
-/*.squaresPersonas{
-  text-align: center;
-  border: 1px solid rgb(201,210,210);
-  display:inline-block;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  width:100%;
-}*/
-
 /*Title for personas*/
 
 table{
@@ -752,11 +733,11 @@ border: 0;
 }
 
 .userFlowTitle{
-  font-size: 24px;
+  font-size: 30px;
   text-align: left;
   /*margin-left: 17%;*/
   text-align: center;
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin-bottom: 8%;
 }
 
@@ -773,18 +754,30 @@ border: 0;
 /*SYNTHESIS: REDEFINE PROBLEM*/
 .problem{
   text-align: center;
+  /*margin-bottom:1%;*/
+}
+
+.bullet{
+text-align: center;
+padding:1%;
 }
 
 .problemTitle{
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
+  /*font-weight: bold;*/
 }
 
-.alignGoalsTitle{
+.problemText{
   font-size: 24px;
+  margin-top: 0.5%;
+}
+
+/*see design decisons below for circle/number code*/
+
+.alignGoalsTitle{
+  font-size: 30px;
   text-align: center;
-  font-weight: bold;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 3%;
 }
 .alignCircles{
@@ -815,8 +808,8 @@ TWO EXPERIENCES*/
 }
 
 .experienceTitle{
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
+  /*font-weight: bold;*/
   text-align: left;
 }
 .experienceSentence{
@@ -846,7 +839,6 @@ text-align: center;
   vertical-align: top;
   text-align: left;
 }
-
 
 @media (max-width:1030px) {
   .videoDiv{
@@ -883,8 +875,8 @@ text-align: center;
 
 .experienceTitleIcon{
   text-align: left;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
+  /*font-weight: bold;*/
   text-align: left;
 }
 
@@ -900,7 +892,7 @@ text-align: center;
 .featureIcon{
   width: 25px;
   display: inline-block;
-  margin-right: 1%;
+  margin-right: 2%;
 }
 
 .flagIcon{
@@ -929,14 +921,8 @@ text-align: center;
 
 .userTestingRounds{
   color:rgb(74, 74, 74);
-  font-size: 24px;
-  /*margin-bottom: -50px;*/
-  /*z-index: 2;*/
+  font-size: 30px;
 }
-
-/*.userTestingRounds, .circle1, .circle2, .circle3{
-  position: absolute;
-}*/
 
 .circle1{
   background-color: rgb(01,161,167);
@@ -979,7 +965,6 @@ text-align: center;
 }
 
 .paperProtoDiv{
-  font-size: 18px;
   display: inline-block;
   margin: 2%;
 }
@@ -989,6 +974,13 @@ text-align: center;
   height:400px;
 }
 
+.paperProtoText{
+  font-size: 20px;
+}
+.usabilityTitle{
+  margin-top: 1%;
+}
+
 .top3Bottom3{
   display:block;
   text-align: center;
@@ -996,7 +988,9 @@ text-align: center;
 
 .feedbackParent{
 display: inline-block;
-margin:2%;
+margin-top:1%;
+margin-left: 3%;
+margin-right: 3%;
 }
 
 .testingFeedback{
@@ -1004,6 +998,7 @@ margin:2%;
   height: 120px;
   padding:5%;
   color: white;
+
 }
 
 .experienceBox{
@@ -1095,6 +1090,9 @@ font-weight: bold;
 
 /*BUILD AND DELIVER:
 Before and After*/
+.beforeAndAfter{
+  margin-bottom: 1%;
+}
 
 .buildText{
   width:90%;
@@ -1142,33 +1140,40 @@ margin-left: 27%;
 
 /*BUILD: logo redesign*/
 
+.logoTitle{
+  margin-bottom: 0;
+}
+
 .logoSecParent, .logoSec{
   text-align: center;
 }
 
 .logoWithText{
   display: inline-block;
-  padding: 5%;
+  padding: 3%;
   vertical-align: bottom;
 }
 
 .logoTitle{
-  font-weight: bold;
-  font-size: 24px;
-
+  font-size: 30px;
 }
 
 .octoLogo{
   width:200px;
 }
+
 .octoLogoNew{
   width:232px;
 }
+
 .octoLogoNew2{
   width:250px;
 }
 
 /*NEXT STEPS*/
+.rollOut{
+  margin-top: 0%;
+}
 
 .stepsParent{
   text-align: center;
@@ -1178,7 +1183,7 @@ margin-left: 27%;
   display: inline-block;
   text-align: center;
   vertical-align: top;
-  margin:10px;
+  margin:10px 10px 0px 10px;
 }
 
 .recTop{
@@ -1186,7 +1191,7 @@ margin-left: 27%;
   height:50px;
   background-color:rgb(01, 161, 167);
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 24px;
   padding: 9px 0;
   color: white;
 }
