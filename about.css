@@ -12,6 +12,10 @@
   height:auto;
   position: relative;
 }
+
+.quoteParent{
+  width:90%;
+}
   /*position:relative;*/
 #quote{
   z-index:3;
@@ -21,6 +25,7 @@
   height: auto;
   top:265px;
   line-height: 225%;
+  /*width:90%;*/
 }
 .topQuote, .bottomQuote{
   display:inline-block;
@@ -41,6 +46,7 @@ max-width:100%;
 height:auto;
 left: 0;
 right: 0;
+/*position: absolute;*/
 }
 
 /*CONTACT SECTION*/
@@ -184,7 +190,8 @@ font-weight: normal;
 }*/
 
 .method{
-  width:180px;
+  width:170px;
+  /*180*/
 }
 
 .software{
