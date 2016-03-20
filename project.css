@@ -44,20 +44,16 @@
 
 .processSectionTitleUpNext{
   padding-left: 3%;
-  width:100%;
   height:110px;
-  color:white;
-  background-color: rgb(74, 74, 74);
-  font-size: 30px;
-  padding-top: 3%;
-  margin-top: 3%;
   text-align: left;
 }
 
 /*tier 5 only*/
-/*@media screen (max-width: 768px) {
+/*@media screen (max-device-width: 768px) {
   .processSectionTitleUpNextTier{
-      height:150px;
-      padding-bottom: 3%;
+      margin-left: 50%;
+  }
+  .nextPortTier{
+    padding-left:50%;
   }
 }*/
