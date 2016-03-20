@@ -55,9 +55,9 @@
 }
 
 /*tier 5 only*/
-@media screen (max-width: 768px) {
+/*@media screen (max-width: 768px) {
   .processSectionTitleUpNextTier{
       height:150px;
       padding-bottom: 3%;
   }
-}
+}*/
