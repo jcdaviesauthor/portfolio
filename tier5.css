@@ -1142,6 +1142,10 @@ margin-left: 27%;
   margin-bottom: 0;
 }
 
+.logoTitleBeforeAndAfter{
+font-size: 30px;
+}
+
 .logoSecParent, .logoSec{
   text-align: center;
 }
@@ -1150,10 +1154,6 @@ margin-left: 27%;
   display: inline-block;
   padding: 3%;
   vertical-align: bottom;
-}
-
-.logoTitle{
-  font-size: 30px;
 }
 
 .octoLogo{
