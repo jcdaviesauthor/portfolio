@@ -827,13 +827,14 @@ text-align: center;
 
 .iframe{
   display:inline-block;
-  margin-right: 7%;
+  text-align: center;
   margin-bottom: 3%;
 }
 
 .videoText{
   display:inline-block;
   width:300px;
+  margin-left: 5%;
   vertical-align: top;
   text-align: left;
 }
@@ -843,13 +844,15 @@ text-align: center;
   text-align: center;
   }
   .videoText{
-    width:550px;
+    width:600px;
+    margin-left: 0%;
   }
 }
 
-@media (max-width:563px) {
+@media (max-width:617px) {
   .videoText{
     width:370px;
+    margin-left: 0%;
   }
 }
 
@@ -942,19 +945,24 @@ text-align: center;
 
 .prototypeImg{
   width:250px;
-  /*width:200px;*/
 }
 
 .prototypeImgDiv{
   display:inline-block;
-  /*border:2px solid rgb(221,98,92);*/
   border:1px solid rgb(74, 74, 74);
   width:255px;
-  /*width:205px;*/
   height:275px;
-  /*height:220px;*/
   vertical-align: top;
   margin:15px;
+}
+.protoTypes{
+  text-align: center;
+}
+.protoTypesPaper{
+  margin-top:5px;
+}
+.protoTypesLow{
+  margin-top:18px;
 }
 
 /*PAPER PROTOTYPES*/
