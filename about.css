@@ -13,20 +13,35 @@
   position: relative;
 }
 
-.quoteParent{
+/*.quoteParent{
   width:90%;
-}
+}*/
   /*position:relative;*/
+
+  #myPic{
+  max-width:100%;
+  height:auto;
+  left: 0;
+  right: 0;
+  /*position: absolute;*/
+  }
+
 #quote{
-  z-index:3;
+  z-index:100;
   position: absolute;
   /*margin-bottom: 10%;*/
-  margin-left: 2%;
+  margin-left: 10px;
   height: auto;
   top:265px;
   line-height: 225%;
-  /*width:90%;*/
+  width:100%;
 }
+
+/*@media (max-width:767px) {
+  #quote{
+  margin-bottom:-100px;
+  }
+}*/
 .topQuote, .bottomQuote{
   display:inline-block;
 }
@@ -34,6 +49,7 @@
 .quoteImg{
   width:40px;
   margin-top: -40%;
+  /*position: absolute;*/
 }
 .quoteText{
   font-size: 40px;
@@ -41,13 +57,7 @@
   color: rgb(74, 74, 74);
 }
 
-#myPic{
-max-width:100%;
-height:auto;
-left: 0;
-right: 0;
-/*position: absolute;*/
-}
+
 
 /*CONTACT SECTION*/
 #contact{
