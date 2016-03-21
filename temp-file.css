@@ -1,11 +1,8 @@
-/*body{
-  text-align: center;
-}*/
+
 /*webMD*/
 #catburrito{
   width:70%;
   text-align: center;
-  /*padding-top: 3%;*/
 }
 /*Beuty Cures*/
 #spaMask{
@@ -17,7 +14,6 @@
 #emoji{
   width:80%;
   text-align: center;
-  /*padding-top: 3%;*/
 }
 
 .changeBack, h2{

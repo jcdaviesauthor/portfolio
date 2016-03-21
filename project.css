@@ -29,6 +29,12 @@
 }
 
 /*UP TEXT SECTION AT BOTTOM OF PORTFOLIO*/
+.processSectionTitleUpNext{
+  padding-left: 3%;
+  height:110px;
+  text-align: left;
+  margin-bottom: 0%;
+}
 .nextPort{
   font-size:18px;
   text-align: right;
@@ -41,19 +47,3 @@
 .arrowPort{
   width: 25px;
 }
-
-.processSectionTitleUpNext{
-  padding-left: 3%;
-  height:110px;
-  text-align: left;
-}
-
-/*tier 5 only*/
-/*@media screen (max-device-width: 768px) {
-  .processSectionTitleUpNextTier{
-      margin-left: 50%;
-  }
-  .nextPortTier{
-    padding-left:50%;
-  }
-}*/
