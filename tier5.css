@@ -1,162 +1,19 @@
+/*HEADER BLOCK*/
 
-/*GET COLORING UNDER THE HEADER AND HEADER*/
-#header{
-  z-index: 2;
-}
-
-#projectTitleBox{
-  height:auto;
-  left: 0;
-  right: 0;
-  z-index: -2;
-  margin-top: -10%;
-  width: 100%;
-  height:450px;
-  text-align: center;
-  -moz-text-align: center;
-  margin-bottom: 3%;
-}
-
-.projectTitleSize{
-  text-align: center;
-  font-size: 30px;
-}
-
-#projectTitle{
-  color: white;
-}
-
-.titleBackground{
-  background-color: rgb(01,161,167);
-  }
-
-.projectLogo{
-  width:250px;
-  padding-top:15%;
-  }
-
+/*OCTOBOOGIE*/
 .image-swap img:last-child{display:none}
 .image-swap:hover img:first-child{display:none}
 .image-swap:hover img:last-child{display:inline-block}
 
-/*INTRODUCTION*/
-.introBoxes{
-  text-align: center;
-}
-
-.introBox{
-  display:inline-block;
-  width:350px;
-  /*height:350px;*/
-  float:none;
-  vertical-align: top;
-}
-
-.boxTitle{
-  color: white;
-  text-align: left;
-  font-size: 24px;
-  color: rgb(221, 98, 92);
-}
-
-.boxText{
-color: rgb(93,104,106);
-text-align: left;
-}
 
 /*OUR PROCESS*/
-.ourProcessTitle{
-  font-size: 30px;
-  text-align: center;
-  margin-top:3%;
-  margin-bottom: 3%;
+  .processCircle{
+  background: rgb(01,161,167);
 }
 
-.processCircleDiv{
-text-align: center;
-}
-
-.processCircle{
-width:125px;
-height:125px;
-border-radius:50%;
-background: rgb(01,161,167);
-color: white;
-position:relative;
-}
-
-.process{
-display:inline-block;
-}
-
-.arrow{
-  width:75px;
-  padding-bottom: 100px;
-}
-
-.circleText{
-  position:absolute;
-  width:100%;
-}
-
-.twoLine{
-  padding-top: 30px;
-}
-
-.oneLine{
-  padding-top: 40px;
-}
-
-/*STRATEGY SECTION: approach*/
-.ourApproachTitle{
-font-size: 30px;
-text-align: center;
-}
-
-.approach{
-  text-align: center;
-  margin:3% 2% 0 3%;
-}
-
-.approachSections{
-  margin:2%;
-}
-
-
+/*APPROACH SECTION*/
 .approachCircle{
-  width:50px;
-  height:50px;
-  border-radius:50%;
   background-color: rgb(221,98,92);
-  color:white;
-  position:relative;
-  vertical-align: top;
-  display: inline-block;
-  font-size:26px;
-  padding-top:7px;
-  margin-right: 2%;
-}
-
-
-.approachPoints{
-font-size: 24px;
-font-weight: bold;
-}
-
-.approachText{
-text-align: left;
-width:650px;
-display: inline-block;
-}
-
-@media (max-width:827px) {
-  .approachText{
-    width:90%;
-  }
-}
-
-.processCircleFix{
-  margin-top: 0%;
 }
 
 /*STRATEGY:FUNNEL SECTION*/
@@ -166,8 +23,6 @@ display: inline-block;
   padding-top: 2%;
 }
 
-
-
 .competitorLogos{
   width:250px;
   display: inline-block;
@@ -176,7 +31,6 @@ display: inline-block;
 .cContact, .lNexus{
     width:300px;
 }
-
 
 .logoRow{
   padding-bottom:1%;
@@ -196,14 +50,9 @@ display: inline-block;
 }
 
 .compTable{
-  margin-left: 8%;
   text-align: left;
-}
-
-@media screen (max-width: 767px) {
-  .compTable{
-    margin-left: 0%;
-  }
+  width:992px;
+  margin: 0 auto;
 }
 
 .compTableTitle{
@@ -216,11 +65,13 @@ display: inline-block;
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
 .compTableBar{
   background-color: rgb(01, 161, 167);
   color:white;
   text-align: center;
 }
+
 .compTableText{
   vertical-align: top;
   color:rgb(74, 74, 74);
@@ -288,7 +139,6 @@ tbody{
 }
 
 /*THE RECOMMENDATION CIRCLES*/
-
 .circleRecWrapper{
   text-align: center;
 }
@@ -378,10 +228,10 @@ padding-top: 175px;
 .peeps{
   width:75px;
   vertical-align: bottom;
-  /*margin-top:1%;*/
   margin-right: 2%;
   margin-bottom: 2%;
 }
+
 .topPeep{
   padding-bottom: 3%;
 }
@@ -398,7 +248,6 @@ padding-top: 175px;
 /*CIRCLES AND TRIANGLES*/
 .titleP{
 font-size: 24px;
-/*font-weight: bold;*/
 text-align: center;
 }
 
@@ -411,7 +260,7 @@ text-align: center;
   display:inline-block;
   vertical-align: top;
 }
-/*set width???*/
+
 .circles3{
   width:400px;
 }
@@ -446,7 +295,6 @@ text-align: center;
 }
 
 /*INTERVIEW COMMENTS*/
-
 .squareRec{
   margin:5%;
 }
@@ -561,7 +409,6 @@ text-align: center;
   margin-bottom: 2%;
 }
 .bold700{
-/*font-family: 'Lora', serif;*/
 font-weight: 700;
 }
 
@@ -569,11 +416,7 @@ font-weight: 700;
   text-align: left;
   display: inline-block;
   width:80%;
-  /*margin-bottom: 2%;*/
 }
-
- /*font-family: 'Metrophobic', Arial, serif;
- font-weight: 400;*/
 
 /*SYNTHESIS SECTION*/
 /*JOURNEY MAP*/
@@ -583,13 +426,11 @@ font-weight: 700;
 }
 .journeyTitle{
   font-size: 30px;
-  /*margin-left: 7%;*/
   margin-bottom: 2%;
 }
 
 .journeyMap{
   width:70%;
-/*margin-left: 7%;*/
 }
 
 /*PERSONAS*/
@@ -604,7 +445,6 @@ margin-right:0;
 }
 
 /*Title for personas*/
-
 table{
   display:inline-block;
 }
@@ -614,7 +454,6 @@ table{
 
 .personaTypes{
   font-size: 30px;
-  /*font-weight: bold;*/
 }
 
 .textBoxName{
@@ -674,7 +513,6 @@ padding-top: 5%;
 
 .textBoxTech{
   background-color: rgb(246, 243, 246);
-  /*display:inline-block;*/
   text-align: left;
   margin: 5px;
   vertical-align: top;
@@ -687,8 +525,8 @@ padding-top: 5%;
   background-color: rgb(221, 98, 92);
   color: white;
 }
+
 td{
-  /*margin: 5px;*/
   border: 10px solid white;
 }
 .personaParent{
@@ -696,11 +534,9 @@ td{
 }
 
 /*for comp table and personas*/
-
 table{
   border: 20px solid white;
   text-align: center;
-
 }
 
 /*images*/
@@ -719,11 +555,13 @@ border: 0;
 .bradTd{
   background-color: rgb(99, 100, 94)
 }
+
 /*USER FLOW*/
 .bracketDiv{
   display: block;
   margin-top: 4%;
 }
+
 .userBracket{
   margin:3%;
   width:350px;
@@ -731,9 +569,6 @@ border: 0;
 }
 
 .userFlowTitle{
-  /*font-size: 30px;
-  text-align: left;
-  text-align: center;*/
   margin-bottom: 8%;
 }
 
@@ -750,7 +585,6 @@ border: 0;
 /*SYNTHESIS: REDEFINE PROBLEM*/
 .problem{
   text-align: center;
-  /*margin-bottom:1%;*/
 }
 
 .bullet{
@@ -760,7 +594,6 @@ padding:1%;
 
 .problemTitle{
   font-size: 30px;
-  /*font-weight: bold;*/
 }
 
 .problemText{
@@ -789,10 +622,12 @@ TWO EXPERIENCES*/
 .experiences{
   text-align: center;
 }
+
 .realTimeAndNur{
   display: inline-block;
   text-align: center;
 }
+
 .experienceText{
   text-align: left;
   display: inline-block;
@@ -805,9 +640,9 @@ TWO EXPERIENCES*/
 
 .experienceTitle{
   font-size: 30px;
-  /*font-weight: bold;*/
   text-align: left;
 }
+
 .experienceSentence{
   width: 300px
 }
@@ -865,7 +700,6 @@ text-align: center;
 
 .realTimeAndNur2{
   display:inline-block;
-  /*margin: 0 auto;*/
   text-align: center;
   width:402px;
   vertical-align: top;
@@ -875,7 +709,6 @@ text-align: center;
 .experienceTitleIcon{
   text-align: left;
   font-size: 30px;
-  /*font-weight: bold;*/
   text-align: left;
 }
 
@@ -898,12 +731,6 @@ text-align: center;
   width:15px;
   margin-right: 13px;
 }
-
-/*@media (max-width: 1025px){
-  .realTimeAndNur2{
-    width: 90%;
-  }
-}*/
 
 /*User Testing*/
 
@@ -1002,7 +829,6 @@ margin-right: 3%;
   height: 120px;
   padding:5%;
   color: white;
-
 }
 
 .experienceBox{
@@ -1013,7 +839,6 @@ margin-right: 3%;
   display:inline-block;
   color:rgb(74,74,74);
   width:200px;
-  /*height:250px;*/
   vertical-align: top;
 }
 .feedbackParentGreen{
@@ -1134,13 +959,6 @@ margin-left: 27%;
 
 .listViewImg{
   width:500px;
-}
-
-/*BUILD: Prototype*/
-.prototypeLink{
-  text-decoration: underline;
-  text-align: center;
-  font-size: 24px;
 }
 
 /*BUILD: logo redesign*/

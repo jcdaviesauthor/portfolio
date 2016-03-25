@@ -1,0 +1,1034 @@
+/*HEADER BLOCK*/
+/*see project.css*/
+
+/*INTRODUCTION*/
+/*see project.css*/
+
+/*OUR PROCESS*/
+  .processCircle{
+  background: rgb(01,161,167);
+}
+
+/*APPROACH SECTION*/
+.approachCircle{
+  background-color: rgb(221,98,92);
+}
+
+/*STRATEGY:FUNNEL SECTION*/
+
+.funnelLogos{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.competitorLogos{
+  width:250px;
+  display: inline-block;
+}
+
+.cContact, .lNexus{
+    width:300px;
+}
+
+.logoRow{
+  padding-bottom:1%;
+}
+
+.funnel{
+  text-align: center;
+  width: 300px;
+}
+/*STRATEGY:Competitor Table*/
+.tableGrandparent{
+  text-align: center;
+}
+
+.tableParent{
+  text-align: center;
+}
+
+.compTable{
+  text-align: left;
+  width:992px;
+  margin: 0 auto;
+}
+
+.compTableTitle{
+  font-size: 40px;
+  text-align: center;
+  color:rgb(01, 161, 167);
+  background:rgb(234,231,231);
+  margin-bottom: 4%;
+  margin-top: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.compTableBar{
+  background-color: rgb(01, 161, 167);
+  color:white;
+  text-align: center;
+}
+
+.compTableText{
+  vertical-align: top;
+  color:rgb(74, 74, 74);
+}
+
+th{
+  text-align: center;
+}
+
+.leftSideTitles{
+background-color: rgb(01, 161, 167);
+color:white;
+padding-left: 1%;
+padding-right:1%;
+}
+
+.weakLine{
+  border-top:solid 1px rgb(74, 74, 74);
+}
+.weakColor{
+background-color:rgb(246, 243, 246);
+}
+
+.weakLineTop{
+  border-top:solid 1px white;
+}
+
+td{
+width:150px;
+font-size: 16px;
+}
+
+.competitorTableLogos{
+  width:110px;
+  vertical-align: bottom;
+}
+.zoomTableLogo{
+  width:75px;
+}
+
+.tierTableLogo{
+  width:90px;
+}
+
+.insideTableLogo {
+width:75px;
+}
+
+.cost{
+  list-style-type: none;
+}
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border-top: none;
+}
+
+.features{
+  text-align: center;
+}
+
+.featureCompImg{
+  width:70%;
+}
+tbody{
+  border-color: 1px solid white;
+}
+
+/*THE RECOMMENDATION CIRCLES*/
+.circleRecWrapper{
+  text-align: center;
+}
+
+.recCircle{
+width:225px;
+height:225px;
+border-radius:50%;
+border: solid 3px rgb(221,98,92);
+color: rgb(74, 84, 74);
+display:inline-block;
+margin-left: 2%;
+position:relative;
+}
+
+.circleRecText{
+  font-size: 18px;
+  position:absolute;
+  width:100%;
+  padding-top:25%;
+  padding-left:5%;
+  padding-right:5%;
+}
+/*PIE SECTION*/
+.pieIntro{
+  text-align: center;
+  margin-top:3%;
+  /*margin-bottom: 3%;*/
+}
+
+.pieIntroSec{
+  font-size: 20px;
+  display: inline-block;
+  text-align:center;
+}
+.pies{
+  vertical-align:top;
+}
+.pieItem{
+  width:200px;
+  text-align: center;
+}
+
+.pieItem25{
+  width:100px;
+  padding-top: 10%;
+}
+
+.pieIntroSubTitle{
+  font-weight: bold;
+  font-size: 18px;
+}
+.pieText{
+  font-size: 16px;
+}
+
+.operators{
+padding-top: 175px;
+}
+
+.pieSign{
+  width:50px;
+}
+
+/*INTERVIEW & SURVERY SECTION*/
+
+.surveyAndInterview{
+  margin-bottom: 3%;
+}
+.researchPeepsContainer{
+  text-align: center;
+}
+
+.peepsStats{
+  text-align: left;
+  vertical-align: top;
+  font-size: 20px;
+}
+.researchInline{
+    display:inline-block;
+}
+
+.researchNumbers{
+  font-size: 24px;
+}
+
+.peeps{
+  width:75px;
+  vertical-align: bottom;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.topPeep{
+  padding-bottom: 3%;
+}
+
+.width{
+  width: 200px;
+}
+ .researchDes{
+   width: 450px;
+   text-align: left;
+   vertical-align: top;
+ }
+
+/*CIRCLES AND TRIANGLES*/
+.titleP{
+font-size: 24px;
+text-align: center;
+}
+
+.researchCirTri{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.researchCircles {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.circles3{
+  width:400px;
+}
+
+.researchCircles{
+    margin-bottom: 3%;
+    display:inline-block;
+}
+
+/*TRIANGLES*/
+.researchTriangles{
+  display:inline-block;
+  text-align: center;
+  margin-top:1%;
+}
+
+.triangleTextImg{
+  width:450px;
+}
+.triangleSectionDivs{
+  text-align: center;
+}
+
+/*BRAIN */
+.brainBackground{
+  text-align: center;
+}
+
+.brain{
+  padding-top:3%;
+  width: 80%;
+}
+
+/*INTERVIEW COMMENTS*/
+.squareRec{
+  margin:5%;
+}
+
+.rec {
+  width: 185px;
+  height: 120px;
+  color:rgb(74, 74, 74);
+  text-align: left;
+  padding:5%;
+  text-align:left;
+}
+
+.rec1{
+  background-color: rgb(214,245, 242);
+}
+
+.rec2{
+  background-color: rgb(246,243,246);
+}
+
+.rec3{
+
+  background-color: rgb(137,229,223);
+}
+
+.rec4{
+  background-color: rgb(74, 74, 74);
+  color:white;
+}
+
+.rec5{
+  background-color: rgb(01,161,167);
+  color:white;
+}
+
+.square{
+  width: 185px;
+  height: 150px;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+.recPaddimg{
+  padding-right:2%;
+}
+
+.squareRec{
+  text-align: center;
+}
+
+.squareRecSec{
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.faceCircles{
+  width:75px;
+}
+
+/*THE LINE CONNECTED TO CIRCLE*/
+.findingsCircle1{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(221,98,92);
+  z-index: 2;
+  vertical-align: top;
+  display: inline-block;
+  margin-right:2%;
+}
+
+.findingsCircle {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(221,98,92);
+  z-index: 2;
+  vertical-align: top;
+  display: inline-block;
+  margin-right:2%;
+}
+
+.findingsCircle:first-child {
+  margin-top: 0;
+}
+
+.findingsCircle:after{
+  position: absolute;
+  background-color: rgb(221,98,92);
+  width: 5px;
+  height: 200%;
+  display: block;
+  content: '';
+  left: 50%;
+  z-index: 1;
+  top: -54px;
+  margin-left: -1px;
+}
+
+.findingsCircle:first-child:before {
+  display: none;
+}
+
+.findings{
+  text-align: center;
+  margin-bottom: 2%;
+}
+.bold700{
+font-weight: 700;
+}
+
+.findingsText{
+  text-align: left;
+  display: inline-block;
+  width:80%;
+}
+
+/*SYNTHESIS SECTION*/
+/*JOURNEY MAP*/
+
+.centerJMap{
+  text-align: center;
+}
+.journeyTitle{
+  font-size: 30px;
+  margin-bottom: 2%;
+}
+
+.journeyMap{
+  width:70%;
+}
+
+/*PERSONAS*/
+.personaAjayBrad{
+  display:inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+.row{
+margin-left:0;
+margin-right:0;
+}
+
+/*Title for personas*/
+table{
+  display:inline-block;
+}
+
+.personaParent{
+}
+
+.personaTypes{
+  font-size: 30px;
+}
+
+.textBoxName{
+text-align: left;
+margin: 5px;
+}
+
+.ajayName{
+  background-color: rgb(01, 161, 167);
+  color:white;
+}
+
+.textBoxQuote{
+  width:115px;
+  height:175px;
+  margin: 5px;
+  vertical-align: top;
+  font-style: italic;
+}
+
+.boxTitles{
+  font-weight: bold;
+}
+.padding{
+  padding-top: 2%;
+  padding-left:2%;
+  padding-right: 2%;
+}
+
+.textBoxQuoteAjay{
+background-color: rgb(213,245,242);
+padding-top: 5%;
+}
+.textBoxQuoteBrad{
+  background-color: rgb(248,216,213);
+  padding-top: 3%;
+}
+
+.textBoxGoals{
+  width:175px;
+  height:200px;
+  background-color: rgb(222,225,225);
+  text-align: left;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.textBoxFrustrations{
+  width:240px;
+  height:200px;
+  color:white;
+  background-color: rgb(74, 74, 74);
+  text-align: left;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.textBoxTech{
+  background-color: rgb(246, 243, 246);
+  text-align: left;
+  margin: 5px;
+  vertical-align: top;
+  width:115px;
+  height:200px;
+  padding: 1%;
+}
+
+.textBoxNameBrad{
+  background-color: rgb(221, 98, 92);
+  color: white;
+}
+
+td{
+  border: 10px solid white;
+}
+.personaParent{
+  text-align: center;
+}
+
+/*for comp table and personas*/
+table{
+  border: 20px solid white;
+  text-align: center;
+}
+
+/*images*/
+.brad, .ajay{
+min-width:173px;
+max-width:100%;
+max-height:100%;
+vertical-align: top;
+border: 0;
+}
+
+.ajayTd{
+  background-color: rgb(218, 217, 215)
+}
+
+.bradTd{
+  background-color: rgb(99, 100, 94)
+}
+
+/*USER FLOW*/
+.bracketDiv{
+  display: block;
+  margin-top: 4%;
+}
+
+.userBracket{
+  margin:3%;
+  width:350px;
+  margin-left: 10%;
+}
+
+.userFlowTitle{
+  margin-bottom: 8%;
+}
+
+.userFlow{
+  text-align: center;
+  margin-top: 4%;
+}
+
+.userFlowImg{
+  width:70%;
+  margin-top: -5%;
+}
+
+/*SYNTHESIS: REDEFINE PROBLEM*/
+.problem{
+  text-align: center;
+}
+
+.bullet{
+text-align: center;
+padding:1%;
+}
+
+.problemTitle{
+  font-size: 30px;
+}
+
+.problemText{
+  font-size: 24px;
+  margin-top: 0.5%;
+}
+
+/*see design decisons below for circle/number code*/
+
+.alignGoalsTitle{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.alignCircles{
+  text-align: center;
+}
+
+.venn{
+  width: 60%;
+}
+
+/*SYNTHESIS:
+TWO EXPERIENCES*/
+.experiences{
+  text-align: center;
+}
+
+.realTimeAndNur{
+  display: inline-block;
+  text-align: center;
+}
+
+.experienceText{
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+.pillar{
+  display: inline-block;
+  height:200px;
+}
+
+.experienceTitle{
+  font-size: 30px;
+  text-align: left;
+}
+
+.experienceSentence{
+  width: 300px
+}
+
+@media (max-width: 767px){
+  .realTimeAndNur{
+    margin-top: 3%;
+  }
+}
+
+/*DESIGN: VIDEO*/
+.videoDiv{
+text-align: center;
+}
+
+.iframe{
+  display:inline-block;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.videoText{
+  display:inline-block;
+  width:300px;
+  margin-left: 5%;
+  vertical-align: top;
+  text-align: left;
+}
+
+@media (max-width:1030px) {
+  .videoDiv{
+  text-align: center;
+  }
+  .videoText{
+    width:600px;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width:617px) {
+  .videoText{
+    width:370px;
+    margin-left: 0%;
+  }
+}
+
+/*DESIGN:INITAL FEATURES*/
+
+/*row for bootstrap*/
+.featuresList{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.realTimeAndNur2{
+  display:inline-block;
+  text-align: center;
+  width:402px;
+  vertical-align: top;
+  margin: 2%;
+}
+
+.experienceTitleIcon{
+  text-align: left;
+  font-size: 30px;
+  text-align: left;
+}
+
+.iconSentence{
+  text-align: left;
+}
+
+.experienceSentence2{
+  display: inline-block;
+  text-align: left;
+}
+
+.featureIcon{
+  width: 25px;
+  display: inline-block;
+  margin-right: 2%;
+}
+
+.flagIcon{
+  width:15px;
+  margin-right: 13px;
+}
+
+/*User Testing*/
+
+.testingCircleSec{
+  text-align: center;
+}
+
+.testingCircles{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display: inline-block;
+}
+
+.userTestingRounds{
+  color:rgb(74, 74, 74);
+  font-size: 30px;
+}
+
+.circle1{
+  background-color: rgb(01,161,167);
+  margin-right:-20px;
+}
+
+.circle2{
+  background-color: rgb(221,98,92);
+    margin-right:-20px;
+}
+
+.circle3{
+  background-color: rgb(74, 74, 74);
+}
+
+.prototypes{
+  text-align: center;
+}
+
+.prototypeImg{
+  width:250px;
+}
+
+.prototypeImgDiv{
+  display:inline-block;
+  border:1px solid rgb(74, 74, 74);
+  width:255px;
+  height:275px;
+  vertical-align: top;
+  margin:15px;
+}
+.protoTypes{
+  text-align: center;
+}
+.protoTypesPaper{
+  margin-top:5px;
+}
+.protoTypesLow{
+  margin-top:18px;
+}
+
+/*PAPER PROTOTYPES*/
+.paperPrototypes{
+  text-align: center;
+}
+
+.paperProtoDiv{
+  display: inline-block;
+  margin: 2%;
+}
+
+.paperProtoImg{
+  width:300px;
+  height:400px;
+}
+
+.paperProtoText{
+  font-size: 20px;
+}
+.usabilityTitle{
+  margin-top: 1%;
+}
+
+.top3Bottom3{
+  display:block;
+  text-align: center;
+}
+
+.feedbackParent{
+display: inline-block;
+margin-top:1%;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+.testingFeedback{
+  width: 200px;
+  height: 120px;
+  padding:5%;
+  color: white;
+}
+
+.experienceBox{
+  text-align: center;
+}
+
+.feedbackP{
+  display:inline-block;
+  color:rgb(74,74,74);
+  width:200px;
+  vertical-align: top;
+}
+.feedbackParentGreen{
+  background-color: rgb(01, 161, 167);
+  color: white;
+}
+
+.feedbackParentOrange{
+  background-color: rgb(221,98,92);
+  color: white;
+}
+
+.feedbackParentCharcol{
+ background-color: rgb(74,74,74);
+ color: white;
+}
+
+.feedbackParentLightGreen{
+  background-color: rgb(212,245,242);
+  color: rgb(74,74,74);
+}
+.feedbackParentLightOrange{
+  background-color: rgb(249,216,212);
+  color: rgb(74,74,74);
+}
+
+/*DESIGN:
+Usability testing findings*/
+.findings2PParent{
+  text-align: center;
+  margin:5%;
+}
+
+.findings2P{
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+/*DESIGN:
+DESIGN DECISIONS*/
+
+.designDecisions{
+  text-align: center;
+  margin:5%;
+}
+
+.decCircle{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color: rgb(01, 161,167);
+  color:white;
+  position:relative;
+  vertical-align: top;
+  margin-right: 2%;
+  display: inline-block;
+  font-size:26px;
+  padding-top:7px;
+}
+
+.decText{
+  text-align: left;
+  width:650px;
+  display: inline-block;
+}
+
+@media (max-width:711px) {
+  .decText{
+    width:90%;
+  }
+}
+
+.decPoints{
+font-size: 24px;
+font-weight: bold;
+}
+
+/*BUILD AND DELIVER:
+Before and After*/
+.beforeAndAfter{
+  margin-bottom: 1%;
+}
+
+.buildText{
+  width:90%;
+  margin-left: 7%;
+  font-size: 18px;
+}
+
+.comparisons{
+  text-align: center;
+}
+
+.comparisonTitle{
+  text-align: center;
+  font-size: 24px;
+  margin-left: 5%;
+}
+
+.formerFilter{
+  margin-left:33%;
+}
+
+.filter{
+margin-left: 27%;
+}
+
+.comparisonTitle2{
+  margin-left:10%;
+}
+
+.listView{
+    display: inline-block;
+    vertical-align: top;
+    padding:2%;
+}
+
+.listViewImg{
+  width:500px;
+}
+
+/*BUILD: logo redesign*/
+
+.logoTitle{
+  margin-bottom: 0;
+}
+
+.logoTitleBeforeAndAfter{
+font-size: 30px;
+}
+
+.logoSecParent, .logoSec{
+  text-align: center;
+}
+
+.logoWithText{
+  display: inline-block;
+  padding: 3%;
+  vertical-align: bottom;
+}
+
+.octoLogo{
+  width:200px;
+}
+
+.octoLogoNew{
+  width:232px;
+}
+
+.octoLogoNew2{
+  width:250px;
+}
+
+/*NEXT STEPS*/
+.rollOut{
+  margin-top: 0%;
+}
+
+.stepsParent{
+  text-align: center;
+}
+
+.stepsSec{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin:10px 10px 0px 10px;
+}
+
+.recTop{
+  width:300px;
+  height:50px;
+  background-color:rgb(01, 161, 167);
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 9px 0;
+  color: white;
+}
+
+.phase{
+  width:75px;
+  height:75px;
+  border-radius: 50%;
+  border: solid 2px rgb(221,98,92);
+  vertical-align: middle;
+  font-size: 24px;
+  margin: 2% auto;
+  padding-top: 18px;
+}
+
+.phaseText{
+text-align: left;
+width:300px;
+}

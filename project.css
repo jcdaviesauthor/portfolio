@@ -1,3 +1,158 @@
+/*HEADER BLOCK*/
+#header{
+  z-index: 2;
+}
+
+.projectTitleBox{
+  height:auto;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  margin-top: -10%;
+  width: 100%;
+  height:450px;
+  text-align: center;
+  -moz-text-align: center;
+  margin-bottom: 3%;
+}
+
+.projectTitleSize{
+  text-align: center;
+  font-size: 30px;
+}
+
+.projectTitle{
+  color: white;
+}
+
+.titleBackgroundTier{
+  background-color: rgb(01,161,167);
+  }
+
+.projectLogo{
+  width:250px;
+  padding-top:15%;
+  }
+
+  /*INTRODUCTION-MY ROLE*/
+  .introBoxes{
+    text-align: center;
+  }
+
+  .introBox{
+    display:inline-block;
+    width:350px;
+    float:none;
+    vertical-align: top;
+  }
+
+  .boxTitle{
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(221, 98, 92);
+  }
+
+  .boxText{
+  color: rgb(93,104,106);
+  text-align: left;
+  }
+
+  /*OUR PROCESS*/
+  .ourProcessTitle{
+    font-size: 30px;
+    text-align: center;
+    margin-top:3%;
+    margin-bottom: 3%;
+  }
+
+  .processCircleDiv{
+  text-align: center;
+  }
+
+  .processCircle{
+  width:125px;
+  height:125px;
+  border-radius:50%;
+  /*ADD YOUR BACKGROUND*/
+  color: white;
+  position:relative;
+  }
+
+  .process{
+  display:inline-block;
+  }
+
+  .arrow{
+    width:75px;
+    padding-bottom: 100px;
+  }
+
+  .circleText{
+    position:absolute;
+    width:100%;
+  }
+
+  .twoLine{
+    padding-top: 30px;
+  }
+
+  .oneLine{
+    padding-top: 40px;
+  }
+
+  /*STRATEGY SECTION: approach*/
+  .ourApproachTitle{
+  font-size: 30px;
+  text-align: center;
+  }
+
+  .approach{
+    text-align: center;
+    margin:3% 2% 0 3%;
+  }
+
+  .approachSections{
+    margin:2%;
+  }
+
+  .approachCircle{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    /*ADD YOUR COLOR HERE*/
+    background-color: rgb(221,98,92);
+    color:white;
+    position:relative;
+    vertical-align: top;
+    display: inline-block;
+    font-size:26px;
+    padding-top:7px;
+    margin-right: 2%;
+  }
+
+  .approachPoints{
+  font-size: 24px;
+  font-weight: bold;
+  }
+
+  .approachText{
+  text-align: left;
+  width:650px;
+  display: inline-block;
+  }
+
+  @media (max-width:827px) {
+    .approachText{
+      width:90%;
+    }
+  }
+
+  .processCircleFix{
+    margin-top: 0%;
+  }
+
+
 
 /*LIGHT GREY BARS EMPHASISZING INSIGHTS*/
 .statement{
