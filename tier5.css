@@ -1,4 +1,12 @@
 /*HEADER BLOCK*/
+.titleBackgroundTier{
+  background-color: rgb(01,161,167);
+  }
+
+  .projectLogoTier{
+    width:250px;
+    padding-top:15%;
+    }
 
 /*OCTOBOOGIE*/
 .image-swap img:last-child{display:none}
@@ -358,64 +366,15 @@ text-align: center;
 
 /*THE LINE CONNECTED TO CIRCLE*/
 .findingsCircle1{
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
   background-color: rgb(221,98,92);
-  z-index: 2;
-  vertical-align: top;
-  display: inline-block;
-  margin-right:2%;
 }
 
 .findingsCircle {
-  position: relative;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  margin-top: 50px;
   background-color: rgb(221,98,92);
-  z-index: 2;
-  vertical-align: top;
-  display: inline-block;
-  margin-right:2%;
-}
-
-.findingsCircle:first-child {
-  margin-top: 0;
 }
 
 .findingsCircle:after{
-  position: absolute;
   background-color: rgb(221,98,92);
-  width: 5px;
-  height: 200%;
-  display: block;
-  content: '';
-  left: 50%;
-  z-index: 1;
-  top: -54px;
-  margin-left: -1px;
-}
-
-.findingsCircle:first-child:before {
-  display: none;
-}
-
-.findings{
-  text-align: center;
-  margin-bottom: 2%;
-}
-.bold700{
-font-weight: 700;
-}
-
-.findingsText{
-  text-align: left;
-  display: inline-block;
-  width:80%;
 }
 
 /*SYNTHESIS SECTION*/
@@ -583,23 +542,7 @@ border: 0;
 }
 
 /*SYNTHESIS: REDEFINE PROBLEM*/
-.problem{
-  text-align: center;
-}
-
-.bullet{
-text-align: center;
-padding:1%;
-}
-
-.problemTitle{
-  font-size: 30px;
-}
-
-.problemText{
-  font-size: 24px;
-  margin-top: 0.5%;
-}
+/*see project.css*/
 
 /*see design decisons below for circle/number code*/
 

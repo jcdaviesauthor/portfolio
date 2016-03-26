@@ -38,6 +38,24 @@ body{
   color: rgb(74,74,74);
 }
 
+.webmdBlue{
+  color: rgb(55,147,195);
+}
+
+.webmdGreen{
+  color: rgb(133,167,0);
+}
+/*BACKGROUND COLORS*/
+
+.webmdBlueBack{
+  background-color: rgb(55,147,195);
+}
+
+.webmdGreenBack{
+  background-color: rgb(133,167,0);
+}
+
+
 /*FOR LOTS OT TEXT REQUIRING SERIF TO READ IT WELL*/
 .heavyText{
   font-family: 'Lora', serif;

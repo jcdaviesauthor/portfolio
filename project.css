@@ -4,7 +4,6 @@
 }
 
 .projectTitleBox{
-  height:auto;
   left: 0;
   right: 0;
   z-index: -2;
@@ -16,23 +15,11 @@
   margin-bottom: 3%;
 }
 
-.projectTitleSize{
+.projectTitle{
+  color: white;
   text-align: center;
   font-size: 30px;
 }
-
-.projectTitle{
-  color: white;
-}
-
-.titleBackgroundTier{
-  background-color: rgb(01,161,167);
-  }
-
-.projectLogo{
-  width:250px;
-  padding-top:15%;
-  }
 
   /*INTRODUCTION-MY ROLE*/
   .introBoxes{
@@ -151,8 +138,91 @@
   .processCircleFix{
     margin-top: 0%;
   }
+/*
+REESRAHC FINDINSG*/
+/*THE LINE CONNECTED TO CIRCLE*/
+.findingsCircle1{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+    /*INSERT YOUR OWN COLOR*/
+  /*background-color: rgb(221,98,92);*/
+  z-index: 2;
+  vertical-align: top;
+  display: inline-block;
+  margin-right:2%;
+}
 
+.findingsCircle {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  /*INSERT YOUR OWN COLOR*/
+  /*background-color: rgb(221,98,92);*/
+  z-index: 2;
+  vertical-align: top;
+  display: inline-block;
+  margin-right:2%;
+}
 
+.findingsCircle:first-child {
+  margin-top: 0;
+}
+
+.findingsCircle:after{
+  position: absolute;
+    /*INSERT YOUR OWN COLOR*/
+  /*background-color: rgb(221,98,92);*/
+  width: 5px;
+  height: 200%;
+  display: block;
+  content: '';
+  left: 50%;
+  z-index: 1;
+  top: -54px;
+  margin-left: -1px;
+}
+
+.findingsCircle:first-child:before {
+  display: none;
+}
+
+.findings{
+  text-align: center;
+  margin-bottom: 2%;
+}
+.bold700{
+font-weight: 700;
+}
+
+.findingsText{
+  text-align: left;
+  display: inline-block;
+  width:80%;
+}
+
+/*SYNTHESIS*/
+.problem{
+  text-align: center;
+}
+
+.bullet{
+text-align: center;
+padding:1%;
+}
+
+.problemTitle{
+  font-size: 30px;
+}
+
+.problemText{
+  font-size: 24px;
+  margin-top: 0.5%;
+}
 
 /*LIGHT GREY BARS EMPHASISZING INSIGHTS*/
 .statement{
