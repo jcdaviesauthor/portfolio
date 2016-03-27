@@ -2,6 +2,7 @@
 
 #header{
   /*z-index: 2;*/
+  background-size: cover;
   background-image:url("myimages/about/me-small.jpg");
   height: 710px;
   /*width:1250px;*/

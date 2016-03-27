@@ -106,7 +106,15 @@ position:relative;
   padding-right:5%;
 }
 
+/*RESEARCH*/
 /*INTERVIEW & SURVERY SECTION*/
+.researchSummaryDiv{
+  text-align: center;
+}
+
+.researchSummary{
+  width:80%;
+}
 
 .surveyAndInterview{
   margin-bottom: 3%;
