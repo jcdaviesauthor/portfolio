@@ -153,6 +153,10 @@ padding: top:5%;
 .companyTitle{
   font-size: 35px;
   margin-left: -7%;
+<<<<<<< HEAD
+=======
+  /*margin-top:20%;*/
+>>>>>>> master
 }
 
 .icon{
@@ -179,6 +183,15 @@ padding: top:5%;
 .titleDown{
   margin-top: 10%;
 }
+<<<<<<< HEAD
+=======
+
+/*.iconPeople{
+  width:55px;
+  padding-left:2%;
+  padding-right:20%;
+}*/
+>>>>>>> master
 
 .projectDes{
   font-size: 18px;
