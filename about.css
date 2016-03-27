@@ -1,7 +1,12 @@
 /*MY IMAGE SECTION*/
-/*bootstrap*/
+/*bootstrapfix*/
 html{
 overflow-x: hidden;
+}
+
+/*bootstrap fix*/
+.footRow{
+  margin:0;
 }
 
 #header{
@@ -216,9 +221,4 @@ font-weight: normal;
 
 .software{
   width: 30px;
-}
-
-/*bootstrap fix*/
-.footRow{
-  margin:0;
 }
