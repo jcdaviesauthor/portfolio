@@ -219,6 +219,6 @@ font-weight: normal;
 }
 
 /*bootstrap fix*/
-.row{
+.footRow{
   margin:0;
 }
