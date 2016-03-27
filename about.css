@@ -1,30 +1,39 @@
 /*MY IMAGE SECTION*/
+
 #header{
-  z-index: 2;
+  /*z-index: 2;*/
+  background-image:url("myimages/about/me-small.jpg");
+  height: 710px;
+  /*position:sticky;*/
 }
 
-#myPicDiv{
+/*@media (max-width: 767px){
+  .realTimeAndNur{
+    margin-top: 3%;
+  }
+}*/
+
+/*#myPicDiv{
   left: 0;
   right: 0;
-  z-index: -2;
   margin-top: -10%;
   max-width:100%;
   height:auto;
   position: relative;
-}
+}*/
 
 /*.quoteParent{
   width:90%;
 }*/
   /*position:relative;*/
 
-  #myPic{
+  /*#myPic{
   max-width:100%;
   height:auto;
   left: 0;
   right: 0;
-  /*position: absolute;*/
-  }
+  position: absolute;
+  }*/
 
 #quote{
   z-index:100;
@@ -37,11 +46,6 @@
   width:100%;
 }
 
-/*@media (max-width:767px) {
-  #quote{
-  margin-bottom:-100px;
-  }
-}*/
 .topQuote, .bottomQuote{
   display:inline-block;
 }
@@ -57,8 +61,6 @@
   color: rgb(74, 74, 74);
 }
 
-
-
 /*CONTACT SECTION*/
 #contact{
 background-color: rgb(154,16,112);
@@ -66,6 +68,7 @@ padding-bottom: 20px;
 padding-top: 15px;
 text-align: center;
 color: white !important;
+/*width:100%;*/
 }
 
 #websiteLink, #gitHubLink, #gmail{
