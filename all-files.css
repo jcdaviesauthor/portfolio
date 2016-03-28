@@ -45,7 +45,15 @@ body{
 .webmdGreen{
   color: rgb(133,167,0);
 }
+
+.white{
+  color:white;
+}
 /*BACKGROUND COLORS*/
+
+.lightBlueBack{
+  background-color: rgb(219,239,249);
+}
 
 .webmdBlueBack{
   background-color: rgb(55,147,195);
@@ -55,6 +63,12 @@ body{
   background-color: rgb(133,167,0);
 }
 
+.charcolBack{
+  background-color: rgb(74,74,74);
+}
+.lightGreyBack{
+  background-color: rgb(246,243,246);
+}
 
 /*FOR LOTS OT TEXT REQUIRING SERIF TO READ IT WELL*/
 .heavyText{

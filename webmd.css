@@ -50,6 +50,11 @@
 
 /*STRATEGY*/
 /*SWOT*/
+
+.strategy{
+  margin-top: 0%;
+}
+
 .swotFly{
   width:175px;
   margin-top: -17%;
@@ -162,8 +167,8 @@ position:relative;
 }
 
 .rec {
-  width: 185px;
-  height: 120px;
+  width: 200px;
+  height: 70px;
   color:rgb(74, 74, 74);
   text-align: left;
   padding:5%;
@@ -194,8 +199,8 @@ position:relative;
 }
 
 .square{
-  width: 185px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   padding: 5%;
   margin-bottom: 10%;
@@ -212,10 +217,11 @@ position:relative;
 .squareRecSec{
   display: inline-block;
   margin-bottom: 4%;
+  vertical-align: top;
 }
 
 .faceCircles{
-  width:75px;
+  width:200px;
 }
 
 /*THE LINE CONNECTED TO CIRCLE*/
