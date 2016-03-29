@@ -43,7 +43,7 @@ body{
 }
 
 .webmdGreen{
-  color: rgb(133,167,0);
+  color: rgb(169,204,96);
 }
 
 .white{
@@ -60,7 +60,7 @@ body{
 }
 
 .webmdGreenBack{
-  background-color: rgb(133,167,0);
+  background-color: rgb(169,204,96);
 }
 
 .charcolBack{
@@ -78,3 +78,4 @@ body{
 /*TITLE SIZES*/
 /*Quote mark  &#34;*/
 /*appostrofy &#39;*/
+/*... &#8230;*/
