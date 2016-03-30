@@ -130,6 +130,7 @@ position:relative;
   width: 80%;
   margin:0 auto;
 }
+
 .surveyResults{
   width:100%;
   text-align: center;
@@ -166,9 +167,13 @@ position:relative;
 
 .surveyQuotes{
   display: inline-block;
-  text-align: left;
+  text-align: right;
   width:450px;
   vertical-align: middle;
+}
+
+.quote2{
+  margin-top: 5%;
 }
 
 .surveyConclusionText{
@@ -177,9 +182,9 @@ position:relative;
   color: white;
 }
 
-.surveyConclusion2{
+/*.surveyConclusion2{
   margin-left:15%;
-}
+}*/
 
 /*other interview insights*/
 /*.surveyAndInterview{
