@@ -109,11 +109,11 @@ MARKET DIVERSE AND FRAGMENTED*/
 }
 
 .recCircle{
-width:225px;
-height:225px;
+width:240px;
+height:240px;
 border-radius:50%;
-border: solid 3px rgb(221,98,92);
-color: rgb(74, 84, 74);
+border: solid 3px rgb(55,147,195);
+color: rgb(74, 74, 74);
 display:inline-block;
 margin-left: 2%;
 position:relative;
@@ -123,9 +123,9 @@ position:relative;
   font-size: 18px;
   position:absolute;
   width:100%;
-  padding-top:25%;
-  padding-left:5%;
-  padding-right:5%;
+  padding-top:20%;
+  padding-left:7%;
+  padding-right:7%;
 }
 
 /*RESEARCH*/
