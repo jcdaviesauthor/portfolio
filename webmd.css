@@ -68,13 +68,11 @@
 
 .swotTitle{
   font-size: 30px;
-  /*font-weight:bold;*/
 }
 
 .swotRec{
   width: 450px;
   height:270px;
-  /*border-radius: 3%;*/
   color: white;
   text-align: left;
   margin: 1%;
@@ -84,6 +82,24 @@
 
 .strengthWeak, .oppThreats{
   display: inline-block;
+}
+
+
+/*STRATEGY
+MARKET DIVERSE AND FRAGMENTED*/
+.compDiv{
+  text-align: center;
+}
+
+.compShots{
+  width:90%;
+  margin:0 auto;
+}
+
+.compBracket{
+  margin:0 auto;
+  width:400px;
+  margin-top: 3%;
 }
 
 /*THE RECOMMENDATION CIRCLES*/
