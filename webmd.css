@@ -48,6 +48,22 @@
 .approachCircle{
     background-color: rgb(55,147,195);
 }
+/*STRATEGY
+MARKET DIVERSE AND FRAGMENTED*/
+.compDiv{
+  text-align: center;
+}
+
+.compShots{
+  width:90%;
+  margin:0 auto;
+}
+
+.compBracket{
+  margin:0 auto;
+  width:400px;
+  margin-top: 3%;
+}
 
 /*STRATEGY*/
 /*SWOT*/
@@ -84,24 +100,53 @@
   display: inline-block;
 }
 
-
 /*STRATEGY
-MARKET DIVERSE AND FRAGMENTED*/
-.compDiv{
+IF YOU CAN'T BEAT THEM JOIN THEM*/
+
+.compThreatLogosDiv{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.compThreatLogos{
+  display: inline-block;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left:3%;
+  margin-right: 3%;
+}
+
+
+.compThreatLogoTitle, .compThreatP{
+  font-size: 30px;
+  text-align: center;
+}
+.compThreatLogoTitle{
+    font-weight: bold;
+}
+
+.titleYes{
+margin-top: -30%;
+
+}
+.compThreatPWeb{
+margin-bottom: 3%;
+}
+
+.compThreatPComp{
+  margin-top: 5%;
+}
+
+.compThreatLogosImg{
+  width:200px;
+}
+
+.bubbles{
   text-align: center;
 }
 
-.compShots{
-  width:90%;
-  margin:0 auto;
+.bubblesImg{
+  width:70%;
 }
-
-.compBracket{
-  margin:0 auto;
-  width:400px;
-  margin-top: 3%;
-}
-
 /*THE RECOMMENDATION CIRCLES*/
 /*see project.css*/
 .circleRecWrapper{
@@ -123,10 +168,14 @@ position:relative;
   font-size: 18px;
   position:absolute;
   width:100%;
-  padding-top:20%;
+  padding-top:15%;
   padding-left:7%;
   padding-right:7%;
 }
+.reducedClutter{
+  padding-top:30%;
+}
+
 
 /*RESEARCH*/
 /*INTERVIEW & SURVERY SECTION*/
@@ -301,11 +350,153 @@ position:relative;
 }
 
 .journeyMap{
-  width:70%;
+  width:100%;
 }
 
-/*PERSONAS*/
+/*SYNTHESIS SECTION*/
+/*STORY BOARD*/
 
+.storyBoardDiv{
+  text-align: center;
+}
+
+.storyBoardSub{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.storyBoard{
+  width:100%;
+  /*margin: 0 auto;*/
+}
+
+/*SYNTHESIS*/
+/*PERSONAS*/
+.personaAjayBrad{
+  display:inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+.row{
+margin-left:0;
+margin-right:0;
+}
+
+/*Title for personas*/
+table{
+  display:inline-block;
+}
+
+.personaTypes{
+  font-size: 30px;
+}
+
+.ajayName{
+  background-color: rgb(01, 161, 167);
+  color:white;
+}
+
+/*.textBoxQuote{
+  width:115px;
+  height:175px;
+  margin: 5px;
+  vertical-align: top;
+  font-style: italic;
+}*/
+
+.boxTitles{
+  font-weight: bold;
+}
+.padding{
+  padding-top: 2%;
+  padding-left:2%;
+  padding-right: 2%;
+}
+
+/*.textBoxQuoteAjay{
+background-color: rgb(213,245,242);
+padding-top: 5%;
+}*/
+/*.textBoxQuoteBrad{
+  background-color: rgb(248,216,213);
+  padding-top: 3%;
+}*/
+
+/*images*/
+.brad, .ajay{
+/*min-width:173px;*/
+max-width:100%;
+max-height:100%;
+vertical-align: top;
+border: 0;
+}
+
+.sharon{
+  width:150px;
+  height:182px;
+}
+
+.textBoxGoals{
+  width:150px;
+  height:200px;
+  background-color: rgb(222,225,225);
+  text-align: left;
+  /*margin: 5px;*/
+  vertical-align: top;
+}
+
+.textBoxName{
+text-align: left;
+/*margin: 5px;*/
+}
+
+.textBoxFrustrations{
+  width:240px;
+  height:200px;
+  color:white;
+  background-color: rgb(74, 74, 74);
+  text-align: left;
+  /*margin: 5px;*/
+  vertical-align: top;
+}
+/*
+.textBoxTech{
+  background-color: rgb(246, 243, 246);
+  text-align: left;
+  margin: 5px;
+  vertical-align: top;
+  width:115px;
+  height:200px;
+  padding: 1%;
+}*/
+
+.textBoxNameBrad{
+  background-color: rgb(221, 98, 92);
+  color: white;
+}
+
+td{
+  border: 5px solid white;
+}
+.personaParent{
+  text-align: center;
+}
+
+/*for comp table and personas*/
+table{
+  /*border: 20px solid white;*/
+  text-align: center;
+}
+
+
+.ajayTd{
+  background-color: rgb(218, 217, 215)
+}
+
+.bradTd{
+  background-color: rgb(99, 100, 94)
+}
 
 /*SYNTHESIS: REDEFINE PROBLEM*/
 
@@ -341,10 +532,28 @@ TWO EXPERIENCES*/
   text-align: left;
   display: inline-block;
   vertical-align: top;
+  margin-left: 2%;
 }
-.pillar{
+.webmdHub, .iwatch{
   display: inline-block;
-  height:200px;
+}
+
+.webmdHub{
+  width: 160px;
+  margin-top: 1%;
+}
+@media (min-width: 940px) and (max-width: 1049px){
+
+  .experienceTextiWatch{
+    display:block;
+  }
+  .realTimeAndNuriWatch{
+    display: block;
+  }
+}
+
+.iwatch{
+    width: 100px;
 }
 
 .experienceTitle{
@@ -599,7 +808,6 @@ DESIGN DECISIONS*/
   width:50px;
   height:50px;
   border-radius:50%;
-  background-color: rgb(01, 161,167);
   color:white;
   position:relative;
   vertical-align: top;
@@ -613,6 +821,13 @@ DESIGN DECISIONS*/
   text-align: left;
   width:650px;
   display: inline-block;
+}
+
+
+.problemTitle{
+  width:90%;
+  margin:0 auto;
+  text-align: left;
 }
 
 @media (max-width:711px) {
