@@ -206,16 +206,16 @@ position:relative;
   width:100%;
 }
 
-/*.surveyConclusion{
+.surveyConclusion{
   width:300px;
   height:300px;
   border-radius: 50%;
   display: inline-block;
   margin:5%;
   /*margin-left: -10%;*/
-  /*font-size: 30px;
+  font-size: 30px;
   vertical-align: middle;
-}*/
+}
 
 /*.surveyConclusionFix{
   height:178px;
@@ -227,13 +227,13 @@ position:relative;
 }
 
 .surveyCirclesImg{
-    width:60%;
+    width:450px;
 }
 
 .surveyQuotes{
   display: inline-block;
   text-align: right;
-  width:80%;
+  width:450px;
   vertical-align: middle;
 }
 
@@ -243,9 +243,8 @@ position:relative;
 
 .surveyConclusionText{
   /*vertical-align: middle;*/
-  /*margin-top: 35%;*/
-  /*color: white;*/
-  font-size: 30px;
+  margin-top: 35%;
+  color: white;
 }
 
 /*.surveyConclusion2{
