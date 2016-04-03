@@ -12,10 +12,6 @@
   .projectTitle{
     font-size: 30px;
     text-align: left;
-    /*padding-top:20%;*/
-    /*margin-top: 20%;*/
-    /*padding-bottom: -30%;*/
-    /*vertical-align: middle;*/
   }
 
   .projectSubTitle{
@@ -211,11 +207,29 @@ position:relative;
   height:300px;
   border-radius: 50%;
   display: inline-block;
-  margin:5%;
+  /*margin:5%;*/
+  margin-right: 10%;
   /*margin-left: -10%;*/
   font-size: 30px;
   vertical-align: middle;
 }
+
+.surveyConclusionText{
+  /*vertical-align: middle;*/
+  margin-top: 35%;
+  color: white;
+}
+
+/*former*/
+/*.surveyConclusion{
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  display: inline-block;
+  margin:5%;
+  font-size: 30px;
+  vertical-align: middle;
+}*/
 
 /*.surveyConclusionFix{
   height:178px;
@@ -223,28 +237,22 @@ position:relative;
 
 .surveyCircles{
   display: inline-block;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
 }
 
 .surveyCirclesImg{
-    width:450px;
+    width:500px;
 }
 
 .surveyQuotes{
   display: inline-block;
   text-align: right;
-  width:450px;
+  width:500px;
   vertical-align: middle;
 }
 
 .quote2{
   margin-top: 5%;
-}
-
-.surveyConclusionText{
-  /*vertical-align: middle;*/
-  margin-top: 35%;
-  color: white;
 }
 
 /*.surveyConclusion2{
@@ -859,6 +867,10 @@ DESIGN DECISIONS*/
   /*text-align: left;*/
 }
 
+.problemSubText{
+  font-size: 18px;
+}
+
 @media (max-width:711px) {
   .decText{
     width:90%;
@@ -869,6 +881,8 @@ DESIGN DECISIONS*/
 font-size: 24px;
 font-weight: bold;
 }
+
+
 
 /*BUILD AND DELIVER:
 Before and After*/
