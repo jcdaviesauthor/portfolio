@@ -349,48 +349,52 @@ position:relative;
 /*SYNTHESIS SECTION*/
 /*AFFINITY MAP*/
 
-.centerJMap{
+.centerAMap{
   text-align: center;
 }
-.journeyTitle{
+.affinity{
   font-size: 30px;
-  margin-bottom: 2%;
+  /*margin-bottom: 2%;*/
 }
 
-.journeyMap{
+.affinityMap{
   width:100%;
 }
 
-.painPoints{
+.affinityDes{
+  font-size: 24px;
+}
+
+/*.painPoints{
   font-size: 24px;
   text-align: center;
-}
+}*/
 
 /*SYNTHESIS SECTION*/
 /*STORY BOARD*/
 
 .storyboardTitle{
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  font-size: 30px;
+  text-align: center;
 }
 
-.storyboardSubtitle{
+.storyBoardSub{
   font-size: 24px;
-  background:rgb(246,243,246);
-  margin-bottom: 0;
   text-align: center;
-  padding-bottom:2%
+    margin-bottom: 2%;
+}
+
+.storyBoardImg{
+  width:100%;
 }
 
 .storyBoardDiv{
   text-align: center;
 }
 
-/*.storyBoardSub{
-  font-size: 24px;
-  text-align: center;
-  /*margin-bottom: 3%;
-}*/
+
 
 .storyBoard{
   width:100%;
@@ -402,6 +406,8 @@ position:relative;
 
 .statementPersonas{
   margin-top: 0%;
+  /*font-size: 30px;*/
+  text-align: center;
 }
 
 .personas{
@@ -422,7 +428,8 @@ table{
 }
 
 .personaTypes{
-  font-size: 30px;
+  font-size: 24px;
+  color:rgb(74, 74, 74)
 }
 
 
@@ -608,8 +615,17 @@ TWO EXPERIENCES*/
     margin-top: 3%;
   }
 }
+/*
+DESIGN:
+STORYBOARD*/
+
+.webmdDesign{
+  margin-bottom: 0;
+}
 
 /*DESIGN: VIDEO*/
+
+
 .videoDiv{
 text-align: center;
 }
@@ -862,7 +878,7 @@ DESIGN DECISIONS*/
 
 
 .problemTitle{
-  width:80%;
+  width:90%;
   margin:0 auto;
   /*text-align: left;*/
 }
