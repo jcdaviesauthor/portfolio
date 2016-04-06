@@ -352,9 +352,9 @@ position:relative;
 .centerAMap{
   text-align: center;
 }
+
 .affinity{
   font-size: 40px;
-  /*margin-bottom: 2%;*/
 }
 
 .affinityMap{
@@ -363,13 +363,29 @@ position:relative;
 
 .affinityDes{
   font-size: 24px;
+  margin-bottom: 3%;
 }
 
-/*.painPoints{
-  font-size: 24px;
-  text-align: center;
-}*/
+/*SYNTHESIS SECTION*/
+/*EMPATHYMAP*/
 
+.centerEMap{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.empathy{
+  font-size: 40px;
+}
+
+.empathyMap{
+  width:100%;
+}
+
+.empathyDes{
+  font-size: 24px;
+  margin-bottom: 3%;
+}
 
 /*SYNTHESIS*/
 /*PERSONAS*/
