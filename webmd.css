@@ -530,30 +530,72 @@ table{
   margin:0 auto;
 }
 
+/*SYNTHESIS: RECONSIDER BUSINESS*/
+
 /*see design decisons below for circle/number code*/
 
-.alignGoalsTitle{
-  font-size: 30px;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 3%;
+.businessGoals{
+  /*text-align: center;*/
+  /*display: block;*/
 }
-.alignCircles{
+
+.businessGoalsIntro{
   text-align: center;
 }
 
-.venn{
-  width: 60%;
+.businessGoalsSubText{
+  text-align: left;
+}
+
+.businessGoalsSub{
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+.businessGoalsSubText{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.businessGoalsBullets{
+  width:80%;
+  margin: 0 auto;
+  /*display:inline-block;*/
+  padding: 1%;
+}
+
+.busGoalsBulletTextDiv{
+  text-align: left;
+  display:inline-block;
+}
+
+.busGoalBulletImgDiv{
+  /*position:relative;*/
+  vertical-align: top;
+  display:inline-block;
+}
+
+.busGoalBulletImg{
+  width:40px;
+}
+
+.trees{
+  text-align: center;
+}
+
+.treesNow, .treesPotenial{
+  display: inline-block;
+}
+.trees4{
+  width:100px;
+
+}
+
+.trees365{
+  width:400px;
 }
 
 /*SYNTHESIS:
 TWO EXPERIENCES*/
-
-/*.solutionSub{
-  font-size: 24px;
-  width:90%;
-  margin:0 auto;
-}*/
 
 .experiences{
   text-align: center;
