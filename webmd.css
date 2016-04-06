@@ -353,7 +353,7 @@ position:relative;
   text-align: center;
 }
 .affinity{
-  font-size: 30px;
+  font-size: 40px;
   /*margin-bottom: 2%;*/
 }
 
@@ -370,44 +370,21 @@ position:relative;
   text-align: center;
 }*/
 
-/*SYNTHESIS SECTION*/
-/*STORY BOARD*/
-
-.storyboardTitle{
-  margin-top: 0%;
-  margin-bottom: 2%;
-  font-size: 30px;
-  text-align: center;
-}
-
-.storyBoardSub{
-  font-size: 24px;
-  text-align: center;
-    margin-bottom: 2%;
-}
-
-.storyBoardImg{
-  width:100%;
-}
-
-.storyBoardDiv{
-  text-align: center;
-}
-
-
-
-.storyBoard{
-  width:100%;
-  /*margin: 0 auto;*/
-}
 
 /*SYNTHESIS*/
 /*PERSONAS*/
 
-.statementPersonas{
-  margin-top: 0%;
-  /*font-size: 30px;*/
+.personaDes{
+  font-size: 24px;
   text-align: center;
+    margin-bottom: 3%;
+}
+
+.statementPersonas{
+  margin-top: 3%;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 40px;
 }
 
 .personas{
@@ -536,6 +513,22 @@ table{
 
 /*SYNTHESIS: REDEFINE PROBLEM*/
 
+.problemTitle{
+  width:90%;
+  margin:0 auto;
+  /*text-align: left;*/
+}
+
+.problemSubText{
+  font-size: 18px;
+}
+
+.decProbText{
+  text-align: left;
+  width:675px;
+  display: inline-block;
+  margin:0 auto;
+}
 
 /*see design decisons below for circle/number code*/
 
@@ -555,6 +548,13 @@ table{
 
 /*SYNTHESIS:
 TWO EXPERIENCES*/
+
+/*.solutionSub{
+  font-size: 24px;
+  width:90%;
+  margin:0 auto;
+}*/
+
 .experiences{
   text-align: center;
 }
@@ -620,8 +620,45 @@ DESIGN:
 STORYBOARD*/
 
 .webmdDesign{
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
 }
+
+.storyboardTitle{
+  /*margin-top: 0%;*/
+  margin-bottom: 2%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.storyBoardSub{
+  font-size: 24px;
+  text-align: center;
+    margin-bottom: 2%;
+}
+
+.storyBoardImg{
+  width:100%;
+}
+
+.storyBoardDiv{
+  text-align: center;
+}
+
+.storyBoard{
+  width:100%;
+  /*margin: 0 auto;*/
+}
+
+
+
+/*DESIGN:
+FEATURES*/
+/*.featureTitleMargins{
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-size: 30px;
+  text-align: center;
+}*/
 
 /*DESIGN: VIDEO*/
 
@@ -870,22 +907,6 @@ DESIGN DECISIONS*/
   padding-top:7px;
 }
 
-.decText{
-  text-align: left;
-  width:650px;
-  display: inline-block;
-}
-
-
-.problemTitle{
-  width:90%;
-  margin:0 auto;
-  /*text-align: left;*/
-}
-
-.problemSubText{
-  font-size: 18px;
-}
 
 @media (max-width:711px) {
   .decText{
@@ -898,6 +919,13 @@ font-size: 24px;
 font-weight: bold;
 }
 
+/*fix?????*/
+.decText{
+  text-align: left;
+  width:650px;
+  display: inline-block;
+  margin:0 auto;
+}
 
 
 /*BUILD AND DELIVER:
