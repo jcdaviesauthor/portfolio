@@ -585,6 +585,13 @@ table{
   /*width:500px;*/
 }
 
+.busGoalsBulletText{
+  text-align: left;
+  display:inline-block;
+  /*width:500px;*/
+  width:80%;
+}
+
 .busGoalBulletImgDiv{
   /*position:relative;*/
   vertical-align: top;
@@ -593,6 +600,7 @@ table{
 
 .busGoalBulletImg{
   width:40px;
+  /*display:inlin*/
 }
 
 .trees{
@@ -602,13 +610,20 @@ table{
 .treesNow, .treesPotenial{
   display: inline-block;
 }
+
+.treesNow{
+  float:left;
+}
 .trees4{
   width:100px;
-
 }
 
 .trees365{
   width:400px;
+}
+
+.treesTitle{
+  font-size: 24px;
 }
 
 /*SYNTHESIS:
