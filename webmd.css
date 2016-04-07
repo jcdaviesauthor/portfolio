@@ -604,22 +604,32 @@ table{
 }
 
 .trees{
-  text-align: center;
+  /*text-align: center;*/
+  width:90%;
+  margin: 0 auto;
 }
 
-.treesNow, .treesPotenial{
+.treesNow, .treesPotential{
   display: inline-block;
+  margin:5%;
 }
 
 .treesNow{
   float:left;
 }
+
 .trees4{
   width:100px;
+  text-align: center;
+}
+
+.treesTotal{
+
 }
 
 .trees365{
   width:400px;
+  text-align: center;
 }
 
 .treesTitle{

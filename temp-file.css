@@ -17,17 +17,16 @@ overflow-x: hidden;
 .catBurritoSecretDoor{
   color:inherit;
   text-decoration: none;
-  /*cursor: auto;*/
   border: 0 none;
   border-color: transparent;
 }
 
-
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:hover { color: inherit; }
-a:active { text-decoration: none; }
+a.catBurritoSecretDoor:link { text-decoration: none; }
+a.catBurritoSecretDoor:visited { text-decoration: none; }
+a.catBurritoSecretDoor:hover { text-decoration: none; }
+a.catBurritoSecretDoor:hover { color: inherit; }
+a.catBurritoSecretDoor:hover { cursor: text; }
+a.catBurritoSecretDoor:active { text-decoration: none; }
 
 /*a.nostyle:link {
     text-decoration: inherit;
