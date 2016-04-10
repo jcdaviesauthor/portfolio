@@ -949,8 +949,10 @@ font-weight: bold;
 
 .paperProtoImg{
   width:300px;
-  border: solid 4px;
-  border-color: rgb(55,147,195);
+  border: solid 1px;
+  border-color: rgb(74, 74, 74);
+  /*border: solid 4px;
+  border-color: rgb(55,147,195);*/
   /*border-color: rgb(74, 74, 74);*/
 }
 
@@ -1023,7 +1025,7 @@ DESIGN DECISIONS*/
   height:50px;
   border-radius:50%;
   color:white;
-  background-color: rgb(55,147,195);
+  background-color: rgb(169,204,96);
   position:relative;
   vertical-align: top;
   margin-right: 2%;
@@ -1070,27 +1072,38 @@ Before and After*/
 }
 
 .comparisonTitle{
-  text-align: center;
   font-size: 24px;
-  margin-left: 5%;
 }
-
-.formerFilter{
-  margin-left:33%;
-}
-
-.filter{
-margin-left: 27%;
+.comparisonTitle1{
+  margin-left:37%;
 }
 
 .comparisonTitle2{
-  margin-left:10%;
+  margin-left:42%;
+}
+
+
+.formerFilter{
+  margin-left:31%;
+}
+
+.filter{
+margin-left: 42%;
+}
+
+.formerFilter2{
+  margin-left:28%;
+}
+
+.filter2{
+margin-left: 36%;
 }
 
 .listView{
     display: inline-block;
     vertical-align: top;
     padding:2%;
+    text-align: center;
 }
 
 .listViewImg{
@@ -1146,7 +1159,7 @@ font-size: 30px;
 }
 
 .recTop{
-  width:300px;
+  width:375px;
   height:50px;
   background-color:rgb(169,204,96);
   vertical-align: middle;
