@@ -4,6 +4,10 @@
 /*INTRODUCTION*/
 /*see project.css*/
 
+.projectTitleBox{
+  height: 438px;
+}
+
 .projectLogoWebmd{
   width:260px;
   height: 300px;
@@ -246,11 +250,17 @@ position:relative;
 
 .surveyCircles{
   display: inline-block;
+  text-align: center;
   /*vertical-align: middle;*/
 }
 
+/*.surveyCirclesImg1{
+    width:80%;
+}*/
+
 .surveyCirclesImg{
-    width:500px;
+      width:70%;
+      margin:3%;
 }
 
 .surveyQuotes{
@@ -366,13 +376,17 @@ position:relative;
   font-size: 40px;
 }
 
+/*.affinityLeftRight{
+  display:inline-block;
+}*/
+
 .affinityMap{
-  width:100%;
+  width:60%;
 }
 
 .affinityDes{
   font-size: 24px;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 /*SYNTHESIS SECTION*/
@@ -388,7 +402,7 @@ position:relative;
 }
 
 .empathyMap{
-  width:100%;
+  width:60%;
 }
 
 .empathyDes{
@@ -402,7 +416,7 @@ position:relative;
 .personaDes{
   font-size: 24px;
   text-align: center;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 .statementPersonas{
@@ -570,13 +584,13 @@ table{
 
 .businessGoalsSub{
   font-size: 30px;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 .businessGoalsSubText{
-    text-align: left;
+  text-align: left;
   width: 85%;
   margin: 0 auto;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
 
 .businessGoalsBullets{
@@ -612,7 +626,7 @@ table{
 }*/
 
 .busGoalBulletImg{
-  width:30px;
+  width:40px;
 }
 
 .busGoalBulletImg1{
@@ -629,7 +643,7 @@ table{
 
 .trees{
   /*text-align: center;*/
-  width:75%;
+  width:85%;
   margin: 0 auto;
   padding-bottom:2%;
   margin-top: -1%;
@@ -646,13 +660,15 @@ table{
 }
 
 .trees4{
-  width:100px;
+  /*width:20%;*/
+  width:175px;
   text-align: center;
 }
 
 
 .trees365{
-  width:400px;
+  /*width:50%;*/
+  width:525px;
   text-align: center;
 }
 
@@ -726,14 +742,10 @@ TWO EXPERIENCES*/
 DESIGN:
 STORYBOARD*/
 
-.webmdDesign{
-  /*margin-bottom: 0;*/
-}
-
 .storyboardTitle{
-  /*margin-top: 0%;*/
-  margin-bottom: 2%;
-  font-size: 30px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -744,7 +756,7 @@ STORYBOARD*/
 }
 
 .storyBoardImg{
-  width:100%;
+  width:60%;
 }
 
 .storyBoardDiv{
@@ -1057,6 +1069,8 @@ font-weight: bold;
 
 /*BUILD AND DELIVER:
 Before and After*/
+
+
 .beforeAndAfter{
   margin-bottom: 1%;
 }

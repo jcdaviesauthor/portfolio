@@ -19,7 +19,7 @@ body{
 
 /*THE ROLLING TITLE*/
 #rotatingText{
-margin-top: 5%;
+margin-top: 6%;
 margin-bottom: 3%;
 }
 .textParent{
@@ -271,6 +271,7 @@ color: rgb(236,233,226);
 
 #buttonDiv{
   text-align: center;
+  margin-top: 3%;
 }
 
  #devButton{
