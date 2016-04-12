@@ -47,6 +47,60 @@
   margin-left: 5px;
 }
 
+  @media (min-width: 805px) and (max-width: 941px){
+
+  .logoAndTitleContainer{
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 655px) and (max-width: 805px){
+
+  .logoAndTitleContainer{
+    margin-left: 0%;
+  }
+
+  .projectTitle{
+    font-size: 24px;
+  }
+
+  .projectTitle2{
+    font-size: 24px;
+  }
+  .projectSubTitle{
+    font-size: 18px;
+  }
+
+  .projectSubTitle{
+    width:350px;
+    }
+}
+
+@media (max-width: 654px){
+
+  .logoAndTitleContainer{
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .projectTitleBox{
+    height: 500px;
+  }
+  .projectTitle{
+    font-size: 24px;
+    margin-left: 14%
+  }
+
+  .projectTitle2{
+    font-size: 24px;
+    margin-left: 14%
+  }
+  .projectSubTitle{
+    font-size: 18px;
+    margin-left: 14%
+  }
+}
+
 /*OUR PROCESS*/
   .processCircle{
   background-color: rgb(55,147,195);
@@ -61,6 +115,7 @@
 MARKET DIVERSE AND FRAGMENTED*/
 .compDiv{
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .compShots{
@@ -116,6 +171,7 @@ IF YOU CAN'T BEAT THEM JOIN THEM*/
   text-align: center;
   margin-bottom: 3%;
 }
+
 .compThreatLogos{
   display: inline-block;
   margin-top: 3%;
@@ -124,6 +180,18 @@ IF YOU CAN'T BEAT THEM JOIN THEM*/
   margin-right: 3%;
 }
 
+/*(min-width: 649px) and*/
+@media (min-width: 494px) and (max-width: 781px){
+  .compThreatLogos{
+    margin: 5%;
+  }
+}
+
+@media (min-width: 385px) and (max-width: 493px){
+  .compThreatLogos{
+    margin: 10%;
+  }
+}
 
 .compThreatLogoTitle, .compThreatP{
   font-size: 30px;
@@ -386,7 +454,9 @@ position:relative;
 
 .affinityDes{
   font-size: 24px;
-  margin-bottom: 2%;
+  width:70%;
+  margin: 0 auto;
+  padding-bottom: 2%;
 }
 
 /*SYNTHESIS SECTION*/
@@ -553,7 +623,7 @@ table{
 /*SYNTHESIS: REDEFINE PROBLEM*/
 
 .problemTitle{
-  width:90%;
+  width:80%;
   margin:0 auto;
   /*text-align: left;*/
 }
@@ -562,9 +632,13 @@ table{
   font-size: 18px;
 }
 
-.decProbText{
+.statementBusGoals {
+  margin-top: 2%;
+}
+
+.problemText{
   text-align: left;
-  width:675px;
+  width:70%;
   display: inline-block;
   margin:0 auto;
 }
@@ -572,11 +646,6 @@ table{
 /*SYNTHESIS: RECONSIDER BUSINESS*/
 
 /*see design decisons below for circle/number code*/
-
-.businessGoals{
-  /*text-align: center;*/
-  /*display: block;*/
-}
 
 .businessGoalsIntro{
   text-align: center;
@@ -586,6 +655,7 @@ table{
   font-size: 30px;
   margin-bottom: 2%;
 }
+
 .businessGoalsSubText{
   text-align: left;
   width: 85%;
@@ -593,56 +663,11 @@ table{
   padding-bottom: 3%;
 }
 
-.businessGoalsBullets{
-  width:80%;
-  margin: 0 auto;
-  /*display:inline-block;*/
-  padding: 1%;
-}
-
-.businessGoalsBulletsLast{
-  padding-top: 0;
-}
-
-/*
-.busGoalsBulletTextDiv{
-  text-align: left;
-  display:inline-block;
-  /*width:500px;*/
-/*}*/
-
-.busGoalsBulletText{
-  text-align: left;
-  display:inline-block;
-  /*width:500px;*/
-  width:90%;
-  padding-left: 1%;
-}
-
-/*.busGoalBulletImgDiv{
-  /*position:relative;*/
-  /*vertical-align: top;
-  display:inline-block;
-}*/
-
-.busGoalBulletImg{
-  width:40px;
-}
-
-.busGoalBulletImg1{
-  padding-bottom: 50px;
-}
-
-.busGoalBulletImg2{
-  padding-bottom: 30px;
-}
-
-.busGoalBullet3{
-  margin-top: -0.7%
+.treesTitle{
+  font-size: 24px;
 }
 
 .trees{
-  /*text-align: center;*/
   width:85%;
   margin: 0 auto;
   padding-bottom:2%;
@@ -659,12 +684,20 @@ table{
   float:left;
 }
 
+@media (min-width: 640px) and (max-width: 1024px){
+  .treesNow{
+    float:none;
+    margin-bottom: 3%;
+  }
+}
+
+
+
 .trees4{
   /*width:20%;*/
   width:175px;
   text-align: center;
 }
-
 
 .trees365{
   /*width:50%;*/
@@ -672,9 +705,109 @@ table{
   text-align: center;
 }
 
-.treesTitle{
-  font-size: 24px;
+@media (max-width: 647px){
+  .treesNow{
+    float:none;
+    margin-bottom: 3%;
+  }
+  .trees365{
+    width:70%;
+  }
 }
+
+/*BULLETS UNDER TREES*/
+
+.businessGoalsBullets{
+  width:80%;
+  margin: 0 auto;
+}
+
+.businessGoalsBullets{
+  /*padding:1%;*/
+  width:90%;
+}
+
+.threeLines{
+  margin-bottom: -1%;
+}
+
+.fourLines{
+  margin-bottom: -1.5%;
+}
+
+.plusBusBullets{
+  display: inline-block;
+  width:80%;
+  /*padding-left: 1%;*/
+  text-align: left;
+}
+
+.busGoalsBulletText{
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.busGoalsBulletSubText{
+  font-size: 18px;
+  text-align: left;
+}
+.busGoalBulletImgDiv{
+  position: relative;
+  display:inline-block;
+  margin-right: 1%;
+}
+.busGoalBulletImg{
+  width:40px;
+  padding-bottom: 35px;
+
+}
+
+.busGoalBulletImg4line{
+  padding-bottom: 80px;
+}
+
+.busGoalBulletImg3line{
+  padding-bottom: 60px;
+}
+
+/*not working*/
+@media (min-width: 360px) and (max-width:640px) {
+  .busGoalBulletImg{
+    /*vertical-align: top;*/
+    /*padding-bottom: 400px;*/
+    /*display:none;*/
+    /*padding-bottom: 35px;*/
+    vertical-align: top;
+    /*padding:0;
+    padding-top: 400px;*/
+  }
+  .busGoalBulletImgDiv{
+    /*vertical-align: top;*/
+    /*padding-bottom: 400px;*/
+    /*display:none;*/
+    vertical-align: top;
+  /*padding-top: 400px;*/
+  }
+
+  .busGoalBulletImg4line{
+    /*display:none;*/
+    /*padding:0;*/
+    /*padding-bottom: 400px;*/
+    padding:0;
+    vertical-align: top;
+  }
+
+  .busGoalBulletImg3line{
+    /*display:none;*/
+    /*padding:0;*/
+    /*padding-bottom: 400px;*/
+      padding:0;
+      vertical-align: top;
+  }
+
+}
+
 
 /*SYNTHESIS:
 TWO EXPERIENCES*/
@@ -752,7 +885,9 @@ STORYBOARD*/
 .storyBoardSub{
   font-size: 24px;
   text-align: center;
-    margin-bottom: 2%;
+  width:70%;
+  margin: 0 auto;
+  padding-bottom: 2%;
 }
 
 .storyBoardImg{
@@ -941,6 +1076,11 @@ font-weight: bold;
   margin:0 auto;
 }
 
+@media (max-width: 1028px){
+  .taskText{
+    width:70%;
+  }
+}
 
 /*low fidelity digital PROTOTYPES*/
 .lowFiPro{
@@ -967,6 +1107,13 @@ font-weight: bold;
   border-color: rgb(55,147,195);*/
   /*border-color: rgb(74, 74, 74);*/
 }
+
+/*FOR GLAXAYX S5: DOESN'T WORK */
+/*@media (min-width:360px) and (max-width:640px) {
+  .paperProtoDiv{
+    display:block;
+  }
+}*/
 
 .paperProtoText{
   font-size: 20px;
@@ -1079,6 +1226,7 @@ Before and After*/
   width:90%;
   margin-left: 7%;
   font-size: 18px;
+  text-align: left;
 }
 
 .comparisons{
@@ -1195,5 +1343,10 @@ font-size: 30px;
 
 .phaseText{
 text-align: left;
-width:300px;
+width:370px;
+margin-left: 1%;
 }
+/*
+.phaseTextP{
+  text-align: left;
+}*/
