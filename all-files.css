@@ -46,9 +46,18 @@ body{
   color: rgb(169,204,96);
 }
 
+.emojiBlue{
+  color: rgb(13,102,224);
+}
+
+.emojiPink{
+  color: rgb(201,72,135);
+}
+
 .white{
   color:white;
 }
+
 /*BACKGROUND COLORS*/
 
 .lightBlueBack{
@@ -61,6 +70,14 @@ body{
 
 .webmdGreenBack{
   background-color: rgb(169,204,96);
+}
+
+.emojiBlueBack{
+  background-color: rgb(13,102,224);
+}
+
+.emojiPinkBack{
+  background-color: rgb(201,72,135);
 }
 
 .charcolBack{
