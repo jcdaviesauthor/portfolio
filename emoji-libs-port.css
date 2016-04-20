@@ -16,14 +16,11 @@
 
 /*OUR PROCESS*/
   .processCircle{
-  background-color: rgb(201,72,135);
+  background-color: rgb(206,43,125);
 }
 
 /*REQUIREMENTS SECTION*/
 /*see project.css*/
-.approachCircle{
-    background-color: rgb(55,147,195);
-}
 
 .requirements{
     font-size: 40px;
@@ -42,10 +39,35 @@ vetting ideas*/
 
 }
 
-/*STRATEGY
-vetting ideas*/
-/*see project css for more code*/
+/*IDE-A CIRCLES*/
+/*see project.css*/
 
+.circleRecWrapper{
+  text-align: center;
+}
+
+.recCircle{
+width:260px;
+height:260px;
+border-radius:50%;
+border: solid 3px rgb(0,111,255);
+color: rgb(74, 74, 74);
+display:inline-block;
+margin-left: 2%;
+position:relative;
+}
+
+.circleRecText{
+  font-size: 18px;
+  position:absolute;
+  width:100%;
+  padding-top:15%;
+  padding-left:7%;
+  padding-right:7%;
+}
+
+/*VETTING IDEAS*/
+/*see project css for more code*/
 .bullet{
   margin: 1%;
 }
@@ -69,7 +91,6 @@ width:350px;
 
 .emojiIdeaImgEngineer{
   width:110px;
-  /*text-align: right;*/
 }
 
 .emojiIdeaDivEngineer{
@@ -93,8 +114,8 @@ width:350px;
 }
 
 
-/*STRATEGY  */
-/*THINK BIG/STARTS SMALL*/
+/*STRATEGY*/
+/*THINK BIG/START SMALL*/
 
 .thinkBigDiv{
   text-align: center;
@@ -108,7 +129,6 @@ width:350px;
 
 .compThreatLogosDiv{
   text-align: center;
-  /*margin-bottom: 3%;*/
 }
 
 .compThreatLogosText{
@@ -118,12 +138,8 @@ width:350px;
   margin-bottom: 2%;
 }
 
-.compThreatLogosTextEmojiLibs{
-/*padding-left: 10%;*/
-}
-
 .compThreatLogoTitle{
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   margin-top:3%;
   margin-bottom: 2%;
@@ -138,8 +154,6 @@ width:350px;
 .compThreatLogoText{
   text-align: left;
 }
-
-
 
 .compThreatLogosImg{
   width:70%;
@@ -165,75 +179,63 @@ margin-bottom: 2%;
 
 .arrowTextABit{
   margin-top: 1%;
+  margin-bottom: 1%;
 }
-
-/*PRBABALY DELETE*/
-.bubbles{
-  text-align: center;
-}
-
-.bubblesImg{
-  width:70%;
-}
-
-/*(min-width: 649px) and*/
-/*@media (min-width: 494px) and (max-width: 781px){
-  .compThreatLogos{
-    margin: 5%;
-  }
-}
-
-@media (min-width: 385px) and (max-width: 493px){
-  .compThreatLogos{
-    margin: 10%;
-  }
-}*/
-
-
-/*.titleYes{
-margin-top: -30%;
-
-}
-.compThreatPWeb{
-margin-bottom: 3%;
-}
-
-.compThreatPComp{
-  margin-top: 5%;
-}*/
-
-
-/*THE RECOMMENDATION CIRCLES*/
-/*see project.css*/
-.circleRecWrapper{
-  text-align: center;
-}
-
-.recCircle{
-width:260px;
-height:260px;
-border-radius:50%;
-border: solid 3px rgb(13,102,224);
-color: rgb(74, 74, 74);
-display:inline-block;
-margin-left: 2%;
-position:relative;
-}
-
-.circleRecText{
-  font-size: 18px;
-  position:absolute;
-  width:100%;
-  padding-top:15%;
-  padding-left:7%;
-  padding-right:7%;
-}
-/*.reducedClutter{
-  padding-top:30%;
-}*/
 
 
 /*RESEARCH*/
+
+.tupperware{
+  width:60%;
+  margin-top: 3%;
+}
+
+.easyButton{
+  width:30%;
+  margin-top: 1%;
+}
+
+.emojiResearchDiv{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.emojiReseachText{
+  display: inline-block;
+  width:70%;
+  text-align: left;
+}
+
+.emojiResearchBullet{
+  margin-bottom: 2%;
+}
+
+.emojiResearchBulletDiv{
+  margin:1%;
+}
+
+.emojiResearch{
+  width:50px;
+}
+
+.emojiResearchBullet{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sausage{
+  width:70%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/*SYNTHESIS */
+.lessonsLearned{
+  width:70%;
+}
+
+
 /*INTERVIEW & SURVERY SECTION*/
 /*Introduction to research section*/
 .researchSummaryDiv{
@@ -244,129 +246,7 @@ position:relative;
   width:80%;
 }
 
-/*survey results section*/
-/*INITAL SURVEY AND INTERVIEW RESULTS*/
-.surveyResultsP{
-  text-align: left;
-  width: 80%;
-  margin:0 auto;
-}
 
-.surveyResults{
-  width:100%;
-  text-align: center;
-}
-
-.surveyResultsSec{
-  text-align: center;
-  width:100%;
-}
-
-.surveyConclusion{
-  width:300px;
-  height:300px;
-  border-radius: 50%;
-  display: inline-block;
-  /*margin:5%;*/
-  margin-right: 10%;
-  /*margin-left: -10%;*/
-  font-size: 30px;
-  vertical-align: middle;
-}
-
-.surveyConclusionText{
-  /*vertical-align: middle;*/
-  margin-top: 35%;
-  color: white;
-}
-
-/*former*/
-/*.surveyConclusion{
-  width:300px;
-  height:300px;
-  border-radius: 50%;
-  display: inline-block;
-  margin:5%;
-  font-size: 30px;
-  vertical-align: middle;
-}*/
-
-/*.surveyConclusionFix{
-  height:178px;
-}*/
-
-.surveyCircles{
-  display: inline-block;
-  text-align: center;
-  /*vertical-align: middle;*/
-}
-
-/*.surveyCirclesImg1{
-    width:80%;
-}*/
-
-.surveyCirclesImg{
-      width:70%;
-      margin:3%;
-}
-
-.surveyQuotes{
-  display: inline-block;
-  text-align: right;
-  width:500px;
-  vertical-align: middle;
-}
-
-.quote2{
-  margin-top: 5%;
-}
-
-/*.surveyConclusion2{
-  margin-left:15%;
-}*/
-
-/*other interview insights*/
-/*.surveyAndInterview{
-  margin-bottom: 3%;
-}*/
-.researchPeepsContainer{
-  text-align: center;
-}
-
-.peepsStats{
-  text-align: left;
-  vertical-align: top;
-  font-size: 20px;
-}
-.researchInline{
-    display:inline-block;
-}
-
-.researchNumbers{
-  font-size: 24px;
-}
-
-.peeps{
-  width:75px;
-  vertical-align: bottom;
-  margin-right: 2%;
-  margin-bottom: 2%;
-}
-
-.topPeep{
-  padding-bottom: 3%;
-}
-
-.width{
-  width: 200px;
-}
-
-.researchDes{
-   width: 80%;
-    /*width: 450px;*/
-   text-align: left;
-   vertical-align: top;
-}
 
 /*INTERVIEW COMMENTS*/
 .squareRecSec{
@@ -375,11 +255,9 @@ position:relative;
   vertical-align: top;
 }
 
-
-
 .rec {
   width: 200px;
-  height: 70px;
+  height: 75px;
   color:rgb(74, 74, 74);
   text-align: left;
   padding:5%;
@@ -404,6 +282,27 @@ position:relative;
 
 .faceCircles{
   width:200px;
+}
+
+/*build
+TRicks*/
+.tricks{
+  width:80%;
+}
+
+/*build
+button*/
+button {
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  border-radius: 6px;
+  font-size: 30px;
+  text-shadow:none !important;
+  border: 3px solid rgb(0,111,255);
+  box-shadow:none !important;
+  margin-top:3%;
+  margin-bottom:3%;
+  color: rgb(0,111,255);
 }
 
 /*THE LINE CONNECTED TO CIRCLE*/
@@ -506,9 +405,18 @@ table{
   font-style: italic;
 }*/
 
-.boxTitles{
-  font-weight: bold;
+.boxTitle{
+  /*font-weight: bold;*/
+  font-size: 30px;
 }
+.projectTitle{
+  font-size: 40px;
+}
+
+.projectTitleBox{
+  height:500px;
+}
+
 .padding{
   padding-top: 2%;
   padding-left:2%;
@@ -1162,7 +1070,7 @@ DESIGN DECISIONS*/
   height:50px;
   border-radius:50%;
   color:white;
-  background-color: rgb(169,204,96);
+  /*background-color: rgb(0,111,255);*/
   position:relative;
   vertical-align: top;
   margin-right: 2%;

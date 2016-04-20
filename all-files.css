@@ -47,11 +47,11 @@ body{
 }
 
 .emojiBlue{
-  color: rgb(13,102,224);
+  color: rgb(0,111,255);
 }
 
 .emojiPink{
-  color: rgb(201,72,135);
+  color: rgb(206,43,125);
 }
 
 .white{
@@ -73,11 +73,11 @@ body{
 }
 
 .emojiBlueBack{
-  background-color: rgb(13,102,224);
+  background-color: rgb(0,111,255);
 }
 
 .emojiPinkBack{
-  background-color: rgb(201,72,135);
+  background-color: rgb(206,43,125);
 }
 
 .charcolBack{
