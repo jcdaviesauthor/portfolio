@@ -9,8 +9,8 @@
 }
 
 .emojiBunny{
-  width:200px;
-  padding-top: 14%;
+  width:250px;
+  padding-top: 12%;
   padding-bottom: 2%;
 }
 
@@ -19,7 +19,7 @@
   background-color: rgb(201,72,135);
 }
 
-/*APPROACH SECTION*/
+/*REQUIREMENTS SECTION*/
 /*see project.css*/
 .approachCircle{
     background-color: rgb(55,147,195);
@@ -31,76 +31,153 @@
 }
 
 /*STRATEGY
-MARKET DIVERSE AND FRAGMENTED*/
+vetting ideas*/
+
 .compDiv{
   text-align: center;
-  margin-bottom: 3%;
+}
+.compShots{
+  width:80%;
+  margin-bottom: 2%;
+
 }
 
-.compShots{
+/*STRATEGY
+vetting ideas*/
+/*see project css for more code*/
+
+.bullet{
+  margin: 1%;
+}
+
+.bulletEngineer{
+  margin-bottom: 2%;
+}
+.emojiIdeaDiv{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.emojiIdeaImgUsers{
+width:350px;
+}
+
+.emojiIdeaImgComp{
+width:350px;
+}
+
+.emojiIdeaImgEngineer{
+  width:110px;
+  /*text-align: right;*/
+}
+
+.emojiIdeaDivEngineer{
+  width:350px;
+  text-align: right;
+}
+
+.emojiSubText{
+  font-size: 18px;
+}
+
+.statementBusGoals {
+  margin-top: 2%;
+}
+
+.emojiText{
+  text-align: left;
+  width:55%;
+  display: inline-block;
+  margin:0 auto;
+}
+
+
+/*STRATEGY  */
+/*THINK BIG/STARTS SMALL*/
+
+.thinkBigDiv{
+  text-align: center;
   width:90%;
   margin:0 auto;
 }
 
-.compBracket{
-  margin:0 auto;
-  width:400px;
-  margin-top: 3%;
-}
-
-/*STRATEGY*/
-/*SWOT*/
-
-.strategy{
-  margin-top: 0%;
-}
-
-.swotFly{
-  width:175px;
-  margin-top: -17%;
-  margin-left: 7%;
-}
-
-.swot{
-  text-align: center;
-}
-
-.swotTitle{
-  font-size: 30px;
-}
-
-.swotRec{
-  width: 450px;
-  height:270px;
-  color: white;
+.thinkBigP{
   text-align: left;
-  margin: 1%;
-  padding: 2%;
-  vertical-align: top;
 }
-
-.strengthWeak, .oppThreats{
-  display: inline-block;
-}
-
-/*STRATEGY
-IF YOU CAN'T BEAT THEM JOIN THEM*/
 
 .compThreatLogosDiv{
   text-align: center;
-  margin-bottom: 3%;
+  /*margin-bottom: 3%;*/
 }
 
-.compThreatLogos{
-  display: inline-block;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  margin-left:3%;
-  margin-right: 3%;
+.compThreatLogosText{
+  text-align: center;
+  width:63%;
+  margin:0 auto;
+  margin-bottom: 2%;
+}
+
+.compThreatLogosTextEmojiLibs{
+/*padding-left: 10%;*/
+}
+
+.compThreatLogoTitle{
+  font-size: 30px;
+  text-align: center;
+  margin-top:3%;
+  margin-bottom: 2%;
+}
+
+.compThreatLogoSubTitle{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.compThreatLogoText{
+  text-align: left;
+}
+
+
+
+.compThreatLogosImg{
+  width:70%;
+}
+
+.compThreatLogosImg2{
+  width:80%;
+  margin: 0 auto;
+}
+
+.arrowDiv{
+margin-top: 3%;
+margin-bottom: 2%;
+}
+
+.arrowImg{
+  width: 75px;
+}
+
+.arrowText{
+  font-size: 24px;
+}
+
+.arrowTextABit{
+  margin-top: 1%;
+}
+
+/*PRBABALY DELETE*/
+.bubbles{
+  text-align: center;
+}
+
+.bubblesImg{
+  width:70%;
 }
 
 /*(min-width: 649px) and*/
-@media (min-width: 494px) and (max-width: 781px){
+/*@media (min-width: 494px) and (max-width: 781px){
   .compThreatLogos{
     margin: 5%;
   }
@@ -110,17 +187,10 @@ IF YOU CAN'T BEAT THEM JOIN THEM*/
   .compThreatLogos{
     margin: 10%;
   }
-}
+}*/
 
-.compThreatLogoTitle, .compThreatP{
-  font-size: 30px;
-  text-align: center;
-}
-.compThreatLogoTitle{
-    font-weight: bold;
-}
 
-.titleYes{
+/*.titleYes{
 margin-top: -30%;
 
 }
@@ -130,19 +200,9 @@ margin-bottom: 3%;
 
 .compThreatPComp{
   margin-top: 5%;
-}
+}*/
 
-.compThreatLogosImg{
-  width:200px;
-}
 
-.bubbles{
-  text-align: center;
-}
-
-.bubblesImg{
-  width:70%;
-}
 /*THE RECOMMENDATION CIRCLES*/
 /*see project.css*/
 .circleRecWrapper{
@@ -150,10 +210,10 @@ margin-bottom: 3%;
 }
 
 .recCircle{
-width:240px;
-height:240px;
+width:260px;
+height:260px;
 border-radius:50%;
-border: solid 3px rgb(55,147,195);
+border: solid 3px rgb(13,102,224);
 color: rgb(74, 74, 74);
 display:inline-block;
 margin-left: 2%;
@@ -168,9 +228,9 @@ position:relative;
   padding-left:7%;
   padding-right:7%;
 }
-.reducedClutter{
+/*.reducedClutter{
   padding-top:30%;
-}
+}*/
 
 
 /*RESEARCH*/
@@ -849,7 +909,6 @@ STORYBOARD*/
 .experienceTitleIcon{
   text-align: left;
   font-size: 30px;
-  text-align: left;
 }
 
 .iconSentence{
