@@ -185,9 +185,17 @@ margin-bottom: 2%;
 
 /*RESEARCH*/
 
-.tupperware{
+.researchpics{
   width:60%;
   margin-top: 3%;
+  margin-bottom: 3%;
+}
+.tupperware{
+  margin-bottom: 0%;
+}
+
+.bumperSticker{
+    width:50%;
 }
 
 .easyButton{
@@ -224,17 +232,54 @@ margin-bottom: 2%;
   font-weight: bold;
 }
 
-.sausage{
-  width:70%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+.phew{
+  width:83%;
+  margin: 0 auto;
 }
 
 /*SYNTHESIS */
 .lessonsLearned{
   width:70%;
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
+
+/*STRATEGY*/
+/*SWOT*/
+
+
+.swot{
+  text-align: center;
+}
+
+.swotTitle{
+  font-size: 24px;
+  /*font-weight: bold;*/
+}
+
+.swotRec{
+  width: 450px;
+  height:270px;
+  color: rgb(74,74,74);
+  text-align: left;
+  margin: 1%;
+  padding: 2%;
+  vertical-align: top;
+  background-color: white;
+}
+/*.topSwot{
+  margin-bottom: 1%;
+  margin-top: 1%;
+}*/
+
+/*.topSwot{
+  margin-top: 3%;
+}*/
+
+.strengthWeak, .oppThreats{
+  display: inline-block;
+}
 
 /*INTERVIEW & SURVERY SECTION*/
 /*Introduction to research section*/
@@ -245,8 +290,6 @@ margin-bottom: 2%;
 .researchSummary{
   width:80%;
 }
-
-
 
 /*INTERVIEW COMMENTS*/
 .squareRecSec{
@@ -270,13 +313,10 @@ margin-bottom: 2%;
 
 .square{
   width: 200px;
-  /*height: 300px;*/
   text-align: center;
   padding: 3%;
-  /*margin-bottom: 10%;*/
 }
 .squareRec{
-  /*margin:3%;*/
   text-align: center;
 }
 
@@ -294,7 +334,7 @@ TRicks*/
 button*/
 button {
   padding: 10px 15px 10px 15px;
-  background-color: white;
+  background-color: rgb(0,111,255);
   border-radius: 6px;
   font-size: 30px;
   text-shadow:none !important;
@@ -302,209 +342,7 @@ button {
   box-shadow:none !important;
   margin-top:3%;
   margin-bottom:3%;
-  color: rgb(0,111,255);
-}
-
-/*THE LINE CONNECTED TO CIRCLE*/
-
-.findingsCircle:after{
-  background-color: rgb(169,204,96);
-}
-
-/*SYNTHESIS SECTION*/
-/*AFFINITY MAP*/
-
-.centerAMap{
-  text-align: center;
-}
-
-.affinity{
-  font-size: 40px;
-}
-
-/*.affinityLeftRight{
-  display:inline-block;
-}*/
-
-.affinityMap{
-  width:60%;
-}
-
-.affinityDes{
-  font-size: 24px;
-  width:70%;
-  margin: 0 auto;
-  padding-bottom: 2%;
-}
-
-/*SYNTHESIS SECTION*/
-/*EMPATHYMAP*/
-
-.centerEMap{
-  text-align: center;
-  margin-top: 3%;
-}
-
-.empathy{
-  font-size: 40px;
-}
-
-.empathyMap{
-  width:60%;
-}
-
-.empathyDes{
-  font-size: 24px;
-  margin-bottom: 3%;
-}
-
-/*SYNTHESIS*/
-/*PERSONAS*/
-
-.personaDes{
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 2%;
-}
-
-.statementPersonas{
-  margin-top: 3%;
-  text-align: center;
-  margin-bottom: 1%;
-  font-size: 40px;
-}
-
-.personas{
-  /*display:inline-block;*/
-  font-size: 16px;
-  /*text-align: center;*/
-}
-
-
-.row{
-margin-left:0;
-margin-right:0;
-}
-
-/*Title for personas*/
-table{
-  display:inline-block;
-}
-
-.personaTypes{
-  font-size: 24px;
-  color:rgb(74, 74, 74)
-}
-
-
-/*.textBoxQuote{
-  width:115px;
-  height:175px;
-  margin: 5px;
-  vertical-align: top;
-  font-style: italic;
-}*/
-
-.boxTitle{
-  /*font-weight: bold;*/
-  font-size: 30px;
-}
-.projectTitle{
-  font-size: 40px;
-}
-
-.projectTitleBox{
-  height:500px;
-}
-
-.padding{
-  padding-top: 2%;
-  padding-left:2%;
-  padding-right: 2%;
-}
-
-/*.textBoxQuoteAjay{
-background-color: rgb(213,245,242);
-padding-top: 5%;
-}*/
-/*.textBoxQuoteBrad{
-  background-color: rgb(248,216,213);
-  padding-top: 3%;
-}*/
-
-/*images*/
-.brad, .ajay{
-/*min-width:173px;*/
-max-width:100%;
-max-height:100%;
-vertical-align: top;
-border: 0;
-}
-
-.personaImg{
-  width:166px;
-  height:190px;
-}
-
-.textBoxGoals{
-  width:150px;
-  height:200px;
-  background-color: rgb(222,225,225);
-  text-align: left;
-  /*margin: 5px;*/
-  vertical-align: top;
-}
-
-.textBoxName{
-text-align: left;
-/*margin: 5px;*/
-}
-
-.textBoxFrustrations{
-  width:240px;
-  height:200px;
-  color:white;
-  background-color: rgb(74, 74, 74);
-  text-align: left;
-  /*margin: 5px;*/
-  vertical-align: top;
-}
-/*
-.textBoxTech{
-  background-color: rgb(246, 243, 246);
-  text-align: left;
-  margin: 5px;
-  vertical-align: top;
-  width:115px;
-  height:200px;
-  padding: 1%;
-}*/
-
-.textBoxNameBrad{
-  background-color: rgb(221, 98, 92);
   color: white;
-}
-
-td{
-  border: 5px solid white;
-}
-.personaParent{
-  text-align: center;
-}
-
-/*for comp table and personas*/
-table{
-  /*border: 20px solid white;*/
-  text-align: center;
-}
-
-
-/*.ajayTd{
-  background-color: rgb(218, 217, 215)
-}*/
-
-.bradTd{
-  background-color: rgb(99, 100, 94)
 }
 
 /*SYNTHESIS: REDEFINE PROBLEM*/
@@ -530,274 +368,6 @@ table{
   margin:0 auto;
 }
 
-/*SYNTHESIS: RECONSIDER BUSINESS*/
-
-/*see design decisons below for circle/number code*/
-
-.businessGoalsIntro{
-  text-align: center;
-}
-
-.businessGoalsSub{
-  font-size: 30px;
-  margin-bottom: 2%;
-}
-
-.businessGoalsSubText{
-  text-align: left;
-  width: 85%;
-  margin: 0 auto;
-  padding-bottom: 3%;
-}
-
-.treesTitle{
-  font-size: 24px;
-}
-
-.trees{
-  width:85%;
-  margin: 0 auto;
-  padding-bottom:2%;
-  margin-top: -1%;
-}
-
-.treesNow, .treesPotential{
-  display: inline-block;
-  margin-left:4%;
-  margin-right:4%;
-}
-
-.treesNow{
-  float:left;
-}
-
-@media (min-width: 640px) and (max-width: 1024px){
-  .treesNow{
-    float:none;
-    margin-bottom: 3%;
-  }
-}
-
-
-
-.trees4{
-  /*width:20%;*/
-  width:175px;
-  text-align: center;
-}
-
-.trees365{
-  /*width:50%;*/
-  width:525px;
-  text-align: center;
-}
-
-@media (max-width: 647px){
-  .treesNow{
-    float:none;
-    margin-bottom: 3%;
-  }
-  .trees365{
-    width:70%;
-  }
-}
-
-/*BULLETS UNDER TREES*/
-
-.businessGoalsBullets{
-  width:80%;
-  margin: 0 auto;
-}
-
-.businessGoalsBullets{
-  /*padding:1%;*/
-  width:90%;
-}
-
-.threeLines{
-  margin-bottom: -1%;
-}
-
-.fourLines{
-  margin-bottom: -1.5%;
-}
-
-.plusBusBullets{
-  display: inline-block;
-  width:80%;
-  /*padding-left: 1%;*/
-  text-align: left;
-}
-
-.busGoalsBulletText{
-  text-align: left;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.busGoalsBulletSubText{
-  font-size: 18px;
-  text-align: left;
-}
-.busGoalBulletImgDiv{
-  position: relative;
-  display:inline-block;
-  margin-right: 1%;
-}
-.busGoalBulletImg{
-  width:40px;
-  padding-bottom: 35px;
-
-}
-
-.busGoalBulletImg4line{
-  padding-bottom: 80px;
-}
-
-.busGoalBulletImg3line{
-  padding-bottom: 60px;
-}
-
-/*not working*/
-@media (min-width: 360px) and (max-width:640px) {
-  .busGoalBulletImg{
-    /*vertical-align: top;*/
-    /*padding-bottom: 400px;*/
-    /*display:none;*/
-    /*padding-bottom: 35px;*/
-    vertical-align: top;
-    /*padding:0;
-    padding-top: 400px;*/
-  }
-  .busGoalBulletImgDiv{
-    /*vertical-align: top;*/
-    /*padding-bottom: 400px;*/
-    /*display:none;*/
-    vertical-align: top;
-  /*padding-top: 400px;*/
-  }
-
-  .busGoalBulletImg4line{
-    /*display:none;*/
-    /*padding:0;*/
-    /*padding-bottom: 400px;*/
-    padding:0;
-    vertical-align: top;
-  }
-
-  .busGoalBulletImg3line{
-    /*display:none;*/
-    /*padding:0;*/
-    /*padding-bottom: 400px;*/
-      padding:0;
-      vertical-align: top;
-  }
-
-}
-
-
-/*SYNTHESIS:
-TWO EXPERIENCES*/
-
-.experiences{
-  text-align: center;
-}
-
-.realTimeAndNur{
-  display: inline-block;
-  text-align: center;
-}
-
-.experienceText{
-  text-align: left;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 2%;
-}
-.webmdHub, .iwatch{
-  display: inline-block;
-}
-
-.webmdHub{
-  width: 160px;
-  margin-top: 1%;
-}
-
-.iwatch{
-    width: 100px;
-}
-
-@media (min-width: 940px) and (max-width: 1049px){
-
-  .experienceTextiWatch{
-    display:block;
-  }
-  .realTimeAndNuriWatch{
-    display: block;
-    text-align: center;
-  }
-
-  .iwatch{
-    margin-left: -20%;
-
-  }
-
-}
-
-.experienceTitle{
-  font-size: 30px;
-  text-align: left;
-}
-
-.experienceSentence{
-  width: 300px
-}
-
-@media (max-width: 767px){
-  .realTimeAndNur{
-    margin-top: 3%;
-  }
-}
-/*
-DESIGN:
-STORYBOARD*/
-
-.storyboardTitle{
-  margin-top: 3%;
-  margin-bottom: 1%;
-  font-size: 40px;
-  text-align: center;
-}
-
-.storyBoardSub{
-  font-size: 24px;
-  text-align: center;
-  width:70%;
-  margin: 0 auto;
-  padding-bottom: 2%;
-}
-
-.storyBoardImg{
-  width:60%;
-}
-
-.storyBoardDiv{
-  text-align: center;
-}
-
-.storyBoard{
-  width:100%;
-  /*margin: 0 auto;*/
-}
-
-
-/*DESIGN:INITAL FEATURES*/
-.featureTitleMargins{
-  margin-top: 3%;
-  margin-bottom: 1%;
-  font-size: 40px;
-  text-align: center;
-}
 
 /*row for bootstrap*/
 .featuresList{
@@ -834,216 +404,6 @@ STORYBOARD*/
   margin-right: 2%;
 }
 
-.featureIconWatch{
-  width: 15px;
-}
-
-/*DESIGN*/
-/*User Testing*/
-/*.testingCircleSec{
-  text-align: center;
-}
-
-.testingCircles{
-  width:100px;
-  height:100px;
-  border-radius:50%;
-  display: inline-block;
-}
-
-.userTestingRounds{
-  color:rgb(74, 74, 74);
-  font-size: 30px;
-}
-
-.circle1{
-  background-color: rgb(01,161,167);
-  margin-right:-20px;
-}
-
-.circle2{
-  background-color: rgb(221,98,92);
-    margin-right:-20px;
-}
-
-.circle3{
-  background-color: rgb(74, 74, 74);
-}*/
-
-/*.prototypes{
-  text-align: center;
-}
-
-.prototypeImg{
-  width:250px;
-}
-
-.prototypeImgDiv{
-  display:inline-block;
-  border:1px solid rgb(74, 74, 74);
-  width:255px;
-  height:275px;
-  vertical-align: top;
-  margin:15px;
-}
-.protoTypes{
-  text-align: center;
-}
-.protoTypesPaper{
-  margin-top:5px;
-}
-.protoTypesLow{
-  margin-top:18px;
-}*/
-
-/*DESIGN:USER TESING*/
-.iphone6ImgDiv{
-  text-align: center;
-}
-
-.iphone6Img{
-  width:40%;
-  /*margin:0 auto;*/
-}
-
-.tasksDiv{
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
-}
-
-.tasks{
-  font-size: 30px;
-  text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
-
-/*.tasksList{
-  text-align: left;
-  margin 0 auto;
-}*/
-
-.taskSections{
-text-align: center;
-}
-
-.taskCircle{
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  color:white;
-  background-color: rgb(74,74, 74);
-  position:relative;
-  vertical-align: top;
-  margin-right: 2%;
-  display: inline-block;
-  font-size:26px;
-  padding-top:7px;
-  /*padding-left: 1%;*/
-}
-
-
-@media (max-width:711px) {
-  .taskText{
-    width:90%;
-  }
-}
-
-.taskPoints{
-font-size: 24px;
-font-weight: bold;
-}
-
-.taskText{
-  text-align: left;
-  width:650px;
-  display: inline-block;
-  margin:0 auto;
-}
-
-@media (max-width: 1028px){
-  .taskText{
-    width:70%;
-  }
-}
-
-/*low fidelity digital PROTOTYPES*/
-.lowFiPro{
-  font-size: 30px;
-  text-align: center;
-  margin-top: 3%;
-  margin-bottom: 2%;
-}
-
-.paperPrototypes{
-  text-align: center;
-}
-
-.paperProtoDiv{
-  display: inline-block;
-  margin: 2%;
-}
-
-.paperProtoImg{
-  width:300px;
-  border: solid 1px;
-  border-color: rgb(74, 74, 74);
-  /*border: solid 4px;
-  border-color: rgb(55,147,195);*/
-  /*border-color: rgb(74, 74, 74);*/
-}
-
-/*FOR GLAXAYX S5: DOESN'T WORK */
-/*@media (min-width:360px) and (max-width:640px) {
-  .paperProtoDiv{
-    display:block;
-  }
-}*/
-
-.paperProtoText{
-  font-size: 20px;
-}
-.usabilityTitle{
-  margin-top: 1%;
-}
-
-.top3Bottom3{
-  display:block;
-  text-align: center;
-}
-
-.feedbackParent{
-display: inline-block;
-margin-top:1%;
-margin-left: 3%;
-margin-right: 3%;
-}
-
-.testingFeedback{
-  width: 200px;
-  height: 70px;
-  padding:5%;
-  color: white;
-}
-
-.experienceBox{
-  text-align: center;
-}
-
-.feedbackP{
-  display:inline-block;
-  color:rgb(74,74,74);
-  width:200px;
-  vertical-align: top;
-  /*padding-top: 2%;*/
-}
-
-/*.feedbackPText{
-  padding-top: 5px;
-}*/
-
-
 /*DESIGN:
 Usability testing findings*/
 .findings2PParent{
@@ -1057,20 +417,13 @@ Usability testing findings*/
   vertical-align: top;
 }
 
-/*DESIGN:
-DESIGN DECISIONS*/
-
-.designDecisions{
-  text-align: center;
-  margin:5%;
-}
-
+/*strategy
+The plan*/
 .decCircle{
   width:50px;
   height:50px;
   border-radius:50%;
   color:white;
-  /*background-color: rgb(0,111,255);*/
   position:relative;
   vertical-align: top;
   margin-right: 2%;
@@ -1078,161 +431,3 @@ DESIGN DECISIONS*/
   font-size:26px;
   padding-top:7px;
 }
-
-
-@media (max-width:711px) {
-  .decText{
-    width:90%;
-  }
-}
-
-.decPoints{
-font-size: 24px;
-font-weight: bold;
-}
-
-/*fix?????*/
-.decText{
-  text-align: left;
-  width:650px;
-  display: inline-block;
-  margin:0 auto;
-}
-
-
-/*BUILD AND DELIVER:
-Before and After*/
-
-
-.beforeAndAfter{
-  margin-bottom: 1%;
-}
-
-.buildText{
-  width:90%;
-  margin-left: 7%;
-  font-size: 18px;
-  text-align: left;
-}
-
-.comparisons{
-  text-align: center;
-}
-
-.comparisonTitle{
-  font-size: 24px;
-}
-.comparisonTitle1{
-  margin-left:37%;
-}
-
-.comparisonTitle2{
-  margin-left:42%;
-}
-
-
-.formerFilter{
-  margin-left:31%;
-}
-
-.filter{
-margin-left: 42%;
-}
-
-.formerFilter2{
-  margin-left:28%;
-}
-
-.filter2{
-margin-left: 36%;
-}
-
-.listView{
-    display: inline-block;
-    vertical-align: top;
-    padding:2%;
-    text-align: center;
-}
-
-.listViewImg{
-  width:500px;
-}
-
-/*BUILD: logo redesign*/
-
-.logoTitle{
-  margin-bottom: 0;
-}
-
-.logoTitleBeforeAndAfter{
-font-size: 30px;
-}
-
-.logoSecParent, .logoSec{
-  text-align: center;
-}
-
-.logoWithText{
-  display: inline-block;
-  padding: 3%;
-  vertical-align: bottom;
-}
-
-.octoLogo{
-  width:200px;
-}
-
-.octoLogoNew{
-  width:232px;
-}
-
-.octoLogoNew2{
-  width:250px;
-}
-
-/*NEXT STEPS*/
-.rollOut{
-  margin-top: 0%;
-}
-
-.stepsParent{
-  text-align: center;
-}
-
-.stepsSec{
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  margin:10px 10px 0px 10px;
-}
-
-.recTop{
-  width:375px;
-  height:50px;
-  background-color:rgb(169,204,96);
-  vertical-align: middle;
-  font-size: 24px;
-  padding: 9px 0;
-  color: white;
-}
-
-.phase{
-  width:75px;
-  height:75px;
-  border-radius: 50%;
-  border: solid 2px rgb(221,98,92);
-  vertical-align: middle;
-  font-size: 24px;
-  margin: 2% auto;
-  padding-top: 18px;
-}
-
-.phaseText{
-text-align: left;
-width:370px;
-margin-left: 1%;
-}
-/*
-.phaseTextP{
-  text-align: left;
-}*/
