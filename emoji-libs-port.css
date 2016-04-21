@@ -259,7 +259,7 @@ margin-bottom: 2%;
 }
 
 .swotRec{
-  width: 450px;
+  width: 45%;
   height:270px;
   color: rgb(74,74,74);
   text-align: left;
@@ -267,15 +267,12 @@ margin-bottom: 2%;
   padding: 2%;
   vertical-align: top;
   background-color: white;
+  border: 3px dotted rgb(0,111,255);
 }
-/*.topSwot{
-  margin-bottom: 1%;
-  margin-top: 1%;
-}*/
 
-/*.topSwot{
-  margin-top: 3%;
-}*/
+.swotRecLong{
+height:400px;
+}
 
 .strengthWeak, .oppThreats{
   display: inline-block;
@@ -409,6 +406,7 @@ Usability testing findings*/
 .findings2PParent{
   text-align: center;
   margin:5%;
+
 }
 
 .findings2P{
