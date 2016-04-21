@@ -4,6 +4,17 @@
 /*INTRODUCTION*/
 /*see project.css*/
 
+.projectTitleBox{
+    height:475px;
+  }
+
+/*@media screen (min-width: 1170px){
+
+.projectTitleBox{
+    height:500px;
+  }
+
+}*/
 .container{
   text-align: center;
 }
