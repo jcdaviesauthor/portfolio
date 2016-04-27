@@ -136,12 +136,17 @@ width:350px;
 
 .thinkBigP{
   text-align: left;
+  margin-bottom: 3%;
 }
 
-.compThreatLogosDiv{
+.bibAndLibImg{
+  width:80%;
+}
+
+/*.compThreatLogosDiv{
   text-align: center;
-}
-
+}*/
+/*
 .compThreatLogosText{
   text-align: center;
   width:63%;
@@ -164,13 +169,13 @@ width:350px;
 
 .compThreatLogoText{
   text-align: left;
-}
+}*/
 
-.compThreatLogosImg{
+/*.compThreatLogosImg{
   width:70%;
-}
+}*/
 
-.compThreatLogosImg2{
+/*.compThreatLogosImg2{
   width:80%;
   margin: 0 auto;
 }
@@ -191,7 +196,7 @@ margin-bottom: 2%;
 .arrowTextABit{
   margin-top: 1%;
   margin-bottom: 1%;
-}
+}*/
 
 
 /*RESEARCH*/
