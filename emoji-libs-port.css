@@ -38,18 +38,6 @@
     text-align: center;
 }
 
-/*STRATEGY
-vetting ideas*/
-
-.compDiv{
-  text-align: center;
-}
-.compShots{
-  width:70%;
-  margin-bottom: 2%;
-
-}
-
 /*IDE-A CIRCLES*/
 /*see project.css*/
 
@@ -85,8 +73,18 @@ position:relative;
   padding-right:8%;
 }
 
-/*VETTING IDEAS*/
+/*STRATEGY
+VETTING IDEAS*/
 /*see project css for more code*/
+
+.compDiv{
+  text-align: center;
+}
+.compShots{
+  width:70%;
+  margin-bottom: 2%;
+
+}
 .bullet{
   margin: 1%;
 }
@@ -132,7 +130,6 @@ width:350px;
   margin:0 auto;
 }
 
-
 /*STRATEGY*/
 /*THINK BIG/START SMALL*/
 
@@ -160,9 +157,6 @@ width:350px;
 /*STRATEGY:
 THE PLAN*/
 
-/*.planImgDiv{
-  text-align: center;
-}*/
 .planImg{
   width:70%;
   margin: 0 auto;
@@ -286,51 +280,111 @@ margin-bottom: 2%;
   margin-bottom: 3%;
 }
 
-
-/*STRATEGY*/
-/*SWOT*/
-
+/*SSYNTHESIS*/
+/*lessons learned*/
 
 .swot{
   text-align: center;
 }
 
 .swotTitle{
-  font-size: 24px;
-  /*font-weight: bold;*/
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(206,43,125);
 }
 
 .swotRec{
-  width: 45%;
-  height:270px;
+  width: 250px;
+  height:350px;
   color: rgb(74,74,74);
   text-align: left;
   margin: 1%;
-  padding: 2%;
+  padding: 1%;
   vertical-align: top;
   background-color: white;
   border: 3px dotted rgb(0,111,255);
-}
-
-.swotRecLong{
-height:400px;
-}
-
-.strengthWeak, .oppThreats{
   display: inline-block;
 }
+/*strategy
+DESIGN BULLETS*/
+.decCircle{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  color:white;
+  position:relative;
+  vertical-align: top;
+  margin-right: 2%;
+  display: inline-block;
+  font-size:26px;
+  padding-top:7px;
+}
 
-/*INTERVIEW & SURVERY SECTION*/
-/*Introduction to research section*/
-.researchSummaryDiv{
+/*DESIGN:
+FEATURES*/
+
+
+
+.features{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border: solid 3px rgb(0,111,255);
+  color: rgb(74, 74, 74);
+  display:inline-block;
+  margin: 2%;
+  position:relative;
+}
+
+.featuresText{
+  font-size: 24px;
+  position:absolute;
+  width:100%;
+  padding-top:20%;
+  padding-left:3%;
+  padding-right:3%;
+}
+
+.features1And3{
+  padding-top:30%;
+}
+
+.features4{
+  padding-top:33%;
+}
+
+/*DESIGN:
+PAPER PROTOTYPES*/
+
+.userTestTitle{
+    font-size: 40px;
+}
+
+.paperPrototypes{
   text-align: center;
 }
 
-.researchSummary{
-  width:80%;
+.paperProtoDiv{
+  display: inline-block;
+  margin: 2%;
 }
 
-/*INTERVIEW COMMENTS*/
+.paperProtoImg{
+  width:300px;
+  height:400px;
+}
+
+.paperProtoText{
+  font-size: 20px;
+}
+
+
+/*DESIGN:
+USEABILITY TESTING*/
+
+.UseTestTitle{
+
+}
 .squareRecSec{
   display: inline-block;
   /*margin-bottom: 5%;*/
@@ -338,7 +392,7 @@ height:400px;
 }
 
 .rec {
-  width: 200px;
+  width: 225px;
   height: 75px;
   color:rgb(74, 74, 74);
   text-align: left;
@@ -351,16 +405,27 @@ height:400px;
 }
 
 .square{
-  width: 200px;
+  width: 225px;
   text-align: center;
   padding: 3%;
 }
+
 .squareRec{
   text-align: center;
 }
 
-.faceCircles{
-  width:200px;
+/*DESIGN:
+Usability testing findings*/
+.findings2PParent{
+  text-align: center;
+  margin:5%;
+
+}
+
+.findings2P{
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
 }
 
 /*build
@@ -368,6 +433,34 @@ TRicks*/
 .tricks{
   width:80%;
 }
+
+/*BUILD FEATURES SCREEN SHOTS*/
+
+.screenShotTitle{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+ .screenShotTitle2{
+     font-size: 40px;
+     margin-top: 2%;
+ }
+
+.screenShot{
+  width:80%;
+  text-align:center;
+}
+
+.screenShotText{
+  width:40%;
+}
+.screenShotTable{
+  width:15%;
+}
+
 
 /*build
 button*/
@@ -441,33 +534,4 @@ button {
   width: 25px;
   display: inline-block;
   margin-right: 2%;
-}
-
-/*DESIGN:
-Usability testing findings*/
-.findings2PParent{
-  text-align: center;
-  margin:5%;
-
-}
-
-.findings2P{
-  display: inline-block;
-  text-align: left;
-  vertical-align: top;
-}
-
-/*strategy
-The plan*/
-.decCircle{
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  color:white;
-  position:relative;
-  vertical-align: top;
-  margin-right: 2%;
-  display: inline-block;
-  font-size:26px;
-  padding-top:7px;
 }
