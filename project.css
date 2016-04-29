@@ -253,7 +253,7 @@ padding:1%;
 
 /*strategy*/
 .processSectionTitle{
-  width:100%;
+  /*width:100%;*/
   height:100px;
   color:white;
   background-color: rgb(74, 74, 74);

@@ -8,21 +8,18 @@
     height:475px;
   }
 
-/*@media screen (min-width: 1170px){
-
-.projectTitleBox{
-    height:500px;
-  }
-
-}*/
 .container{
   text-align: center;
+  /*width:100%;
+  display: block;*/
 }
 
 .emojiBunny{
   width:250px;
   padding-top: 12%;
   padding-bottom: 2%;
+  text-align: center;
+  margin:0 auto;
 }
 
 /*OUR PROCESS*/
@@ -115,19 +112,40 @@ width:350px;
   text-align: right;
 }
 
-.emojiSubText{
-  font-size: 18px;
-}
-
-.statementBusGoals {
-  margin-top: 2%;
-}
-
 .emojiText{
   text-align: left;
   width:55%;
   display: inline-block;
   margin:0 auto;
+  /*text-align: center;*/
+}
+
+.emojiSubText{
+  font-size: 18px;
+}
+
+/*NOTHING IS WROKING*/
+@media screen (max-width: 878px){
+  .emojiIdeaDiv{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .emojiText{
+    display: block;
+    /*margin: 0 auto;*/
+    margin-top:1%;
+    width: 60%;
+  }
+
+  .emojiIdeaDivEngineer{
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  .emojiIdeaImgEngineer{
+      margin: 0 auto;
+  }
 }
 
 /*STRATEGY*/
@@ -445,8 +463,9 @@ TRicks*/
 }
 
  .screenShotTitle2{
-     font-size: 40px;
+     font-size: 24px;
      margin-top: 2%;
+    font-weight: bold;
  }
 
 .screenShot{
