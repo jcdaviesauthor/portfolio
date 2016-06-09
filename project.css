@@ -265,7 +265,7 @@ padding:1%;
   text-align: left;
 }
 
-/*UP TEXT SECTION AT BOTTOM OF PORTFOLIO*/
+/*UP NEXT TEXT SECTION AT BOTTOM OF PORTFOLIO*/
 .processSectionTitleUpNext{
   padding-left: 3%;
   height:110px;
@@ -283,4 +283,16 @@ padding:1%;
 
 .arrowPort{
   width: 25px;
+}
+
+/*UP NEXT WEBMD*/
+.upNext{
+  display:inline-block;
+}
+
+.nextPortWeb{
+  text-align: left;
+  /*margin-left: 0.5%; */
+  /*font-size:20px;*/
+  /*padding-left: 1%;*/
 }
