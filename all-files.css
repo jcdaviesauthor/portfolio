@@ -58,7 +58,18 @@ body{
   color:white;
 }
 
+.logoGreen{
+  color: rgb(117,140,147);
+}
+
 /*BACKGROUND COLORS*/
+.octoGreenBack {
+  background-color: rgb(01,161,167);
+}
+
+.portGreenBack{
+  background-color: rgb(118,140,147);
+}
 
 .lightBlueBack{
   background-color: rgb(219,239,249);

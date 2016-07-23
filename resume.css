@@ -1,0 +1,40 @@
+body{
+  background:none;
+
+}
+
+
+.homeH2{
+  text-align: center;
+}
+
+#resSection{
+text-align: center;
+}
+
+.madLibBoxes{
+  display: inline-block;
+  margin: 3%;
+}
+
+.square{
+  width: 270px;
+  height: 270px;
+  /*display: inline-block;
+  margin: 3%;*/
+  /*text-align: center;*/
+}
+
+.textDiv{
+  /*margin-top:10%;*/
+  padding: 10%;
+  /*line-height: 2em;*/
+  /*vertical-align: middle;*/
+}
+
+.resumeText{
+  font-size: 26px;
+  text-align: center;
+  /*padding: 5%;*/
+  /*margin:5%;*/
+}
